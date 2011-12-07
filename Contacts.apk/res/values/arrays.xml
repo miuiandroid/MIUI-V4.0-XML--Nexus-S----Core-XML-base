@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="callrecordview_menu_show_values">
+        <item>@string/callrecordview_menu_show_all</item>
+        <item>@string/callrecordview_menu_show_missed</item>
+        <item>@string/callrecordview_menu_show_called</item>
+        <item>@string/callrecordview_menu_show_accepted</item>
+        <item>@string/callrecordview_menu_show_stranger</item>
+    </array>
+    <string-array name="otherLabels">
+        <item>Organization</item>
+        <item>Note</item>
+    </string-array>
+</resources>

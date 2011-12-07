@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mobile_operator_numeric_values">
+        <item>46000</item>
+        <item>46001</item>
+        <item>46002</item>
+        <item>46003</item>
+        <item>46007</item>
+        <item>46009</item>
+    </string-array>
+    <string-array name="mobile_operator_display_names">
+        <item>China Mobile</item>
+        <item>China Unicom</item>
+        <item>China Mobile</item>
+        <item>China Telecom</item>
+        <item>China Mobile</item>
+        <item>China Telecom</item>
+    </string-array>
+    <array name="config_virtualKeyUpPattern" />
+    <string-array name="alphabet_table">
+        <item>\#</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+</resources>
