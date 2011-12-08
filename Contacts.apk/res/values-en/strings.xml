@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="account_phone">Phone-only, unsynced</string>
+  <string name="account_phone">Phone-only (un-synced)</string>
   <string name="account_type_format">%1$s contact</string>
   <string name="activity_title_confirm_add_detail">Add to contact</string>
   <string name="activity_title_contacts_filter">Contacts to display</string>
   <string name="activity_title_settings">Settings</string>
   <string name="add_account">Add account</string>
-  <string name="add_blacklist">加入黑名单</string>
+  <string name="add_blacklist">Blacklist</string>
   <string name="add_connection_button">Add connection</string>
   <string name="add_contact_dlg_message_fmt">Add \"%s\" to contacts?</string>
   <string name="add_contact_dlg_title">Add contact</string>
@@ -27,7 +27,7 @@
   <string name="callBack">Call back</string>
   <string name="callDetailTitle">Call details</string>
   <string name="callDetailsDurationFormat">%s mins %s secs</string>
-  <string name="callNoAnswerTimeFormat">响铃%s声</string>
+  <string name="callNoAnswerTimeFormat">Ring for %ss</string>
   <string name="callShortcutActivityTitle">Choose a number to call</string>
   <string name="call_assistant">Call %s</string>
   <string name="call_callback">Call callback</string>
@@ -55,15 +55,15 @@
   <string name="call_work">Call work</string>
   <string name="call_work_mobile">Call work mobile</string>
   <string name="call_work_pager">Call work pager</string>
-  <string name="calllog_menu_blacklist">Add to black list</string>
+  <string name="calllog_menu_blacklist">Add to blacklist</string>
   <string name="callrecordview_item_newcontact">New Contact</string>
   <string name="callrecordview_item_op_time_minutes_seconds">%d min %d sec</string>
   <string name="callrecordview_item_op_time_missed">Not connected</string>
   <string name="callrecordview_item_op_time_only_minutes">%d min</string>
   <string name="callrecordview_item_op_time_only_seconds">%d sec</string>
   <string name="callrecordview_item_op_time_rejected">Rejected call</string>
-  <string name="callrecordview_item_op_time_short_incoming">"Incoming: "</string>
-  <string name="callrecordview_item_op_time_short_outgoing">"Outgoing: "</string>
+  <string name="callrecordview_item_op_time_short_incoming">Incoming:\u0020</string>
+  <string name="callrecordview_item_op_time_short_outgoing">Outgoing:\u0020</string>
   <string name="callrecordview_menu_delete">Delete call</string>
   <string name="callrecordview_menu_delete_accepted">Clear answered calls from call log</string>
   <string name="callrecordview_menu_delete_all">Clear all calls</string>
@@ -100,25 +100,25 @@
   <string name="clearCallLogConfirmation_title">Clear call log</string>
   <string name="clearCallLogProgress_title">Clearing call log</string>
   <string name="clear_default">Clear default</string>
-  <string name="composer_failed_to_get_database_infomation">"Couldn't get database information"</string>
-  <string name="composer_has_no_exportable_contact">There are no exportable contacts. If you actually have contacts on your phone, all the contacts may be prohibited from being exported to outside the phone by some data providers.</string>
-  <string name="composer_not_initialized">The vCard composer is not correctly initialized</string>
+  <string name="composer_failed_to_get_database_infomation">Failed to get database information</string>
+  <string name="composer_has_no_exportable_contact">There is no exportable contact. The data provider may prohibit contacts from being exported.</string>
+  <string name="composer_not_initialized">The vCard composer is not correctly initialised</string>
   <string name="config_export_dir">/mnt/sdcard</string>
   <string name="config_export_extensions_to_consider" />
   <string name="config_export_file_extension">vcf</string>
-  <string name="config_export_file_prefix" />
-  <string name="config_export_file_suffix" />
+  <string name="config_export_file_prefix">(</string>
+  <string name="config_export_file_suffix">)</string>
   <string name="config_export_vcard_type">default</string>
   <string name="config_import_vcard_type">default</string>
   <string name="config_prohibited_phone_number_regexp" />
-  <string name="confirm_add_selected_number_to_blacklist">Confirm to add %1d numbers into black list？</string>
-  <string name="confirm_add_selected_number_to_blacklist_title">Add to black list</string>
-  <string name="confirm_delete_selected_call_log">Confirm to delete the %1d selected groups of call records?</string>
+  <string name="confirm_add_selected_number_to_blacklist">Confirm to add %1d numbers to the blacklist？</string>
+  <string name="confirm_add_selected_number_to_blacklist_title">Add to blacklist</string>
+  <string name="confirm_delete_selected_call_log">Confirm deletion of %1d selected call records?</string>
   <string name="confirm_export_message">Export your contact list to file \"%s\"?</string>
   <string name="confirm_export_title">Confirm export</string>
   <string name="connections">Connections</string>
   <string name="contactDetailAbout">About</string>
-  <string name="contactDetailCalllog">通话记录</string>
+  <string name="contactDetailCalllog">Call log</string>
   <string name="contactDetailUpdates">Updates</string>
   <string name="contactMultiPickerActivityTitle">Select contacts</string>
   <string name="contactPickerActivityTitle">Select a contact</string>
@@ -146,7 +146,7 @@
   <string name="custom_list_filter">Define custom view</string>
   <string name="date_time_set">Set</string>
   <string name="date_year_toggle">Provide a year</string>
-  <string name="default_ringtone">默认铃声</string>
+  <string name="default_ringtone">Default ringtone</string>
   <string name="deleteConfirmation">This contact will be deleted.</string>
   <string name="deleteConfirmation_title">Delete</string>
   <string name="delete_contact_calllog_title">"Confirm to delete contact's call logs?"</string>
@@ -203,20 +203,19 @@
   <string name="display_warn_remove_ungrouped">"Removing '%s' from sync will also remove any ungrouped contacts from sync."</string>
   <string name="editContactDescription">Edit contact</string>
   <string name="edit_contact">Edit contact</string>
-  <string name="email">Email</string>
-  <string name="emailLabelsGroup">Email</string>
-  <string name="email_custom">Email %s</string>
-  <string name="email_home">Email home</string>
-  <string name="email_mobile">Email mobile</string>
-  <string name="email_other">Email</string>
-  <string name="email_work">Email work</string>
+  <string name="email">E-mail</string>
+  <string name="emailLabelsGroup">E-mail</string>
+  <string name="email_custom">E-mail %s</string>
+  <string name="email_home">E-mail home</string>
+  <string name="email_mobile">E-mail mobile</string>
+  <string name="email_other">E-mail</string>
+  <string name="email_work">E-mail work</string>
   <string name="empty_divider_title">You can</string>
   <string name="enter_contact_name">"Type person's name"</string>
   <string name="eventLabelsGroup">Events</string>
   <string name="event_edit_field_hint_text">Date</string>
   <string name="export_to_sdcard">Export to storage</string>
-  <string name="exporting_contact_failed_message">"Couldn't export contact data.
-Reason: \"%s\""</string>
+  <string name="exporting_contact_failed_message">Could not export contact data. Reason: \"%s\""</string>
   <string name="exporting_contact_failed_title">"Couldn't export contact data"</string>
   <string name="exporting_contact_list_message">Exporting contact data to \"%s\"</string>
   <string name="exporting_contact_list_title">Exporting contact data</string>
@@ -348,29 +347,16 @@ Reason: \"%s\""</string>
   <string name="noContactsHelpText">"You don't have any contacts to display.
 
 To add contacts, press "</string>
-  <string name="noContactsHelpTextForCreateShortcut">"You don't have any contacts to display."</string>
-  <string name="noContactsHelpTextWithSync">"You don't have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.)
-
-To add contacts, press "</string>
-  <string name="noContactsHelpTextWithSyncForCreateShortcut">"You don't have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.)"</string>
-  <string name="noContactsNoSimHelpText">"You don't have any contacts to display.
-
-To add contacts, press "</string>
-  <string name="noContactsNoSimHelpTextWithSync">"You don't have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.)
-
-To add contacts, press "</string>
+  <string name="noContactsHelpTextForCreateShortcut">You don't have any contacts to display.</string>
+  <string name="noContactsHelpTextWithSync">You don't have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.) To add contacts, press</string>
+  <string name="noContactsHelpTextWithSyncForCreateShortcut">You don't have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.)</string>
+  <string name="noContactsNoSimHelpText">You don't have any contacts to display. To add contacts, press</string>
+  <string name="noContactsNoSimHelpTextWithSync">You don't have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.) add contacts, press</string>
   <string name="noContactsWithPhoneNumbers">No contacts with phone numbers.</string>
-  <string name="noFavoritesHelpText">"You don't have any favorites.
-
-To add a contact to your list of favorites:
-
-"</string>
+  <string name="noFavoritesHelpText">You don't have any favorites. To add a contact to your list of favorites:</string>
   <string name="noGroups">No groups</string>
   <string name="noMatchingContacts">No matching contacts found.</string>
-  <string name="no_account_prompt">"People works better with a Google Account.
-
-• Access from any web browser.
-• Back up your contacts securely."</string>
+  <string name="no_account_prompt">People work better with a Google Account. Access from any web browser and back up your contacts securely.</string>
   <string name="no_contact_details">No additional information for this contact</string>
   <string name="no_contacts_selected">No contacts selected.</string>
   <string name="no_sdcard_message">No storage detected</string>
@@ -400,7 +386,7 @@ To add a contact to your list of favorites:
   <string name="postal_region">State</string>
   <string name="postal_street">Street</string>
   <string name="preference_displayOptions">Display options</string>
-  <string name="primary_indicator">(默认)</string>
+  <string name="primary_indicator">(default)</string>
   <string name="private_num">Private number</string>
   <string name="profile_display_name">Set up my profile</string>
   <string name="progress_notifier_message">Importing %s/%s: %s</string>
@@ -417,11 +403,11 @@ To add a contact to your list of favorites:
   <string name="recent_updates">Recent</string>
   <string name="relationLabelsGroup">Relationship</string>
   <string name="removePhoto">Remove photo</string>
-  <string name="ringLabelsGroup">铃声</string>
+  <string name="ringLabelsGroup">Ringtones</string>
   <string name="savingContact">Saving contact…</string>
   <string name="savingDisplayGroups">Saving display options…</string>
-  <string name="scanning_sdcard_failed_message">"Couldn't scan storage (Reason: \"%s\")"</string>
-  <string name="scanning_sdcard_failed_title">"Couldn't scan storage"</string>
+  <string name="scanning_sdcard_failed_message">Could not scan storage (Reason: %s)</string>
+  <string name="scanning_sdcard_failed_title">Could not scan storage</string>
   <string name="searchHint">Search contacts</string>
   <string name="search_bar_hint">Search contacts</string>
   <string name="search_results_searching">Searching...</string>
@@ -475,7 +461,7 @@ To add a contact to your list of favorites:
   <string name="status_away">Away</string>
   <string name="status_busy">Busy</string>
   <string name="strequentList">Favorites</string>
-  <string name="summary_kind_title">基本信息</string>
+  <string name="summary_kind_title">Summary</string>
   <string name="sync_xiaomi_cloud_contacts">Restore from online backup</string>
   <string name="t9_search_guide">Input user number, or search contacts by T9 index.</string>
   <string name="take_new_photo">Take new photo</string>
@@ -495,11 +481,7 @@ To add a contact to your list of favorites:
   <string name="unknown">Unknown</string>
   <string name="unkown_location_or_sp_number">Location is Unkown</string>
   <string name="upgrade_in_progress">Contact list is being updated.</string>
-  <string name="upgrade_out_of_memory">"Contacts are in the process of being upgraded. 
-
-The upgrade process requires approximately %s Mb of internal storage.
-
-Choose one of the following options:"</string>
+  <string name="upgrade_out_of_memory">Contacts are in the process of being upgraded. The upgrade process requires approximately %s Mb of internal storage. Please choose one of the following options:</string>
   <string name="upgrade_out_of_memory_retry">Retry upgrade</string>
   <string name="upgrade_out_of_memory_uninstall">Uninstall some applications</string>
   <string name="use_photo_as_primary">Use this photo</string>

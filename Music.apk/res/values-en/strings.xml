@@ -3,8 +3,7 @@
   <string name="add_to_playlist">Add to playlist</string>
   <string name="albums_menu">Albums</string>
   <string name="albums_title">Albums</string>
-  <string name="albumsongseparator">"
-"</string>
+  <string name="albumsongseparator">\u0020</string>
   <string name="all_title">All media</string>
   <string name="artists_title">Artists</string>
   <string name="browse_menu">Artists</string>
@@ -40,8 +39,7 @@
   <string name="no_playlists_title">No playlists</string>
   <string name="no_tracks_title">No songs</string>
   <string name="no_videos_title">No videos</string>
-  <string name="notification_artist_album">"%2$s
-%1$s"</string>
+  <string name="notification_artist_album">"%2$s %1$s"</string>
   <string name="nowplaying_title">Now playing</string>
   <string name="onesong">1 song</string>
   <string name="party_shuffle">Party shuffle</string>
@@ -68,8 +66,8 @@
   <string name="ringtone_menu_short">Use as ringtone</string>
   <string name="ringtone_set">\"%s\" set as phone ringtone.</string>
   <string name="save_as_playlist">Save as playlist</string>
-  <string name="scanning">Scanning SD card…</string>
-  <string name="scanning_nosdcard">Scanning USB storage…</string>
+  <string name="scanning">Scanning SD card...</string>
+  <string name="scanning_nosdcard">Scanning USB storage...</string>
   <string name="sdcard_busy_message">Sorry, your SD card is busy.</string>
   <string name="sdcard_busy_message_nosdcard">Sorry, your USB storage is busy.</string>
   <string name="sdcard_busy_title">SD card unavailable</string>
@@ -104,8 +102,8 @@
   <string name="weekpicker_set">Done</string>
   <string name="weekpicker_title">Set time</string>
   <string name="widget_initial_text">Touch to select music.</string>
-  <string name="working_albums">Albums…</string>
-  <string name="working_artists">Artists…</string>
-  <string name="working_playlists">Playlists…</string>
-  <string name="working_songs">Songs…</string>
+  <string name="working_albums">Albums...</string>
+  <string name="working_artists">Artists...</string>
+  <string name="working_playlists">Playlists...</string>
+  <string name="working_songs">Songs...</string>
 </resources>

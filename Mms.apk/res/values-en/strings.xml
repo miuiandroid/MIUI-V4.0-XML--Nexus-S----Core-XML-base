@@ -65,7 +65,7 @@
   <string name="confirm_rate_limit">A large number of multimedia messages are being sent. Is this OK?</string>
   <string name="context_menu_add_contact">Add to Contacts</string>
   <string name="context_menu_browse_web">Browse</string>
-  <string name="context_menu_contact">Contact:%1$s</string>
+  <string name="context_menu_contact">Contact: %1$s</string>
   <string name="context_menu_copy">Copy</string>
   <string name="context_menu_copy_notice">Selection copied to clipboard</string>
   <string name="context_menu_dial">Call</string>
@@ -391,8 +391,7 @@
   <string name="type_to_compose_text_enter_to_send">Type message</string>
   <string name="type_to_compose_text_or_leave_blank">Type message, or leave blank</string>
   <string name="type_video">video</string>
-  <string name="undelivered_msg_dialog_body">"Unable to send this message.
-Attempt made: %s."</string>
+  <string name="undelivered_msg_dialog_body">"Unable to send this message. Attempt made: %s."</string>
   <string name="undelivered_msg_dialog_title">Undelivered message</string>
   <string name="undelivered_sms_dialog_body">Unable to send this message.</string>
   <string name="unknown_sender">Unknown sender</string>

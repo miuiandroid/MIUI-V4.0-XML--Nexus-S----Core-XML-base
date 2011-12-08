@@ -945,7 +945,7 @@ To clear music, pictures, and other user data, the "</string>
   <string name="radioInfo_service_out">Out of service</string>
   <string name="radioInfo_unknown">unknown</string>
   <string name="radio_controls_summary">Manage WiFi, Bluetooth, airplane mode, mobile networks, &amp; VPNs</string>
-  <string name="radio_controls_title">More…</string>
+  <string name="radio_controls_title">More...</string>
   <string name="radio_info_band_mode_label">Select radio band</string>
   <string name="radio_info_call_redirect_label">Call redirect:</string>
   <string name="radio_info_call_status_label">Call status:</string>

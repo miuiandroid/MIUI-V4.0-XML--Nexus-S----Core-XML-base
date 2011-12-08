@@ -2,14 +2,13 @@
 <resources>
   <string name="Dashboard_About">About</string>
   <string name="Dashboard_About_Copyright">"Powered by Team LBE
-©2011 永杨安风"</string>
+¬©2011 Copyright"</string>
   <string name="Dashboard_About_PatternVersion">"Cell Location Pattern ver:%1$s
 Spam SMS Pattern ver:%2$s
 Virus Pattern ver:%3$s
 Cloud scan Pattern ver:%4$s
 "</string>
-  <string name="Dashboard_About_PkgVersion">"%1$s for Android. Version %2$s
-"</string>
+  <string name="Dashboard_About_PkgVersion">%1$s for Android. Version %2$s</string>
   <string name="Dashboard_About_mail">Mail: &lt;a href=mailto:lbe@lbesec.com&gt;lbe@lbesec.com&lt;/a&gt;</string>
   <string name="Dashboard_About_phones">Phone: &lt;a href=tel:+8601085997019&gt;+86-010-85997019&lt;/a&gt;</string>
   <string name="Dashboard_About_urls">&lt;p&gt;Website: &lt;a href=http://www.lbesec.com&gt;www.lbesec.com&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Product blog: &lt;a href=http://weibo.com/lbesec&gt;Team LBE&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Team LBE blog&lt;/p&gt; &lt;p&gt; Lamian: &lt;a href=http://t.qq.com/lamian&gt;http://t.qq.com/lamian&lt;/a&gt;&lt;/p&gt; &lt;p&gt; Elviesss: &lt;a href=http://t.qq.com/elviesss&gt;http://t.qq.com/elviesss&lt;/a&gt;&lt;/p&gt;</string>
