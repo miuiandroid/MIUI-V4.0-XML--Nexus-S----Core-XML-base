@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_engines">
+        <item>google</item>
+        <item>baidu</item>
+        <item>yahoo_cn</item>
+        <item>bing_zh_CN</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>始终启用（打开）</item>
+        <item>在需要时打开</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>当前页</item>
+        <item>MIUI 首页</item>
+        <item>空白页</item>
+        <item>默认页</item>
+        <item>访问最多的网站</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>超小</item>
+        <item>小</item>
+        <item>正常</item>
+        <item>大</item>
+        <item>超大</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>远</item>
+        <item>中</item>
+        <item>近</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>拉丁语-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>中文 (GBK)</item>
+        <item>中文 (Big5)</item>
+        <item>日语 (ISO-2022-JP)</item>
+        <item>日语 (SHIFT_JIS)</item>
+        <item>日语 (EUC-JP)</item>
+        <item>韩语 (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_data_preload_choices">
+        <item>从不</item>
+        <item>仅通过 Wi-Fi 网络</item>
+        <item>始终</item>
+    </string-array>
+</resources>

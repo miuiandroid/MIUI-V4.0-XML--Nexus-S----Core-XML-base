@@ -15,6 +15,7 @@
   <string name="auto_backup_progress">Performing automatic backup please wait...</string>
   <string name="auto_backup_setting_title">Automatic Backup Settings</string>
   <string name="auto_backup_time">Schedule backup</string>
+  <string name="backup">Backup</string>
   <string name="backup_delete">Delete:</string>
   <string name="backup_empty">No backup files found</string>
   <string name="backup_error">Backup Error</string>
@@ -41,7 +42,6 @@
   <string name="cancel_backup">Cancel Backup</string>
   <string name="cancel_restore">Cancel Restore</string>
   <string name="cloud_app_name">Cloud Backup</string>
-  <string name="cloud_backup">Backup</string>
   <string name="cloud_backup_hint">Login to securely store and restore your backups</string>
   <string name="cloud_backup_login">Login using your Xiaomi account</string>
   <string name="cloud_backup_window_title">Cloud Backup</string>
@@ -49,7 +49,6 @@
   <string name="cloud_item_info_summary">\u0020(Local %1$s | Cloud %2$s)</string>
   <string name="cloud_last_backup">Last backup:</string>
   <string name="cloud_no_backup">No cloud backup(s)</string>
-  <string name="cloud_restore">Restore</string>
   <string name="cloud_restore_guide">Click Start restoring to restore data\n You may also restore %s in Backup</string>
   <string name="cloud_restore_title">Restore backup data</string>
   <string name="cloud_restore_window_title">Cloud Recovery</string>
@@ -95,6 +94,7 @@
   <string name="prompt_sending">Uploading...</string>
   <string name="prompt_writing">Saving...</string>
   <string name="refresh">Refresh</string>
+  <string name="restore">Restore</string>
   <string name="restore_contact">Restore contacts</string>
   <string name="restore_contact_content">Restoring contacts may result in duplicates, are you sure you want to do this?.\n Note: You can merge duplicate contacts in contact list settings</string>
   <string name="restore_contacts_hit">(Note: You need to manually restore Contacts established before the original account)</string>
@@ -124,10 +124,9 @@
   <string name="sms_title">Messaging</string>
   <string name="start_backup">Start Backup</string>
   <string name="start_restore">Restore</string>
+  <string name="succeed">Succeeded</string>
   <string name="task_backup_cancel_progress">Cancelling backup...</string>
-  <string name="task_backup_failed">Backup failed</string>
   <string name="task_backup_finished_local">Backup completed</string>
-  <string name="task_backup_succeed">Backup successful</string>
   <string name="task_canceled">Cancelled</string>
   <string name="task_canceled_all_local">Cancel task</string>
   <string name="task_canceled_local">The following %1$s task was cancelled</string>
@@ -143,9 +142,7 @@
   <string name="task_progress">Progress</string>
   <string name="task_restore_cancel_dialog">Restore not completed\ncancelling restore may cause data corruption to occur</string>
   <string name="task_restore_cancel_progress">Cancelling...</string>
-  <string name="task_restore_failed">Recovery failed</string>
   <string name="task_restore_finished_local">Restore completed</string>
-  <string name="task_restore_succeed">Recovery successful</string>
   <string name="task_running_dialog">Background backup and recovery is in progress, press OK to view it</string>
   <string name="task_running_hint">Service is running in the background, please try again to restore this backup!</string>
   <string name="task_service_not_launched">Service is not started, please wait!</string>
