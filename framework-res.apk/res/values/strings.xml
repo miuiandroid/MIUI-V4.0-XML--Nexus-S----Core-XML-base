@@ -117,26 +117,26 @@
     <string name="yesterday">Yesterday</string>
     <string name="today">Today</string>
     <string name="tomorrow">Tomorrow</string>
-    <string name="hour_minute_24">%H:%M</string>
-    <string name="hour_minute_ampm">%-l:%M%p</string>
-    <string name="hour_minute_cap_ampm">%-l:%M%^p</string>
+    <string name="hour_minute_24" formatted="false">%H:%M</string>
+    <string name="hour_minute_ampm" formatted="false">%-l:%M%p</string>
+    <string name="hour_minute_cap_ampm" formatted="false">%-l:%M%^p</string>
     <string name="twelve_hour_time_format">h:mm a</string>
     <string name="twenty_four_hour_time_format">HH:mm</string>
-    <string name="numeric_date">%-m/%-e/%Y</string>
+    <string name="numeric_date" formatted="false">%-m/%-e/%Y</string>
     <string name="numeric_date_format">M/d/yyyy</string>
     <string name="numeric_date_template" formatted="false">%s/%s/%s</string>
-    <string name="month_day_year">%B %-e, %Y</string>
-    <string name="time_of_day">%-l:%M:%S %p</string>
+    <string name="month_day_year" formatted="false">%B %-e, %Y</string>
+    <string name="time_of_day" formatted="false">%-l:%M:%S %p</string>
     <string name="date_and_time" formatted="false">%b %-e, %Y, %-l:%M:%S %p</string>
     <string name="date_time">%1$s, %2$s</string>
     <string name="time_date">%1$s, %3$s</string>
-    <string name="abbrev_month_day_year">%b %-e, %Y</string>
-    <string name="month_day">%B %-e</string>
+    <string name="abbrev_month_day_year" formatted="false">%b %-e, %Y</string>
+    <string name="month_day" formatted="false">%B %-e</string>
     <string name="month">%-B</string>
-    <string name="month_year">%B %Y</string>
-    <string name="abbrev_month_day">%b %-e</string>
+    <string name="month_year" formatted="false">%B %Y</string>
+    <string name="abbrev_month_day" formatted="false">%b %-e</string>
     <string name="abbrev_month">%-b</string>
-    <string name="abbrev_month_year">%b %Y</string>
+    <string name="abbrev_month_year" formatted="false">%b %Y</string>
     <string name="time1_time2">%1$s – %2$s</string>
     <string name="date1_date2">%2$s – %5$s</string>
     <string name="numeric_md1_md2">%2$s/%3$s – %7$s/%8$s</string>
@@ -782,8 +782,8 @@ Visit "<b>google.com/accounts/recovery</b></string>
     <string name="password_keyboard_label_symbol_key">\?123</string>
     <string name="password_keyboard_label_alpha_key">ABC</string>
     <string name="password_keyboard_label_alt_key">ALT</string>
-    <string name="hour_ampm">%-l%P</string>
-    <string name="hour_cap_ampm">%-l%p</string>
+    <string name="hour_ampm" formatted="false">%-l%P</string>
+    <string name="hour_cap_ampm" formatted="false">%-l%p</string>
     <string name="factorytest_failed">Factory test failed</string>
     <string name="factorytest_not_system">The FACTORY_TEST action is only supported for packages installed in /system/app.</string>
     <string name="factorytest_no_action">No package was found that provides the FACTORY_TEST action.</string>

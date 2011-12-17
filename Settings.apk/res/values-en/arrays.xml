@@ -131,10 +131,10 @@
     </string-array>
     <string-array name="wifi_status">
         <item></item>
-        <item>Scanning...</item>
-        <item>Connecting...</item>
-        <item>Authenticating...</item>
-        <item>Obtaining IP address...</item>
+        <item>Scanning…</item>
+        <item>Connecting…</item>
+        <item>Authenticating…</item>
+        <item>Obtaining IP address…</item>
         <item>Connected</item>
         <item>Suspended</item>
         <item>Disconnecting…</item>
@@ -144,12 +144,12 @@
     <string-array name="wifi_status_with_ssid">
         <item></item>
         <item>Scanning…</item>
-        <item>Connecting to %1$s...</item>
-        <item>Authenticating with %1$s...</item>
-        <item>Obtaining IP address from %1$s...</item>
+        <item>Connecting to %1$s…</item>
+        <item>Authenticating with %1$s…</item>
+        <item>Obtaining IP address from %1$s…</item>
         <item>Connected to %1$s</item>
         <item>Suspended</item>
-        <item>Disconnecting from %1$s...</item>
+        <item>Disconnecting from %1$s…</item>
         <item>Disconnected</item>
         <item>Unsuccessful</item>
     </string-array>
@@ -269,8 +269,8 @@
         <item>zh_TW</item>
     </string-array>
     <string-array name="special_locale_names">
-        <item>Chinese (Simplified) </item>
-        <item>Chinese (Traditional) </item>
+        <item>Chinese (Simplified)</item>
+        <item>Chinese (Traditional)</item>
     </string-array>
     <string-array name="apn_auth_entries">
         <item>None</item>
