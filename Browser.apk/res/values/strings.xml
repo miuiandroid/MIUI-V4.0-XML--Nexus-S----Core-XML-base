@@ -362,7 +362,7 @@ Free up some space and try again."</string>
   <string name="share_page">Share page</string>
   <string name="shortcut_bookmark">Bookmark</string>
   <string name="shortcut_bookmark_title">Choose a bookmark</string>
-  <string name="sign_in_to">Sign in to %s1 \"%s2\"</string>
+  <string name="sign_in_to" formatted="false">Sign in to %1s %2s</string>
   <string name="snapshot_failed">"Couldn't save for offline reading."</string>
   <string name="snapshot_go_live">Go live</string>
   <string name="ssl_continue">Continue</string>
