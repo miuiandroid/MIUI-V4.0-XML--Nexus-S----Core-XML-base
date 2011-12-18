@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="Dashboard_About">About</string>
-  <string name="Dashboard_About_Copyright">"Powered by Team LBE ©2011 Copyright"</string>
+  <string name="Dashboard_About_Copyright">"Powered by Team LBE©2011 永杨安风"</string>
   <string name="Dashboard_About_PatternVersion">"Cell Location Pattern ver:%1$s
 Spam SMS Pattern ver:%2$s
 Virus Pattern ver:%3$s
