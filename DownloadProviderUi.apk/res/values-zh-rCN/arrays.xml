@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="download_filters">
+        <item>所有下载</item>
+        <item>已下载</item>
+        <item>下载中</item>
+    </string-array>
+    <string-array name="edit_operations">
+        <item>全选</item>
+    </string-array>
+</resources>

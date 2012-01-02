@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="transport_types">
+        <item>UDP</item>
+        <item>TCP</item>
+    </string-array>
+    <array name="sip_call_options_entries">
+        <item>@string/sip_call_options_entry_1</item>
+        <item>@string/sip_call_options_entry_2</item>
+        <item>@string/sip_call_options_entry_3</item>
+    </array>
+    <array name="sip_call_options_wifi_only_entries">
+        <item>@string/sip_call_options_wifi_only_entry_1</item>
+        <item>@string/sip_call_options_entry_2</item>
+        <item>@string/sip_call_options_entry_3</item>
+    </array>
+    <array name="sip_call_options_values">
+        <item>@string/sip_always</item>
+        <item>@string/sip_address_only</item>
+        <item>@string/sip_ask_me_each_time</item>
+    </array>
+    <array name="phone_type_values">
+        <item>@string/pstn_phone</item>
+        <item>@string/internet_phone</item>
+    </array>
+    <array name="sip_send_keepalive_options">
+        <item>@string/sip_system_decide</item>
+        <item>@string/sip_always_send_keepalive</item>
+    </array>
+    <array name="incoming_call_widget_3way_targets">
+        <item>@drawable/ic_in_call_answer</item>
+        <item>@drawable/ic_in_call_send_sms</item>
+        <item>@drawable/ic_in_call_decline</item>
+        <item>@null</item>
+    </array>
+    <array name="incoming_call_widget_3way_target_descriptions">
+        <item>@string/description_target_answer</item>
+        <item>@string/description_target_send_sms</item>
+        <item>@string/description_target_decline</item>
+        <item>@null</item>
+    </array>
+    <array name="incoming_call_widget_3way_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@string/description_direction_up</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </array>
+    <array name="incoming_call_widget_2way_targets">
+        <item>@drawable/ic_in_call_answer</item>
+        <item>@null</item>
+        <item>@drawable/ic_in_call_decline</item>
+        <item>@null</item>
+    </array>
+    <array name="incoming_call_widget_2way_target_descriptions">
+        <item>@string/description_target_answer</item>
+        <item>@null</item>
+        <item>@string/description_target_decline</item>
+        <item>@null</item>
+    </array>
+    <array name="incoming_call_widget_2way_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </array>
+    <array name="dialer_click_entries">
+        <item>@string/dialer_click_entries_call</item>
+        <item>@string/dialer_click_entries_view_contact</item>
+    </array>
+    <string-array name="dialer_click_values">
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <array name="voice_quality_ui_values">
+        <item>@string/voice_quality_ui_values_normal</item>
+        <item>@string/voice_quality_ui_values_clear</item>
+        <item>@string/voice_quality_ui_values_crisp</item>
+        <item>@string/voice_quality_ui_values_bright</item>
+    </array>
+    <array name="auto_answer_delay_entries">
+        <item>@string/auto_answer_delay_entries_immediately</item>
+        <item>@string/auto_answer_delay_entries_delay_3s</item>
+        <item>@string/auto_answer_delay_entries_delay_5s</item>
+        <item>@string/auto_answer_delay_entries_delay_10s</item>
+    </array>
+    <string-array name="auto_answer_delay_entry_values">
+        <item>0</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <array name="auto_answer_scenario_entries">
+        <item>@string/auto_answer_scenario_enteries_always</item>
+        <item>@string/auto_answer_scenario_enteries_headset_only</item>
+        <item>@string/auto_answer_scenario_enteries_bluetooth_only</item>
+        <item>@string/auto_answer_scenario_enteries_headset_bluetooth</item>
+    </array>
+    <array name="prefered_network_type_pref_entries">
+        <item>@string/prefered_network_type_pref_entries_3g_prefered</item>
+        <item>@string/prefered_network_type_pref_entries_only_2g</item>
+        <item>@string/prefered_network_type_pref_entries_only_3g</item>
+    </array>
+    <string-array name="prefered_network_type_pref_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="prefered_network_type_pref_entries_cdma">
+        <item>@string/prefered_network_type_pref_entries_auto</item>
+        <item>@string/prefered_network_type_pref_entries_only_2g</item>
+        <item>@string/prefered_network_type_pref_entries_only_3g</item>
+    </array>
+    <string-array name="prefered_network_type_pref_entry_values_cdma">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <array name="connect_disconnect_vibrate_entries">
+        <item>@string/connect_disconnect_vibrate_normal</item>
+        <item>@string/connect_disconnect_vibrate_weak</item>
+        <item>@string/connect_disconnect_vibrate_none</item>
+    </array>
+    <string-array name="connect_disconnect_vibrate_entry_values">
+        <item>100</item>
+        <item>50</item>
+        <item>0</item>
+    </string-array>
+    <array name="cdma_call_waiting_entries">
+        <item>@string/enable</item>
+        <item>@string/disable</item>
+    </array>
+    <string-array name="cdma_call_waiting_entry_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <array name="answer_widget_entries">
+        <item>@string/answer_widget_sliding_vertial</item>
+        <item>@string/answer_widget_sliding_horizontal</item>
+    </array>
+    <string-array name="answer_widget_entry_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="clir_display_values">
+        <item>Network default</item>
+        <item>Hide number</item>
+        <item>Show number</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE</item>
+        <item>Global</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>EvDo only</item>
+        <item>CDMA w/o EvDo</item>
+        <item>CDMA / EvDo auto</item>
+        <item>GSM / WCDMA auto</item>
+        <item>WCDMA only</item>
+        <item>GSM only</item>
+        <item>GSM / WCDMA preferred</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_lte">
+        <item>LTE / CDMA</item>
+        <item>CDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_lte">
+        <item>7</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Chinese</item>
+        <item>Hebrew</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (auto mode)</item>
+        <item>WCDMA only</item>
+        <item>GSM only</item>
+        <item>GSM/WCDA (WCDMA preferred)</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Home only</item>
+        <item>Automatic</item>
+    </string-array>
+    <string-array name="cdma_system_select_values">
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Home Networks only</item>
+        <item>Affiliated Networks</item>
+        <item>Any Network</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EvDo</item>
+        <item>CDMA only</item>
+        <item>EvDo only</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Off</item>
+        <item>TTY Full</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="tty_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Normal</item>
+        <item>Long</item>
+    </string-array>
+    <string-array name="dtmf_tone_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

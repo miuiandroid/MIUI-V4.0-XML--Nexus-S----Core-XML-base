@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">MusicFX</string>
+  <string name="bass_boost_strength">低音增强</string>
+  <string name="ci_extreme">音效增强器</string>
+  <string name="eq_dialog_title">均衡器</string>
+  <string name="headset_plug">请插上耳机以便感受各种音效。</string>
+  <string name="main_toggle_effects_title">音效</string>
+  <string name="no_effects">音效不可用</string>
+  <string name="picker_title">音乐效果控制面板</string>
+  <string name="pr_dialog_title">混响效果预设</string>
+  <string name="pr_summary">其他室内混响效果</string>
+  <string name="pr_title">混响效果：</string>
+  <string name="setup">设置</string>
+  <string name="user">用户</string>
+  <string name="virtualizer_strength">3D 音效</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_indicator_style_entries">
+        <item>图形方式</item>
+        <item>数字方式</item>
+        <item>顶部方式</item>
+    </string-array>
+</resources>

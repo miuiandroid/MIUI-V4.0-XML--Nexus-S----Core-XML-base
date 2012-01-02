@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Sound Recorder</string>
+  <string name="audio_db_album_name">Audio recordings</string>
+  <string name="audio_db_artist_name">Your recordings</string>
+  <string name="audio_db_playlist_name">My recordings</string>
+  <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
+  <string name="button_ok">OK</string>
+  <string name="call_record">Record Call</string>
+  <string name="call_record_or">or</string>
+  <string name="default_record_name">Untitled recording</string>
+  <string name="delete_dialog_title">Do you want to delete current recording?</string>
+  <string name="dialog_delete">Delete</string>
+  <string name="dialog_play">Play</string>
+  <string name="dialog_send">Send</string>
+  <string name="error_app_internal">Internal application error</string>
+  <string name="error_mediadb_new_record">Unable to save recorded audio</string>
+  <string name="error_sdcard_access">Unable to access external or internal storage</string>
+  <string name="hour">%d hour(s)</string>
+  <string name="insert_sd_card">SD card is required</string>
+  <string name="mark_now">(Current)</string>
+  <string name="max_length_reached">Maximum length reached</string>
+  <string name="menu_setting">Settings</string>
+  <string name="menu_view_record_list">View recordings</string>
+  <string name="minute">%d minute</string>
+  <string name="no_file">No recordings</string>
+  <string name="notification_recording">Recording...</string>
+  <string name="notification_stopped">Recording is stopped</string>
+  <string name="notification_warning">Low storage (less than %d minutes)...</string>
+  <string name="open_file_explorer">Open File Explorer</string>
+  <string name="overwrite_dialog_title">%s already exists. Do you want to overwrite it?</string>
+  <string name="prefDefault_recordType">audio/3gpp</string>
+  <string name="prefDialogTitle_recordType">Please select file type</string>
+  <string name="pref_summary_enable_high_quality">The audio file with high quality will be larger</string>
+  <string name="pref_summary_enable_sound_effect">Play sound effect when recording state is changed</string>
+  <string name="pref_title_enable_high_quality">Enable high quality</string>
+  <string name="pref_title_enable_sound_effect">Enable sound effect</string>
+  <string name="pref_title_record_type">Recording file type</string>
+  <string name="preferences_title">Settings</string>
+  <string name="record_list">Recordings list</string>
+  <string name="recording">Recording...</string>
+  <string name="recording_stopped">Recording has stopped</string>
+  <string name="sd_card_not_available">SD card is not available</string>
+  <string name="second">%d seconds</string>
+  <string name="storage_is_full">Storage is full</string>
+  <string name="timer_format" formatted="false">%02d:%02d</string>
+</resources>

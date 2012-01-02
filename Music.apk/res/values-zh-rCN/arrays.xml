@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weeklist">
+        <item>1 周</item>
+        <item>2 周</item>
+        <item>3 周</item>
+        <item>4 周</item>
+        <item>5 周</item>
+        <item>6 周</item>
+        <item>7 周</item>
+        <item>8 周</item>
+        <item>9 周</item>
+        <item>10 周</item>
+        <item>11 周</item>
+        <item>12 周</item>
+    </string-array>
+</resources>

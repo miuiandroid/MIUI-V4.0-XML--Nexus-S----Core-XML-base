@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_label">联系人存储</string>
+  <string name="create_contact">新建联系人</string>
+  <string name="default_directory">联系人</string>
+  <string name="edit_contact">添加到已有联系人</string>
+  <string name="local_invisible_directory">其他</string>
+  <string name="pound_search_tip">在\"#\"后输入数字通过号码搜索联系人</string>
+  <string name="provider_label">联系人</string>
+  <string name="read_write_all_voicemail_description">允许应用程序存储和检索此设备可访问的所有语音邮件。</string>
+  <string name="read_write_all_voicemail_label">访问所有语音邮件</string>
+  <string name="send_sms">发送短信/彩信</string>
+  <string name="sharedUserLabel">Android 核心应用程序</string>
+  <string name="upgrade_msg">正在升级联系人数据库。</string>
+  <string name="upgrade_out_of_memory_notification_text">请选择以完成升级。</string>
+  <string name="upgrade_out_of_memory_notification_ticker">联系人升级需要更多的存储空间</string>
+  <string name="upgrade_out_of_memory_notification_title">升级联系人时存储空间不足</string>
+  <string name="voicemail_from_column">"语音邮件发件人 "</string>
+</resources>
