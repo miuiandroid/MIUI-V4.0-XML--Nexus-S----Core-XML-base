@@ -9,6 +9,9 @@
   <string name="apply_unable_to_reboot_toast">Unable to reboot to enter recovery</string>
   <string name="apply_update_dialog_cancel_button">Cancel</string>
   <string name="apply_update_dialog_update_button">Update</string>
+  <string name="apply_update_fail">System update failed</string>
+  <string name="apply_update_guide">Updating in background, does not affect normal use</string>
+  <string name="apply_update_refuse">System update is in progress, please reselect and install later</string>
   <string name="apply_upload_info_message">Clicking Update now will automatically restart the phone to apply the update</string>
   <string name="apply_upload_info_message_manually">After shutdown, you can manually enter Recovery to apply %s in SD card. If you want to backup, you may perform it and then return to system update.</string>
   <string name="applying_rom_message">Applying update</string>
@@ -19,6 +22,7 @@
   <string name="check_update_when_wifi_available">Check for updates only using W-Fi</string>
   <string name="checking_for_updates">Checking for updates...</string>
   <string name="confirm_download_cancelation_dialog_message">Are you sure you want to cancel the current download?</string>
+  <string name="copy_install_log">Copy to clipboard</string>
   <string name="current_version_text">Current version</string>
   <string name="dialog_no">No</string>
   <string name="dialog_ok">OK</string>
@@ -33,10 +37,16 @@
   <string name="exception_while_downloading">Error while downloading update</string>
   <string name="file_not_found_error_message">Requested file not found on server</string>
   <string name="finish_download">Download completed</string>
+  <string name="install_email">Install E-mail software</string>
   <string name="install_file_explorer">please install file explorer</string>
   <string name="install_rom_from_sd">Select installation pack</string>
-  <string name="loading">Connecting to MIUIAndroid.com OTA Server...</string>
+  <string name="install_whole_rom">Download full ROM package is recommended</string>
+  <string name="loading">Connecting to MIUIAndroid...</string>
   <string name="md5_check_cancelled">MD5 check cancelled</string>
+  <string name="mione_update_fail_description">Please update again</string>
+  <string name="mione_update_fail_title">Update Failed</string>
+  <string name="mione_update_success_description">Switch system</string>
+  <string name="mione_update_success_title">Update completed</string>
   <string name="move_data_to_sdcard_not_enough_space_message">Not enough space on SD card to move the selected %dMB of data</string>
   <string name="move_data_to_sdcard_title">Move data to SD card</string>
   <string name="moving_data_to_sdcard_message">"Data is being transferred to SD card, please don't turn on the USB storage mode or remove SD card."</string>
@@ -60,6 +70,8 @@
   <string name="sdcard_has_no_space_dialog_title">SD card low memory</string>
   <string name="sdcard_is_not_present_dialog_body">SD card was not mounted or unreadable, please try again</string>
   <string name="sdcard_is_not_present_dialog_title">SD card not found</string>
+  <string name="send_install_log">Send error log</string>
+  <string name="send_install_log_error">Failed to send error log</string>
   <string name="sign_in_add_account_helper">Your phone has no active MIUI account, add one to receive user-points</string>
   <string name="sign_in_info">"Your update ranking is%1$s
 %2$s users have signed in for MIUI %3$s"</string>

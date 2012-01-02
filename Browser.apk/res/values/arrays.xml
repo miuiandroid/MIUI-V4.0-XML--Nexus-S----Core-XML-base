@@ -840,7 +840,7 @@
     </string-array>
     <string-array name="pref_data_preload_choices">
         <item>Never</item>
-        <item>Only on WiFi</item>
+        <item>Only on Wi-Fi</item>
         <item>Always</item>
     </string-array>
     <array name="pref_data_preload_values">

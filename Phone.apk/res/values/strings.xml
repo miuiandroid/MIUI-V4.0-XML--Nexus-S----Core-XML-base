@@ -290,6 +290,7 @@ Switch to the new provider anyway?"</string>
   <string name="ignore">Ignore</string>
   <string name="imei">IMEI</string>
   <string name="importAllSimEntries">Import all</string>
+  <string name="importSelectedSimEntries">Import selected contacts</string>
   <string name="importSimEntry">Import</string>
   <string name="importToFDNfromContacts">Import from contacts</string>
   <string name="importingSimContacts">Importing SIM contacts</string>
@@ -568,6 +569,8 @@ Please notice that SIM card will be trashed if failed again!"</string>
   <string name="simContacts_empty">No contacts on your SIM card</string>
   <string name="simContacts_emptyLoading">Reading from SIM card…</string>
   <string name="simContacts_title">SIM contacts</string>
+  <string name="sim_contact_dropdown_menu_deselect_all">Deselect all</string>
+  <string name="sim_contact_dropdown_menu_select_all">Select all</string>
   <string name="sim_lock_off">Require PIN to use phone</string>
   <string name="sim_lock_on">Require PIN to use phone</string>
   <string name="sim_lock_settings">SIM card lock settings</string>
@@ -597,8 +600,9 @@ Please notice that SIM card will be trashed if failed again!"</string>
   <string name="sip_system_decide">Automatic</string>
   <string name="slide_to_answer">Drag right to answer</string>
   <string name="slide_to_decline">Drag left to decline</string>
-  <string name="sliding_down_hint">Slide to answer</string>
+  <string name="sliding_down_hint">Slide down to answer</string>
   <string name="sliding_target_hint">Slide target</string>
+  <string name="sliding_up_hint">Slide up to reject</string>
   <string name="sports_news_settings">Sports News</string>
   <string name="stock_quotes_disable">Stock Quotes disabled</string>
   <string name="stock_quotes_enable">Stock Quotes enabled</string>

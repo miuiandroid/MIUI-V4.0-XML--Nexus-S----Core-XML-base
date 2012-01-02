@@ -1,38 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="Dashboard_About">About</string>
-  <string name="Dashboard_About_Copyright">"Powered by Team LBE
-©2011 永杨安风"</string>
-  <string name="Dashboard_About_PatternVersion">"Cell Location Pattern ver:%1$s
-Spam SMS Pattern ver:%2$s
-Virus Pattern ver:%3$s
-Cloud scan Pattern ver:%4$s
-"</string>
-  <string name="Dashboard_About_PkgVersion">"%1$s for Android. Version %2$s
-"</string>
-  <string name="Dashboard_About_mail">Mail: &lt;a href=mailto:lbe@lbesec.com&gt;lbe@lbesec.com&lt;/a&gt;</string>
-  <string name="Dashboard_About_phones">Phone: &lt;a href=tel:+8601085997019&gt;+86-010-85997019&lt;/a&gt;</string>
-  <string name="Dashboard_About_urls">&lt;p&gt;Website: &lt;a href=http://www.lbesec.com&gt;www.lbesec.com&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Product blog: &lt;a href=http://weibo.com/lbesec&gt;Team LBE&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Team LBE blog&lt;/p&gt; &lt;p&gt; Lamian: &lt;a href=http://t.qq.com/lamian&gt;http://t.qq.com/lamian&lt;/a&gt;&lt;/p&gt; &lt;p&gt; Elviesss: &lt;a href=http://t.qq.com/elviesss&gt;http://t.qq.com/elviesss&lt;/a&gt;&lt;/p&gt;</string>
-  <string name="Dashboard_CheckUpdate">Check for updates</string>
-  <string name="Dashboard_ChooseProduct">Choose LBE Product</string>
-  <string name="Dashboard_ChooseProduct_Hint1">Detected multiple LBE Security Product installations:</string>
-  <string name="Dashboard_ChooseProduct_Hint2">Provides Permission Control, Telephony Firewall, Traffic Monitor, System Optimization and many useful security related features.</string>
-  <string name="Dashboard_ChooseProduct_Hint3">Dedicate on Permission Control, designed for professional users.</string>
-  <string name="Dashboard_ChooseProduct_Hint4">Unfortunately, these products CAN NOT COEXIST, you have to choose one of them and uninstall another one</string>
-  <string name="Dashboard_ChooseProduct_Hint_Full">LBE Mobile Security</string>
-  <string name="Dashboard_ChooseProduct_Hint_KeepFull">"Keep
-Mobile Security"</string>
-  <string name="Dashboard_ChooseProduct_Hint_KeepLite">"Keep
-Privacy Guard"</string>
-  <string name="Dashboard_ChooseProduct_Hint_Lite">LBE Privacy Guard</string>
-  <string name="Dashboard_HIPS_Loading">Active Protection Service is loading...</string>
-  <string name="Dashboard_HIPS_Running">Active Protection Service is running...</string>
-  <string name="Dashboard_HIPS_Stopped">Active Protection Service is stopped...</string>
+  <string name="Dashboard_App">Apps</string>
+  <string name="Dashboard_HIPS_Disable_Content">"Disabling it will make MIUI stop monitoring application requests and no longer protecting your security and privacy.
+Are you sure to disable it?"</string>
+  <string name="Dashboard_HIPS_Disable_Title">Permission Monitor</string>
+  <string name="Dashboard_Log">Logs</string>
+  <string name="Dashboard_Log_Clear_Content">All logs will be erased. Are you sure to enable it?</string>
+  <string name="Dashboard_Log_Clear_Title">Clear Logs</string>
+  <string name="Dashboard_Perm">Permissions</string>
+  <string name="Dashboard_Perm_HIPS">Manage App Permissions</string>
+  <string name="Dashboard_Perm_HIPS_Desc">Monitoring %1$d apps for security and privacy</string>
+  <string name="Dashboard_Perm_HIPS_Desc2">Monitoring %1$d apps for security and privacy</string>
+  <string name="Dashboard_Perm_HIPS_Disabled">Permission Monitor is disabled</string>
+  <string name="Dashboard_Perm_HIPS_Switch">Permission Monitor</string>
+  <string name="Dashboard_Perm_Header">Monitoring %1$d apps</string>
+  <string name="Dashboard_Perm_Header_Disabled">Permission monitor is disabled</string>
+  <string name="Dashboard_Perm_SU">Manage ROOT Permission</string>
+  <string name="Dashboard_Perm_SU_Desc">Monitoring %1$d apps for ROOT Permission</string>
+  <string name="Dashboard_Perm_SU_Disabled">ROOT Permission is disabled</string>
+  <string name="Dashboard_Perm_SU_Switch">ROOT Permission</string>
+  <string name="Dashboard_Su_Enable_Content">"Enabling it will allow apps to request ROOT permission.
+Note: Apps with the permission may cause system instability, even loss of personal data, system or hardware damage, please be cautions. Are you sure to enable it?"</string>
+  <string name="Dashboard_Su_Enable_Title">ROOT Permission</string>
   <string name="Generic_Canceling">Cancelling...</string>
   <string name="Generic_Check">Check</string>
   <string name="Generic_Clean">Clean</string>
   <string name="Generic_Configuration">Settings</string>
-  <string name="Generic_Copyright">Powered by Team LBE</string>
+  <string name="Generic_Copyright">Powered by LBE Privacy Guard</string>
   <string name="Generic_Disable">Disable</string>
   <string name="Generic_Enable">Enable</string>
   <string name="Generic_Good">Good</string>
@@ -54,53 +48,21 @@ Privacy Guard"</string>
   <string name="Generic_Update">Software upgrade</string>
   <string name="Generic_UserApp">Downloaded Apps (%d)</string>
   <string name="Generic_Version">Version: %1$s</string>
-  <string name="HIPS">Active Protection Service</string>
   <string name="HIPS_Action_Accept">Allow</string>
+  <string name="HIPS_Action_Accept_Colored">&lt;font color=#478800&gt;Allow&lt;/font&gt;</string>
   <string name="HIPS_Action_Accept_Count">Allowed: %1$d</string>
-  <string name="HIPS_Action_Prompt">Prompt</string>
+  <string name="HIPS_Action_Prompt">Ask</string>
+  <string name="HIPS_Action_Prompt_Colored">&lt;font color=#FF8A00&gt;Ask&lt;/font&gt;</string>
   <string name="HIPS_Action_Reject">Deny</string>
+  <string name="HIPS_Action_Reject_Colored">&lt;font color=#DF0000&gt;Deny&lt;/font&gt;</string>
   <string name="HIPS_Action_Reject_Count">Denied: %1$d</string>
-  <string name="HIPS_App_Config">Configure app permission</string>
-  <string name="HIPS_App_Config_NoRoot">You are unable to modify app permission due to the Active Protection Service has been turned off. Click here to enable Active Protection Service</string>
-  <string name="HIPS_App_Monitored">Monitored</string>
-  <string name="HIPS_App_System_UntrustFirst">"%1$s is a built-in app, remove from trust apps list before you can configure permissions.
-
-Note: monitor built-in apps may cause your phone not working properly.
-
-Do you wish to continue?"</string>
-  <string name="HIPS_App_Trust">Trust</string>
-  <string name="HIPS_App_Trust_SummaryOff">This app is monitored by LBE Privacy Guard</string>
-  <string name="HIPS_App_Trust_SummaryOn">This app is trusted, all permissions are allowed</string>
-  <string name="HIPS_App_Trusted">Trusted</string>
-  <string name="HIPS_App_UntrustFirst">"%1$s is a trusted app, remove from trust apps list before you can configure permissions.
-
-Do you wish to continue?"</string>
-  <string name="HIPS_Expense">Money</string>
-  <string name="HIPS_Failed">Active Protection Service start up failed, please check that your phone has ROOT privileges</string>
-  <string name="HIPS_Group_DataPrivacy">Data Privacy</string>
-  <string name="HIPS_Group_Expense">Money</string>
+  <string name="HIPS_Group_DataPrivacy">Privacy</string>
+  <string name="HIPS_Group_Expense">Security</string>
   <string name="HIPS_Group_Internet">Internet access</string>
   <string name="HIPS_Group_Location">Positioning</string>
   <string name="HIPS_Group_PIM">Personal information</string>
   <string name="HIPS_Group_PhoneID">Phone Identification</string>
   <string name="HIPS_Group_ROOT">ROOT</string>
-  <string name="HIPS_Loading">Active Protection Service is starting up...</string>
-  <string name="HIPS_Log">Event Log</string>
-  <string name="HIPS_Log_Action_Accept">Allowed %1$s%2$s</string>
-  <string name="HIPS_Log_Action_Config">Configure permissions for %1$s</string>
-  <string name="HIPS_Log_Action_Prompt">Prompted %1$s%2$s</string>
-  <string name="HIPS_Log_Action_Reject">Denied %1$s%2$s</string>
-  <string name="HIPS_Log_Clean">Clear event logs</string>
-  <string name="HIPS_Log_Earlier">Earlier (%1$d)</string>
-  <string name="HIPS_Log_Title">Log: %1$s</string>
-  <string name="HIPS_Log_Today">Today (%1$d)</string>
-  <string name="HIPS_Log_Week">This week (%1$d)</string>
-  <string name="HIPS_Monitor_AppCount">Monitoring %1$d apps</string>
-  <string name="HIPS_Monitor_AppCount_NoRoot">%1$d apps have required dangerous permissions</string>
-  <string name="HIPS_Monitor_NoRoot">This feature is not available due to the Active Protection Service has been turned off. Click here to enable Active Protection Service</string>
-  <string name="HIPS_New_App">Configure permissions for %1$s</string>
-  <string name="HIPS_New_App_Configure">Click to configure app permissions</string>
-  <string name="HIPS_New_App_Installed">%1$s has been installed</string>
   <string name="HIPS_Perm_AdjustRingerVolume">adjust ringer volume</string>
   <string name="HIPS_Perm_AdjustVolumeInCall">adjust volume in call</string>
   <string name="HIPS_Perm_AllowAll">Allow all</string>
@@ -109,21 +71,21 @@ Do you wish to continue?"</string>
   <string name="HIPS_Perm_CallLog">Call Logs</string>
   <string name="HIPS_Perm_CallLog_Access">read your call logs</string>
   <string name="HIPS_Perm_CallLog_Desc">Access your call logs</string>
-  <string name="HIPS_Perm_CallLog_Hint">%1$s apps have the permission to access your call logs</string>
+  <string name="HIPS_Perm_CallLog_Hint">%1$s apps are allowed to access your call logs</string>
   <string name="HIPS_Perm_CallMonitor">Call Monitoring</string>
   <string name="HIPS_Perm_CallMonitor_Desc">Monitor incoming and outgoing calls, control volume, etc</string>
-  <string name="HIPS_Perm_CallMonitor_Hint">%1$s apps have the permission to monitor incoming and outgoing calls, control volume.</string>
+  <string name="HIPS_Perm_CallMonitor_Hint">%1$s apps are allowed to monitor incoming, outgoing calls and control ringer volume.</string>
   <string name="HIPS_Perm_CallState">Phone State</string>
   <string name="HIPS_Perm_CallState_Desc">Get phone state</string>
-  <string name="HIPS_Perm_CallState_Hint">%1$s apps have the permission to get phone state</string>
+  <string name="HIPS_Perm_CallState_Hint">%1$s apps are allowed to get phone state</string>
   <string name="HIPS_Perm_Call_Desc">Directly make, answer or hang up phone calls</string>
-  <string name="HIPS_Perm_Call_Hint">%1$s apps have the permission to make, answer or hang up phone calls</string>
+  <string name="HIPS_Perm_Call_Hint">%1$s apps are allowed to make, answer or hang up phone calls</string>
   <string name="HIPS_Perm_Call_Number">call %1$s</string>
   <string name="HIPS_Perm_CancelMissedCalls">clear missed calls notification</string>
   <string name="HIPS_Perm_Contact">Contacts</string>
   <string name="HIPS_Perm_Contact_Access">read your contact list</string>
   <string name="HIPS_Perm_Contact_Desc">Access your contact list</string>
-  <string name="HIPS_Perm_Contact_Hint">%1$s apps have the permission to access your contact list</string>
+  <string name="HIPS_Perm_Contact_Hint">%1$s apps are allowed to access your contact list</string>
   <string name="HIPS_Perm_EndCall">hang up current call</string>
   <string name="HIPS_Perm_GetCallState">get current call status</string>
   <string name="HIPS_Perm_ListenCallState">monitor call status</string>
@@ -132,20 +94,20 @@ Do you wish to continue?"</string>
   <string name="HIPS_Perm_Location_CellInfo">obtain cellular location</string>
   <string name="HIPS_Perm_Location_CellLocation">obtain cellular location</string>
   <string name="HIPS_Perm_Location_Desc">Locale your phone through network or GPS</string>
-  <string name="HIPS_Perm_Location_Hint">%1$s apps have the permission to locale your phone</string>
+  <string name="HIPS_Perm_Location_Hint">%1$s apps are allowed to locale your phone</string>
   <string name="HIPS_Perm_Location_Monitor">track your position</string>
   <string name="HIPS_Perm_Location_Source_Cellular">Source: Cellular Network</string>
   <string name="HIPS_Perm_Location_Source_GPS">Source: GPS</string>
   <string name="HIPS_Perm_Location_Source_Network">Source: Network</string>
   <string name="HIPS_Perm_MobileNetwork">Mobile network</string>
   <string name="HIPS_Perm_MobileNetwork_Desc">Access Internet through mobile network</string>
-  <string name="HIPS_Perm_MobileNetwork_Hint">%1$s apps have the permission to access Internet</string>
+  <string name="HIPS_Perm_MobileNetwork_Hint">%1$s apps are allowed to access Internet</string>
   <string name="HIPS_Perm_Network">Internet</string>
   <string name="HIPS_Perm_Network_Desc">Internet</string>
-  <string name="HIPS_Perm_Network_Hint">%1$s apps have the permission to access Internet</string>
+  <string name="HIPS_Perm_Network_Hint">%1$s apps are allowed to access Internet</string>
   <string name="HIPS_Perm_PhoneID">Phone ID</string>
   <string name="HIPS_Perm_PhoneID_Desc">Get your phone ID, including IMEI, IMSI, etc</string>
-  <string name="HIPS_Perm_PhoneID_Hint">%1$s apps have the permission to get your phone ID</string>
+  <string name="HIPS_Perm_PhoneID_Hint">%1$s apps are allowed to get your phone ID</string>
   <string name="HIPS_Perm_PhoneID_ICCID">obtain SIM Card SN</string>
   <string name="HIPS_Perm_PhoneID_IMEI">obtain IMEI number</string>
   <string name="HIPS_Perm_PhoneID_IMEISN">obtain IMEI/SN</string>
@@ -153,19 +115,19 @@ Do you wish to continue?"</string>
   <string name="HIPS_Perm_PhoneID_Number">obtain your phone number</string>
   <string name="HIPS_Perm_PromptAll">Prompt all</string>
   <string name="HIPS_Perm_ROOT">ROOT</string>
-  <string name="HIPS_Perm_ROOT_Desc">Request ROOT permission</string>
-  <string name="HIPS_Perm_ROOT_Hint">%1$s apps are allowed to request ROOT permission</string>
-  <string name="HIPS_Perm_ROOT_Title">obtain ROOT privilege</string>
+  <string name="HIPS_Perm_ROOT_Desc">Request ROOT Permission</string>
+  <string name="HIPS_Perm_ROOT_Hint">%1$s apps are allowed to get ROOT Permission</string>
+  <string name="HIPS_Perm_ROOT_Title">obtain ROOT Permission</string>
   <string name="HIPS_Perm_RejectAll">Deny all</string>
   <string name="HIPS_Perm_SMS">SMS</string>
   <string name="HIPS_Perm_SMS_Access">read your SMS inbox</string>
   <string name="HIPS_Perm_SMS_Desc">Access your SMS inbox</string>
-  <string name="HIPS_Perm_SMS_Hint">%1$s apps have the permission to access your SMS inbox</string>
+  <string name="HIPS_Perm_SMS_Hint">%1$s apps are allowed to access your SMS inbox</string>
   <string name="HIPS_Perm_SendSMS">Send SMS</string>
   <string name="HIPS_Perm_SendSMS_Content">Content:</string>
   <string name="HIPS_Perm_SendSMS_Data">send SMS to %1$s:%2$d</string>
   <string name="HIPS_Perm_SendSMS_Desc">Send SMS directly</string>
-  <string name="HIPS_Perm_SendSMS_Hint">%1$s apps have the permission to send SMS</string>
+  <string name="HIPS_Perm_SendSMS_Hint">%1$s apps are allowed to send SMS</string>
   <string name="HIPS_Perm_SendSMS_Port">Dest Port:</string>
   <string name="HIPS_Perm_SendSMS_Recipient">Recipient:</string>
   <string name="HIPS_Perm_SendSMS_SMSC">SMS Center:</string>
@@ -174,104 +136,26 @@ Do you wish to continue?"</string>
   <string name="HIPS_Perm_SilenceRinger">silence the ringer</string>
   <string name="HIPS_Perm_WIFINetwork">WIFI</string>
   <string name="HIPS_Perm_WIFINetwork_Desc">Access Internet through WIFI</string>
-  <string name="HIPS_Perm_WIFINetwork_Hint">%1$s apps have the permission to access Internet</string>
-  <string name="HIPS_Privacy">Privacy</string>
-  <string name="HIPS_Prompt">"Active Protection Service is an advanced protection technology exclusive in LBE Privacy Guard. The Active Protection Service is capable of:
-
-.Block unwanted ongoing SMS and phone calls
-.Protect your privacy data
-.Manage network permissions
-
-Note: Active Protection Service requires your phone has ROOT privileges."</string>
-  <string name="HIPS_Reboot">LBE Privacy Guard has detected that you have been upgraded from a previous version, a restart is required to enable Active Protection Service</string>
-  <string name="HIPS_Reboot_Auto">"LBE Privacy Guard has detected that you have been upgraded from a previous version, a restart is required to enable Active Protection Service.
-
-Click OK to restart automatically
-Note: Some phones do not support automatic restart. If your phone does not restart automatically, please restart manually"</string>
+  <string name="HIPS_Perm_WIFINetwork_Hint">%1$s apps are allowed to access Internet</string>
   <string name="HIPS_SecurityPrompt_Accept">Allowed (%d)</string>
   <string name="HIPS_SecurityPrompt_Caption">Security Warning</string>
   <string name="HIPS_SecurityPrompt_Reject">Denied (%d)</string>
   <string name="HIPS_SecurityPrompt_Remember">Remember my choice</string>
   <string name="HIPS_SecurityPrompt_Title">%1$s is trying to %2$s</string>
-  <string name="HIPS_Trust_Add">Trust an app</string>
-  <string name="HIPS_Trust_AppCount">%1$d apps have been trusted</string>
-  <string name="Notif_CallBlock_Event">Call blocked:%1$s(%2$s)</string>
-  <string name="Notif_CallBlock_Event_Remarks">%3$s: %1$s(%2$s)</string>
-  <string name="Notif_HIPS_AcceptEvent">Accept %1$s%2$s</string>
-  <string name="Notif_HIPS_RejectEvent">Reject %1$s%2$s</string>
-  <string name="Notif_MsgBlock_Event">SMS blocked:%1$s(%2$s)</string>
-  <string name="Notif_ServiceStarted">Your phone is protected</string>
-  <string name="Notif_TrafficMon_Event">Month:%2$s Remain:%3$s</string>
-  <string name="Notif_TrafficMon_Event_Exceed">Month:%2$s Exceed:%3$s</string>
-  <string name="Notif_TrafficMon_Event_Unlimited">Today:%1$s Month:%2$s</string>
-  <string name="Notif_TrafficMon_Start">Traffic monitor is running</string>
-  <string name="Notif_TrafficMon_Stop">Traffic monitor is stopped</string>
-  <string name="Pref_HIPS_Forge_IMEI">Send forged IMEI number</string>
-  <string name="Pref_HIPS_Forge_Location">Reduce location accurity</string>
-  <string name="Pref_HIPS_Forge_SendReport">Always report SMS sent successfully</string>
-  <string name="Pref_HIPS_Record_Event">Notify security events</string>
-  <string name="Pref_HIPS_Record_Telephony">Record Call and SMS events</string>
-  <string name="Pref_Main_AnonymousReport">Report anonymous usage</string>
-  <string name="Pref_Main_AutoStart">Start automatically at phone boot</string>
-  <string name="Pref_Main_Cat_Service">Security Services Settings</string>
-  <string name="Pref_Main_Cat_System">System Settings</string>
-  <string name="Pref_Main_ErrorReport">Send error reports</string>
-  <string name="Pref_Main_HIPS_Service">Active Protection Service</string>
-  <string name="Pref_Main_Notification">Notification icon</string>
-  <string name="Pref_Main_RefreshPackages">Refresh application list</string>
-  <string name="Pref_Main_RefreshPackages_Summary">Resolve compatibility issues with some APP2SD and APP2Ext</string>
-  <string name="Pref_Main_SelfProtection">Self Protection</string>
-  <string name="Pref_Main_Traffic_Service">Traffic Monitoring Service</string>
-  <string name="Pref_Traffic_Adjust">Adjust monthly data usage</string>
-  <string name="Pref_Traffic_Adjust_Hint">Please enter the actual Internet usage of this month.</string>
-  <string name="Pref_Traffic_Adjust_PhoneQuery">Query by phone call</string>
-  <string name="Pref_Traffic_Adjust_SMSQuery">Query by SMS</string>
-  <string name="Pref_Traffic_Alarm">Internet Usage Alarm</string>
-  <string name="Pref_Traffic_Alarm_Summary">Alarm if the Internet usage is over 90% of the monthly limit</string>
-  <string name="Pref_Traffic_BillingDay">Billing day of the month</string>
-  <string name="Pref_Traffic_BillingDay_Summary">Monthly billing date %1$s</string>
-  <string name="Pref_Traffic_Clean">Clear traffic history record</string>
-  <string name="Pref_Traffic_Clean_Dialog">All traffic record will be cleared, are you sure?</string>
-  <string name="Pref_Traffic_DataPlan">Data Plan</string>
-  <string name="SoftMgr">Applications</string>
-  <string name="Traffic">Internet</string>
-  <string name="Traffic_Monitor">Usage</string>
-  <string name="Traffic_Monitor_APN_Disable">Disable Mobile Network</string>
-  <string name="Traffic_Monitor_APN_Enable">Enable Mobile Network</string>
-  <string name="Traffic_Monitor_Alarm">Your monthly Internet Usage has exceeded 90% of your data plan, Do you wish to turn off your mobile data connection ?</string>
-  <string name="Traffic_Monitor_Data">Today: &lt;font color=#268bc3&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;/font&gt; Month: &lt;font color=#268bc3&gt;&lt;b&gt;%2$s&lt;/b&gt;&lt;/font&gt;</string>
-  <string name="Traffic_Monitor_DataPlan">2G/3G Data Plan: %s</string>
-  <string name="Traffic_Monitor_DataPlan_Unlimited">Not set</string>
-  <string name="Traffic_Monitor_Data_InPlan">Data Plan Usage</string>
-  <string name="Traffic_Monitor_Data_Mobile">2/3G Usage</string>
-  <string name="Traffic_Monitor_Data_Month">Month:</string>
-  <string name="Traffic_Monitor_Data_Month_Short">Month:</string>
-  <string name="Traffic_Monitor_Data_None">No data</string>
-  <string name="Traffic_Monitor_Data_OutPlan">Exceed Usage</string>
-  <string name="Traffic_Monitor_Data_Today">Today:</string>
-  <string name="Traffic_Monitor_Data_Today_Short">Today:</string>
-  <string name="Traffic_Monitor_Data_WIFI">WIFI Usage</string>
-  <string name="Traffic_Permission">Permission</string>
-  <string name="Traffic_Permission_All">Internet Permission</string>
-  <string name="Traffic_Permission_Allow_3G">Allow: 2G/3G network</string>
-  <string name="Traffic_Permission_Allow_All">Allow all</string>
-  <string name="Traffic_Permission_Allow_WIFI">Allow: WIFI network</string>
-  <string name="Traffic_Permission_AppCount">%1$d software(s) with Internet access</string>
-  <string name="Traffic_Permission_Mobile">2G/3G</string>
-  <string name="Traffic_Permission_NoRoot">You have to enable Active Protection Service before you can control Internet permission for each app. Click here to enable Active Protection Service</string>
-  <string name="Traffic_Permission_Reject_3G">Deny: 2G/3G network</string>
-  <string name="Traffic_Permission_Reject_All">Deny all</string>
-  <string name="Traffic_Permission_Reject_WIFI">Deny: WIFI network</string>
-  <string name="Traffic_Permission_Uninstall">Uninstall</string>
-  <string name="Traffic_Permission_WIFI">WIFI</string>
-  <string name="Update_Check">Checking for Updates...</string>
-  <string name="Update_Found">"Detected update version %2$s for %1$s 
-
-Change Log:
-%3$s
-
-Do you wish to continue?"</string>
-  <string name="Update_Important">&lt;font color=#df2700&gt;&lt;b&gt;Important Update&lt;/b&gt;&lt;/font&gt;</string>
-  <string name="Update_Newest">Your installation is up to date</string>
-  <string name="app_name">LBE Privacy Guard</string>
+  <string name="Privacy_AppPerm_Count">%1$d permissions</string>
+  <string name="Privacy_AppPerm_Count_Trust">%1$dpermissions - &lt;font color=#478800&gt;Trusted&lt;/font&gt;</string>
+  <string name="Privacy_App_Finish">Finish</string>
+  <string name="Privacy_App_Installed">Configure permission</string>
+  <string name="Privacy_App_Launch">Launch</string>
+  <string name="Privacy_App_Log">Logs</string>
+  <string name="Privacy_App_Manage">Details</string>
+  <string name="Privacy_App_Trust">I trust this App</string>
+  <string name="Privacy_App_TrustDialog_Content">MIUI will not ask your for confirmation of any security and privacy related operations from this App.</string>
+  <string name="Privacy_App_TrustDialog_Title">Trust this App</string>
+  <string name="Privacy_App_Trust_Summary_Off">MIUI will monitor this App</string>
+  <string name="Privacy_App_Trust_Summary_On">MIUI will trust this App</string>
+  <string name="Privacy_App_Uninstall">Uninstall</string>
+  <string name="Privacy_Perm_Count">Allowed: %1$d Denied: %2$d</string>
+  <string name="Su_Enable_Dialog">%1$s is trying to get system ROOT permission which is disabled by default to ensure system security. If you need to enable it, please go to settings in Permission Manager.</string>
+  <string name="app_name">Permission Manager</string>
 </resources>

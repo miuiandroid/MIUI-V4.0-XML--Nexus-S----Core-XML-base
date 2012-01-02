@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">搜索</string>
+  <string name="clear_shortcuts">清除快捷方式</string>
+  <string name="clear_shortcuts_agree">清除快捷方式</string>
+  <string name="clear_shortcuts_disagree">不清除快捷方式</string>
+  <string name="clear_shortcuts_prompt">"这将全部清除最近所选搜索建议的快捷方式。
+
+（要清除浏览器记录，请使用浏览器的“设置”。）"</string>
+  <string name="clear_shortcuts_summary">清除最近所选搜索建议的快捷方式</string>
+  <string name="corpus_description_apps">已安装的应用程序的名称</string>
+  <string name="corpus_description_web">Google 网页搜索、书签和浏览器历史记录</string>
+  <string name="corpus_hint_apps">搜索应用程序</string>
+  <string name="corpus_label_apps">应用程序</string>
+  <string name="corpus_label_global">全部</string>
+  <string name="corpus_label_web">网络</string>
+  <string name="corpus_selection_heading">搜索</string>
+  <string name="device_settings_category_title">清除快捷方式</string>
+  <string name="google_app_label">Google 搜索</string>
+  <string name="google_search_description">Google 搜索建议</string>
+  <string name="google_search_hint">Google 搜索</string>
+  <string name="google_search_label">Google</string>
+  <string name="google_settings_category_title">Google 搜索</string>
+  <string name="menu_help">帮助</string>
+  <string name="menu_settings">搜索设置</string>
+  <string name="remove_from_history">从搜索记录中删除</string>
+  <string name="remove_from_history_failed">无法从记录中删除项目</string>
+  <string name="search_settings">搜索设置</string>
+  <string name="search_sources">可搜索项</string>
+  <string name="search_sources_summary">选择要在手机上搜索的内容</string>
+  <string name="search_widget">搜索</string>
+  <string name="system_search_category_title">电话</string>
+  <string name="voice_search_hint_quotation_end">”</string>
+  <string name="voice_search_hint_quotation_start">“</string>
+  <string name="voice_search_hint_title">试着说：</string>
+</resources>

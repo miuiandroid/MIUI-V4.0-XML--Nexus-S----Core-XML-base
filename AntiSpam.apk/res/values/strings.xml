@@ -56,10 +56,10 @@
   <string name="fw_advanced_settings">高级拦截</string>
   <string name="fw_all_day">全天拦截</string>
   <string name="fw_blacklist">黑名单</string>
-  <string name="fw_blacklist_hint">"把您要拦截的号码添加到这里。黑名单中的来电和短信默认全部拦截</string>
+  <string name="fw_blacklist_hint">"把您要拦截的号码添加到这里。黑名单中的来电和短信默认全部拦截。"</string>
   <string name="fw_blocked">已保护您免于打扰</string>
-  <string name="fw_blocked_count" formatted="false">替您新拦截了%d个来电%d个短信</string>
-  <string name="fw_call" formatted="false">电话拦截：%s (%d)</string>
+  <string name="fw_blocked_count">替您新拦截了%d个来电%d个短信</string>
+  <string name="fw_call">电话拦截：%s (%d)</string>
   <string name="fw_call_muted">来电被静音</string>
   <string name="fw_call_rejected">来电被拦截</string>
   <string name="fw_clear_all_keyword">清空拦截关键词</string>
@@ -81,7 +81,7 @@
   <string name="fw_menu_new_whitelist_title">添加号码到白名单</string>
   <string name="fw_menu_pick_from_contact">从通话和联系人中选择...</string>
   <string name="fw_menu_remove">删除</string>
-  <string name="fw_ms" formatted="false">短信拦截：%s (%d)</string>
+  <string name="fw_ms">短信拦截：%s (%d)</string>
   <string name="fw_ms_filtered">短信被过滤</string>
   <string name="fw_ms_imported">短信被导入</string>
   <string name="fw_ms_muted">短信被静音</string>
@@ -98,7 +98,7 @@
   <string name="fw_time_settings">拦截时间</string>
   <string name="fw_whitelist">白名单</string>
   <string name="fw_whitelist_hint">"把您最信赖的号码添加到这里。白名单中的来电和短信默认不拦截。"</string>
-  <string name="member_firewall_log" formatted="false">已拦截: 电话%d, 短信%d</string>
+  <string name="member_firewall_log">已拦截: 电话%d, 短信%d</string>
   <string name="menu_edit">编辑</string>
   <string name="mms_log_tab_title">短信</string>
   <string name="no">取消</string>

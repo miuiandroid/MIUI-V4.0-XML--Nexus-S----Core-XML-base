@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="account_login">Login</string>
+  <string name="account_summary">Backup Gmail, Email and Xiaomi account</string>
   <string name="app_name">Backup</string>
   <string name="auto_backup">Automatic Backup Settings</string>
   <string name="auto_backup_choose">Backup items</string>
@@ -94,6 +95,7 @@
  Enjoy all Xiaomi online services"</string>
   <string name="miliao_account_login">Login MiTalk</string>
   <string name="mms_title">Multimedia Messaging</string>
+  <string name="multi_select_title">Selected %1$s item(s)</string>
   <string name="no_network">"Network error
  Please check network connection and try again"</string>
   <string name="note_title">Notes</string>

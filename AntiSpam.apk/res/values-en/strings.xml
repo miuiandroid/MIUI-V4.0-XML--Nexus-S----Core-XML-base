@@ -58,8 +58,8 @@
   <string name="fw_blacklist">Blacklist</string>
   <string name="fw_blacklist_hint">Calls and messages are automatically blocked when added to Blacklist</string>
   <string name="fw_blocked">Blocked stats</string>
-  <string name="fw_blocked_count" formatted="false">%d %d calls and messages blocked</string>
-  <string name="fw_call" formatted="false">Call time: %s (%d)</string>
+  <string name="fw_blocked_count">%d %d calls and messages blocked</string>
+  <string name="fw_call">Call time: %s (%d)</string>
   <string name="fw_call_muted">Call muted</string>
   <string name="fw_call_rejected">Call rejected</string>
   <string name="fw_clear_all_keyword">Clear all keywords</string>
@@ -81,7 +81,7 @@
   <string name="fw_menu_new_whitelist_title">Add to Whitelist</string>
   <string name="fw_menu_pick_from_contact">Select from Contacts</string>
   <string name="fw_menu_remove">Delete</string>
-  <string name="fw_ms" formatted="false">Message time: %s (%d)</string>
+  <string name="fw_ms">Message time: %s (%d)</string>
   <string name="fw_ms_filtered">Messages are filtered</string>
   <string name="fw_ms_imported">Import messages</string>
   <string name="fw_ms_muted">Messages are muted</string>
@@ -98,7 +98,7 @@
   <string name="fw_time_settings">Blocking schedule</string>
   <string name="fw_whitelist">Whitelist</string>
   <string name="fw_whitelist_hint">Whitelisted members will not be blocked</string>
-  <string name="member_firewall_log" formatted="false">Blocked: Number %d details %d</string>
+  <string name="member_firewall_log">Blocked: Number %d details %d</string>
   <string name="menu_edit">Editor</string>
   <string name="mms_log_tab_title">Messages</string>
   <string name="no">Cancel</string>

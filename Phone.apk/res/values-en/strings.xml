@@ -4,10 +4,10 @@
   <string name="accessibility_call_muted">Call muted.</string>
   <string name="accessibility_speakerphone_enabled">Speakerphone enabled.</string>
   <string name="add_button">Add</string>
-  <string name="add_fdn_contact">Add fixed dialling number</string>
+  <string name="add_fdn_contact">Add fixed dialing number</string>
   <string name="add_sip_account">Add account</string>
   <string name="add_vm_number_str">Add number</string>
-  <string name="adding_fdn_contact">Adding fixed dialling number…</string>
+  <string name="adding_fdn_contact">Adding fixed dialing number…</string>
   <string name="administrative_disable">Administrative disabled</string>
   <string name="administrative_enable">Administrative enabled</string>
   <string name="advanced_settings">Optional settings</string>
@@ -60,7 +60,7 @@
   <string name="auto_registration">AutoRegistration</string>
   <string name="auto_retry_mode_summary">Enable Auto Retry mode</string>
   <string name="auto_retry_mode_title">Auto Retry</string>
-  <string name="autoip">Auto IP dialling</string>
+  <string name="autoip">Auto IP dialing</string>
   <string name="autoip_sum">Add IP prefix to a foreign number. Enter current area code below.</string>
   <string name="bad_pin">The old PIN you typed is not correct. Please try again.</string>
   <string name="bad_pin2">The old PIN2 you typed is not correct. Please try again.</string>
@@ -106,7 +106,7 @@
   <string name="cancel">Cancel</string>
   <string name="card_title_call_ended">Call ended</string>
   <string name="card_title_conf_call">Conference call</string>
-  <string name="card_title_dialing">Dialling</string>
+  <string name="card_title_dialing">Dialing</string>
   <string name="card_title_forwarded_incoming_call">Forward incoming call(s)</string>
   <string name="card_title_hanging_up">Hanging up</string>
   <string name="card_title_on_hold">On hold</string>
@@ -165,7 +165,7 @@
   <string name="default_preference_summary">Not set</string>
   <string name="default_transport">UDP</string>
   <string name="deleteSimContactConfirmTitle">Delete SIM contacts</string>
-  <string name="deleting_fdn_contact">Deleting fixed dialling number…</string>
+  <string name="deleting_fdn_contact">Deleting fixed dialing number…</string>
   <string name="description_call_recording">Call recording is on-going.</string>
   <string name="description_delete_button">backspace</string>
   <string name="description_dial_button">dial</string>
@@ -210,8 +210,8 @@
   <string name="dtmf_tones_title">DTMF Tones</string>
   <string name="ecm_exit_dialog">EcmExitDialog</string>
   <string name="edit_custom_location_title">Customize regional attribution, number attribution, wildcards # supported</string>
-  <string name="edit_fdn_contact">Edit fixed dialling number</string>
-  <string name="emergencyDialerIconLabel">Emergency Dialler</string>
+  <string name="edit_fdn_contact">Edit fixed dialing number</string>
+  <string name="emergencyDialerIconLabel">Emergency Dialer</string>
   <string name="emergency_broadcast_disable">Emergency Broadcast disabled</string>
   <string name="emergency_broadcast_enable">Emergency Broadcast enabled</string>
   <string name="emergency_call_area_code_edit_dialog_button">Call</string>
@@ -261,16 +261,16 @@
   <string name="fake_phone_activity_infoText_text">Incoming phone number</string>
   <string name="fake_phone_activity_phoneNumber_text">(650) 555-1234</string>
   <string name="fake_phone_activity_placeCall_text">Fake Incoming Call</string>
-  <string name="fdn">Fixed Dialling Numbers</string>
+  <string name="fdn">Fixed Dialing Numbers</string>
   <string name="fdnListLabel">FDN list</string>
-  <string name="fdn_contact_added">Fixed dialling number added.</string>
-  <string name="fdn_contact_deleted">Fixed dialling number deleted.</string>
-  <string name="fdn_contact_updated">Fixed dialling number updated.</string>
-  <string name="fdn_disabled">Fixed Dialling Numbers are disabled</string>
+  <string name="fdn_contact_added">Fixed dialing number added.</string>
+  <string name="fdn_contact_deleted">Fixed dialing number deleted.</string>
+  <string name="fdn_contact_updated">Fixed dialing number updated.</string>
+  <string name="fdn_disabled">Fixed Dialing Numbers are disabled</string>
   <string name="fdn_enable_puk2_requested">PIN2 is locked! Please change PIN2 and retry!</string>
-  <string name="fdn_enabled">Fixed Dialling Numbers are enabled</string>
+  <string name="fdn_enabled">Fixed Dialing Numbers are enabled</string>
   <string name="fdn_invalid_number">"FDN not updated: number cannot exceed 20 digits, and can only be digits or '+'."</string>
-  <string name="fdn_only_error">Operations are only allowed on fixed dialling numbers.</string>
+  <string name="fdn_only_error">Operations are only allowed on fixed dialing numbers.</string>
   <string name="fdn_summary">The above options are all disabled when FDN are enabled</string>
   <string name="fw_change_failed">"Forwarding number change unsuccessful.
 Please contact your carrier if this problem persists."</string>
@@ -290,6 +290,7 @@ Switch to the new provider anyway?"</string>
   <string name="ignore">Ignore</string>
   <string name="imei">IMEI</string>
   <string name="importAllSimEntries">Import all</string>
+  <string name="importSelectedSimEntries">Import selected contacts</string>
   <string name="importSimEntry">Import</string>
   <string name="importToFDNfromContacts">Import from contacts</string>
   <string name="importingSimContacts">Importing SIM contacts</string>
@@ -568,6 +569,8 @@ Please notice that SIM card will be trashed if failed again!"</string>
   <string name="simContacts_empty">No contacts on your SIM card</string>
   <string name="simContacts_emptyLoading">Reading from SIM card…</string>
   <string name="simContacts_title">SIM contacts</string>
+  <string name="sim_contact_dropdown_menu_deselect_all">Deselect all</string>
+  <string name="sim_contact_dropdown_menu_select_all">Select all</string>
   <string name="sim_lock_off">Require PIN to use phone</string>
   <string name="sim_lock_on">Require PIN to use phone</string>
   <string name="sim_lock_settings">SIM card lock settings</string>

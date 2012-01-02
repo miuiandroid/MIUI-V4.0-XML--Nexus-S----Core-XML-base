@@ -5,7 +5,6 @@
         <item>All programs</item>
     </string-array>
     <string-array name="system_package_label">
-        <item>Gallery</item>
         <item>Browser</item>
         <item>File Explorer</item>
     </string-array>
@@ -18,7 +17,9 @@
         <item>WLAN settings</item>
         <item>Desktop layout</item>
         <item>Alarm settings</item>
+        <item>Notes</item>
         <item>DND</item>
+        <item>Account</item>
     </string-array>
     <string-array name="app_type_desc">
         <item>Data</item>
@@ -30,10 +31,12 @@
         <item>Call log</item>
         <item>Messages</item>
         <item>WLAN settings</item>
+        <item>Notes</item>
     </string-array>
     <string-array name="cloud_account_data">
         <item>Contacts</item>
         <item>WLAN settings</item>
+        <item>Notes</item>
     </string-array>
     <string-array name="cloud_sim_data">
         <item>Call logs</item>

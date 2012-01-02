@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="APKTOOL_DUMMY_05f4">false</string>
+  <string name="APKTOOL_DUMMY_05f5">false</string>
+  <string name="APKTOOL_DUMMY_05f6">false</string>
   <string name="about_settings">About phone</string>
   <string name="about_settings_summary">View legal info, status, software version</string>
   <string name="accelerometer_summary_off">Switch orientation automatically when rotating phone</string>
@@ -29,6 +32,7 @@
   <string name="accessibility_services_title">Services</string>
   <string name="accessibility_settings">Accessibility</string>
   <string name="accessibility_settings_title">Accessibility settings</string>
+  <string name="accessibility_speak_password_title">Audible passwords</string>
   <string name="accessibility_sync_disabled">Sync disabled</string>
   <string name="accessibility_sync_enabled">Sync enabled</string>
   <string name="accessibility_sync_error">Sync error.</string>
@@ -66,6 +70,9 @@
   <string name="add_account_label">Add account</string>
   <string name="add_device_admin">Activate</string>
   <string name="add_device_admin_msg">Activate device administrator?</string>
+  <string name="additional_system_update" />
+  <string name="additional_system_update_menu" />
+  <string name="additional_system_update_settings_list_item_title">Additional system updates</string>
   <string name="advanced_settings">Advanced settings</string>
   <string name="advanced_settings_summary">Enable more settings options</string>
   <string name="airplane_mode">Airplane mode</string>
@@ -234,6 +241,7 @@ Just bring the devices together (typically back to back) and then touch your scr
   <string name="battery_sugg_radio">Switch to airplane mode to save power in areas with no cell coverage</string>
   <string name="battery_sugg_wifi">"Turn off Wi-Fi when not using it or when it isn't available"</string>
   <string name="bearer">Bearer</string>
+  <string name="biometric_weak_improve_matching_title">Calibrate face matching</string>
   <string name="bluetooth">Bluetooth</string>
   <string name="bluetooth_a2dp_profile_summary_connected">Connected to media audio</string>
   <string name="bluetooth_a2dp_profile_summary_use_for">Use for media audio</string>
@@ -301,8 +309,8 @@ Just bring the devices together (typically back to back) and then touch your scr
   <string name="bluetooth_incoming_pairing_msg">From:&lt;br&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;br&gt;&lt;br&gt;Pair with this device?</string>
   <string name="bluetooth_is_discoverable">Visible to all nearby Bluetooth devices (%1$s)</string>
   <string name="bluetooth_is_discoverable_always">Visible to all nearby Bluetooth devices</string>
-  <string name="bluetooth_lock_voice_dialing">Lock voice dialling</string>
-  <string name="bluetooth_lock_voice_dialing_summary">Prevent use of the bluetooth dialler when the screen is locked</string>
+  <string name="bluetooth_lock_voice_dialing">Lock voice dialing</string>
+  <string name="bluetooth_lock_voice_dialing_summary">Prevent use of the bluetooth dialer when the screen is locked</string>
   <string name="bluetooth_menu_advanced">Advanced</string>
   <string name="bluetooth_name_not_set">No name set, using account name</string>
   <string name="bluetooth_no_devices_found">No nearby Bluetooth devices were found.</string>
@@ -574,13 +582,6 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="dock_sounds_enable_summary_on">Play sound when inserting or removing phone from dock</string>
   <string name="dock_sounds_enable_title">Dock insert sound</string>
   <string name="does_not_exist">"App doesn't exist."</string>
-  <string name="dream_component_title">Selected dream</string>
-  <string name="dream_settings_summary">Screen savers and other idle diversions</string>
-  <string name="dream_settings_title">Android Dreams</string>
-  <string name="dream_test">Try it!</string>
-  <string name="dream_timeout_summary">After %1$s spent idle</string>
-  <string name="dream_timeout_title">When to activate</string>
-  <string name="dream_timeout_zero_summary">Never</string>
   <string name="dtmf_tone_enable_title">Dial pad touch tones</string>
   <string name="emergency_tone_summary">Set behaviour when an emergency call is placed</string>
   <string name="emergency_tone_title">Emergency tone</string>
@@ -1015,6 +1016,15 @@ To clear music, pictures, and other user data, the "</string>
   <string name="screen_compatibility_text">This app may not be designed for your screen. You can control how it adjusts to your screen here.</string>
   <string name="screen_timeout">Sleep</string>
   <string name="screen_timeout_summary">After %1$s of inactivity</string>
+  <string name="screensaver_activate_on_dock_title">Also start when docked</string>
+  <string name="screensaver_component_title">Selected candy</string>
+  <string name="screensaver_settings_summary_off">Disabled</string>
+  <string name="screensaver_settings_summary_on">Will start upon sleep if connected to power</string>
+  <string name="screensaver_settings_title">Screen Candy</string>
+  <string name="screensaver_test">Try it!</string>
+  <string name="screensaver_timeout_summary">After %1$s spent idle</string>
+  <string name="screensaver_timeout_title">When to activate</string>
+  <string name="screensaver_timeout_zero_summary">Never</string>
   <string name="sd_card_settings_label">USB storage</string>
   <string name="sd_card_storage">USB storage</string>
   <string name="sd_eject">Unmount shared storage</string>
@@ -1150,6 +1160,7 @@ Possibly incorrect PIN."</string>
   <string name="status_unavailable">Unavailable</string>
   <string name="status_up_time">Up time</string>
   <string name="status_wifi_mac_address">Wi-Fi MAC address</string>
+  <string name="status_wimax_mac_address">4G MAC address</string>
   <string name="storage_label">Storage</string>
   <string name="storage_menu_usb">USB computer connection</string>
   <string name="storage_settings">Storage</string>
@@ -1174,13 +1185,10 @@ Possibly incorrect PIN."</string>
   <string name="sync_item_title">Sync %s</string>
   <string name="sync_menu_sync_cancel">Cancel sync</string>
   <string name="sync_menu_sync_now">Sync now</string>
-  <string name="sync_one_time_sync">"Touch to sync now
-%1$s"</string>
+  <string name="sync_one_time_sync">"Touch to sync now %1$s"</string>
   <string name="sync_plug" />
   <string name="sync_settings">Accounts &amp; sync</string>
   <string name="system_package">"System updates can't be installed on external media."</string>
-  <string name="system_tutorial_list_item_summary">Learn how to use your phone</string>
-  <string name="system_tutorial_list_item_title">System tutorial</string>
   <string name="system_update_settings_list_item_summary" />
   <string name="system_update_settings_list_item_title">System updates</string>
   <string name="terms_title">Terms and conditions</string>
@@ -1350,6 +1358,7 @@ Possibly incorrect PIN."</string>
   <string name="vpn_ipsec_ca_cert">IPSec CA certificate</string>
   <string name="vpn_ipsec_identifier">IPSec identifier</string>
   <string name="vpn_ipsec_secret">IPSec pre-shared key</string>
+  <string name="vpn_ipsec_server_cert">IPSec server certificate</string>
   <string name="vpn_ipsec_user_cert">IPSec user certificate</string>
   <string name="vpn_l2tp_secret">L2TP secret</string>
   <string name="vpn_menu_delete">Delete network</string>
@@ -1357,6 +1366,7 @@ Possibly incorrect PIN."</string>
   <string name="vpn_mppe">PPP encryption (MPPE)</string>
   <string name="vpn_name">Name</string>
   <string name="vpn_no_ca_cert">"(don't verify server)"</string>
+  <string name="vpn_no_server_cert">(received from server)</string>
   <string name="vpn_not_used">(not used)</string>
   <string name="vpn_password">Password</string>
   <string name="vpn_routes">Forwarding routes (e.g. 10.0.0.0/8)</string>
@@ -1527,6 +1537,8 @@ Possibly incorrect PIN."</string>
   <string name="wifi_wps_pin">Type PIN from access point</string>
   <string name="wifi_wps_pin_output">Type the PIN %1$s on the access point</string>
   <string name="wifi_wps_setup_title">WPS setup</string>
+  <string name="wimax_settings">4G settings</string>
+  <string name="wimax_settings_summary">Set up &amp; manage 4G network and modem</string>
   <string name="window_animation_scale_title">Window animation scale</string>
   <string name="wireless_networks_settings_title">Wireless &amp; networks</string>
   <string name="xiaomi_account">Xiaomi Account</string>

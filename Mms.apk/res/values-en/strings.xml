@@ -11,7 +11,7 @@
   <string name="add_phrase">Phrase</string>
   <string name="add_picture">Add picture</string>
   <string name="add_slide">Add slide</string>
-  <string name="add_slide_hint">Select to create new slide.</string>
+  <string name="add_slide_hint">Touch to create new slide.</string>
   <string name="add_smiley">Smiley</string>
   <string name="add_subject">Add subject</string>
   <string name="add_video">Add video</string>
@@ -93,7 +93,8 @@
   <string name="delete_unlocked">Delete locked messages</string>
   <string name="delivery_header_title">Report</string>
   <string name="delivery_report_activity">Delivery report</string>
-  <string name="delivery_toast_body">Message received by %s</string>
+  <string name="delivery_toast_body">Message received by %s.</string>
+  <string name="disable_notifications_dialog_message">Stop duplicate text message notifications from default Messaging app?</string>
   <string name="discard">Discard</string>
   <string name="discard_message">Discard</string>
   <string name="discard_message_reason">Your message will be discarded because it has no valid recipients.</string>
@@ -326,7 +327,7 @@
   <string name="saved_ringtone_fail">Saving ringtone failed</string>
   <string name="search">Messaging</string>
   <string name="search_empty">No matches</string>
-  <string name="search_hint">Search Messaging</string>
+  <string name="search_hint">Search messages</string>
   <string name="search_history">%1$s results for \"%2$s\"</string>
   <string name="search_label">Messaging</string>
   <string name="search_setting_description">Text in your messages</string>
@@ -372,7 +373,7 @@
   <string name="status_rejected">Rejected</string>
   <string name="status_unread">Unread</string>
   <string name="storage_limits_activity">Storage limits</string>
-  <string name="storage_limits_message">Do you want to limit the number of messages you save per conversation?</string>
+  <string name="storage_limits_message">Limit the number of messages you save per conversation?</string>
   <string name="storage_limits_setting">Set limits</string>
   <string name="storage_limits_setting_dismiss">No limits</string>
   <string name="storage_limits_title">Limit messages</string>

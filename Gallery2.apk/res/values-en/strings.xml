@@ -22,7 +22,7 @@
   <string name="crop_action">Crop</string>
   <string name="crop_label">Crop picture</string>
   <string name="crop_not_saved">"Cropped image wasn't saved."</string>
-  <string name="crop_save_text">OK</string>
+  <string name="crop_save_text">Crop</string>
   <string name="crop_saved">Cropped image saved to Downloads.</string>
   <string name="crop_tooltip">Drag markers to crop photo</string>
   <string name="crossprocess">Cross-process</string>
@@ -41,7 +41,7 @@
   <string name="duration">Duration</string>
   <string name="edit">Edit</string>
   <string name="edited_photo_bucket_name">Edited</string>
-  <string name="empty_album">No images/videos available.</string>
+  <string name="empty_album">O images/videos available.</string>
   <string name="exposure_time">Exposure time</string>
   <string name="facelift">Face Glow</string>
   <string name="facetan">Face Tan</string>
@@ -163,8 +163,8 @@
   <string name="vignette">Vignette</string>
   <string name="wallpaper">Setting wallpaper…</string>
   <string name="white_balance">White balance</string>
-  <string name="widget_type">Widget type</string>
-  <string name="widget_type_album">Images from an album</string>
+  <string name="widget_type">Choose images</string>
+  <string name="widget_type_album">Choose an album</string>
   <string name="widget_type_photo">Choose an image</string>
   <string name="widget_type_shuffle">Shuffle all images</string>
   <string name="width">Width</string>

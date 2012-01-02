@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="APKTOOL_DUMMY_00b4">false</string>
+  <string name="APKTOOL_DUMMY_00b5">false</string>
   <string name="accessibility_airplane_mode">Airplane mode.</string>
   <string name="accessibility_back">Back</string>
   <string name="accessibility_battery_full">Battery full.</string>
@@ -19,7 +21,7 @@
   <string name="accessibility_data_connection_cdma">CDMA</string>
   <string name="accessibility_data_connection_edge">Edge</string>
   <string name="accessibility_data_connection_gprs">GPRS</string>
-  <string name="accessibility_data_connection_wifi">WiFi</string>
+  <string name="accessibility_data_connection_wifi">Wi-Fi</string>
   <string name="accessibility_data_one_bar">Data one bar.</string>
   <string name="accessibility_data_signal_full">Data signal full.</string>
   <string name="accessibility_data_three_bars">Data three bars.</string>
@@ -33,7 +35,8 @@
   <string name="accessibility_no_data">No data.</string>
   <string name="accessibility_no_phone">No phone.</string>
   <string name="accessibility_no_sim">No SIM.</string>
-  <string name="accessibility_no_wifi">No WiFi.</string>
+  <string name="accessibility_no_wifi">No Wi-Fi.</string>
+  <string name="accessibility_no_wimax">No WiMAX.</string>
   <string name="accessibility_notifications_button">Notifications.</string>
   <string name="accessibility_phone_one_bar">Phone one bar.</string>
   <string name="accessibility_phone_signal_full">Phone signal full.</string>
@@ -46,40 +49,47 @@
   <string name="accessibility_ringer_vibrate">Ringer vibrate.</string>
   <string name="accessibility_settings_button">System settings.</string>
   <string name="accessibility_tty_enabled">TeleTypewriter enabled.</string>
-  <string name="accessibility_wifi_one_bar">WiFi one bar.</string>
+  <string name="accessibility_wifi_one_bar">Wi-Fi one bar.</string>
   <string name="accessibility_wifi_signal_full">WiFi signal full.</string>
-  <string name="accessibility_wifi_three_bars">WiFi three bars.</string>
-  <string name="accessibility_wifi_two_bars">WiFi two bars.</string>
+  <string name="accessibility_wifi_three_bars">Wi-Fi three bars.</string>
+  <string name="accessibility_wifi_two_bars">Wi-Fi two bars.</string>
+  <string name="accessibility_wimax_one_bar">WiMAX one bar.</string>
+  <string name="accessibility_wimax_signal_full">WiMAX signal full.</string>
+  <string name="accessibility_wimax_three_bars">WiMAX three bars.</string>
+  <string name="accessibility_wimax_two_bars">WiMAX two bars.</string>
   <string name="always_use_accessory">Use by default for this USB accessory</string>
   <string name="always_use_device">Use by default for this USB device</string>
   <string name="app_label">System UI</string>
   <string name="battery_indicator_style">Battery indicator style</string>
   <string name="battery_low_percent_format">%d%% remaining</string>
   <string name="battery_low_subtitle">The battery is getting low.</string>
-  <string name="battery_low_title">Please connect charger</string>
+  <string name="battery_low_title">Connect charger</string>
   <string name="battery_low_why">Battery use</string>
   <string name="bluetooth_tethered">Bluetooth tethered</string>
   <string name="call_status_dialing">Dialing</string>
   <string name="compat_mode_help_body">When an app was designed for a smaller screen, a zoom control will appear by the clock.</string>
-  <string name="compat_mode_help_header">Compatibility Zoom</string>
+  <string name="compat_mode_help_header">Compatibility zoom</string>
   <string name="compat_mode_off">Stretch to fill screen</string>
   <string name="compat_mode_on">Zoom to fill screen</string>
   <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
   <string name="config_systemBarComponent">com.android.systemui.statusbar.tablet.TabletStatusBar</string>
-  <string name="data_usage_disabled_dialog">"The specified data usage limit has been reached.
+  <string name="data_usage_disabled_dialog">"You've reached the specified data usage limit.
 
-Additional data use may incur carrier charges."</string>
+If you re-enable data, you may be charged by the operator."</string>
   <string name="data_usage_disabled_dialog_3g_title">2G-3G data disabled</string>
   <string name="data_usage_disabled_dialog_4g_title">4G data disabled</string>
   <string name="data_usage_disabled_dialog_enable">Re-enable data</string>
   <string name="data_usage_disabled_dialog_mobile_title">Mobile data disabled</string>
   <string name="data_usage_disabled_dialog_title">Data disabled</string>
   <string name="dismount_storage">No</string>
+  <string name="expandable_under_fullscreen">expandable under fullscreen</string>
+  <string name="expandable_under_fullscreen_summary">by sliding down from the top of screen</string>
+  <string name="expandable_under_keyguard">expandable under keyguard</string>
+  <string name="expandable_under_keyguard_summary">only work for insecure keyguard</string>
   <string name="gps_notification_found_text">Location set by GPS</string>
   <string name="gps_notification_searching_text">Searching for GPS</string>
   <string name="incoming_call_vibrate_hint">Incoming call</string>
-  <string name="insecure_expand_style">expandable under insecure keyguard</string>
-  <string name="installer_cd_button_title">Install Android File Transfer application for Mac</string>
+  <string name="installer_cd_button_title">Install Android File Transfer app for Mac</string>
   <string name="invalid_charger">"USB charging not supported.
 Use only the supplied charger."</string>
   <string name="label_view">View</string>
@@ -105,7 +115,7 @@ Use only the supplied charger."</string>
   <string name="status_bar_date_format">MMMM d, yyyy</string>
   <string name="status_bar_date_formatter">%2$s</string>
   <string name="status_bar_do_not_disturb_button">Do not disturb</string>
-  <string name="status_bar_input_method_settings_configure_input_methods">Configure input methods</string>
+  <string name="status_bar_input_method_settings_configure_input_methods">Set up input methods</string>
   <string name="status_bar_latest_events_title">Notifications</string>
   <string name="status_bar_network_name_separator">"
 "</string>
@@ -161,10 +171,10 @@ Use only the supplied charger."</string>
   <string name="title_usb_accessory">USB accessory</string>
   <string name="to_vibrate_settings">Vibration Settings</string>
   <string name="usb_accessory_confirm_prompt">Open %1$s when this USB accessory is connected?</string>
-  <string name="usb_accessory_permission_prompt">Allow the application %1$s to access the USB accessory?</string>
-  <string name="usb_accessory_uri_prompt">No installed applications work with this USB accessory. Learn more about this accessory at %1$s</string>
+  <string name="usb_accessory_permission_prompt">Allow the app %1$s to access the USB accessory?</string>
+  <string name="usb_accessory_uri_prompt">No installed apps work with this USB accessory. Learn more about this accessory at %1$s</string>
   <string name="usb_device_confirm_prompt">Open %1$s when this USB device is connected?</string>
-  <string name="usb_device_permission_prompt">Allow the application %1$s to access the USB device?</string>
+  <string name="usb_device_permission_prompt">Allow the app %1$s to access the USB device?</string>
   <string name="usb_mode_dont_ask">"Don't ask next time"</string>
   <string name="usb_mode_mount_storage_title">Open USB storage now？</string>
   <string name="usb_mode_notification">USB Storage</string>
