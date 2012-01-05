@@ -76,7 +76,7 @@
         <item quantity="one">打开可用的 Wi-Fi 网络</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">第 %1%d 项，共 %2%d 项</item>
+        <item quantity="other" formatted="false">第 %1$d 项，共 %2$d 项</item>
         <item quantity="one">1 个匹配项</item>
     </plurals>
 </resources>
