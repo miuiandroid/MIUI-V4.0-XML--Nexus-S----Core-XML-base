@@ -365,4 +365,9 @@ Please reopen this app to refresh resource."</string>
   <string name="white_dews" />
   <string name="winter_begins" />
   <string name="winter_solstice" />
+<string name="first_back_long_press_message">Is open, press the back key to stop the current program.</string>
+<string name="first_back_long_press_title">Back key setting</string>
+<string name="force_exit_message">Stopped \"%1$s\"</string>
+<string name="keyguard_incorrect_pin_with_retry_count">%d times</string>
+<string name="phoneTypeMms">MMS</string>
 </resources>

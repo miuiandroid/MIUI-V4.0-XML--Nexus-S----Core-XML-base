@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="APKTOOL_DUMMY_05f4">false</string>
   <string name="APKTOOL_DUMMY_05f5">false</string>
   <string name="APKTOOL_DUMMY_05f6">false</string>
+  <string name="APKTOOL_DUMMY_05f7">false</string>
   <string name="about_settings">About phone</string>
   <string name="about_settings_summary">View legal info, status, software version</string>
   <string name="accelerometer_summary_off">Switch orientation automatically when rotating phone</string>
@@ -38,9 +38,7 @@
   <string name="accessibility_sync_error">Sync error.</string>
   <string name="accessibility_system_title">System</string>
   <string name="accessibility_toggle_large_text_title">Large text</string>
-  <string name="accessibility_touch_exploration_summary">"When Explore by Touch is turned on, you can hear or see descriptions of what's under your finger.
-
- This feature is for low-vision users."</string>
+  <string name="accessibility_touch_exploration_summary">"When Explore by Touch is turned on, you can hear or see descriptions of what's under your finger. This feature is for low-vision users."</string>
   <string name="accessibility_touch_exploration_title">Explore by touch</string>
   <string name="accessibility_touch_exploration_warning">This feature changes the way your device responds to touch. Turn on?</string>
   <string name="accessibility_tutorial_back">Back</string>
@@ -81,9 +79,7 @@
   <string name="allow_mock_location">Allow mock locations</string>
   <string name="allow_mock_location_summary">Allow mock locations</string>
   <string name="android_beam_disabled_summary">Unavailable because NFC is turned off</string>
-  <string name="android_beam_explained">"When this feature is turned on, you can beam app content to another NFC-capable device by holding the devices close together. For example, you can beam Browser pages, YouTube videos, People contacts, and more.
-
-Just bring the devices together (typically back to back) and then touch your screen. The app determines what gets beamed."</string>
+  <string name="android_beam_explained">"When this feature is turned on, you can beam app content to another NFC-capable device by holding the devices close together. For example, you can beam Browser pages, YouTube videos, People contacts, and more. Just bring the devices together (typically back to back) and then touch your screen. The app determines what gets beamed."</string>
   <string name="android_beam_label">Android Beam</string>
   <string name="android_beam_off_summary">Off</string>
   <string name="android_beam_on_summary">Ready to transmit app content via NFC</string>
@@ -440,9 +436,7 @@ Encryption takes an hour or more. You must start with a charged battery and keep
   <string name="crypt_keeper_encrypt_title">Encrypt phone</string>
   <string name="crypt_keeper_encrypted_summary">Encrypted</string>
   <string name="crypt_keeper_enter_password">Type your password</string>
-  <string name="crypt_keeper_failed_summary">"Encryption was interrupted and can't complete. As a result, the data on your phone is no longer accessible. 
-
-To resume using your phone, you must perform a factory reset. When you set up your phone after the reset, you'll have an opportunity to restore any data that was backed up to your Google Account."</string>
+  <string name="crypt_keeper_failed_summary">"Encryption was interrupted and can't complete. As a result, the data on your phone is no longer accessible. To resume using your phone, you must perform a factory reset. When you set up your phone after the reset, you'll have an opportunity to restore any data that was backed up to your Google Account."</string>
   <string name="crypt_keeper_failed_title">Encryption unsuccessful</string>
   <string name="crypt_keeper_final_desc">Encrypt phone? This operation is irreversible and if you interrupt it, you will lose data. Encryption takes an hour or more, during which the phone will restart several times.</string>
   <string name="crypt_keeper_low_charge_text">Charge your battery and try again.</string>
@@ -458,9 +452,7 @@ To resume using your phone, you must perform a factory reset. When you set up yo
   <string name="data_usage_app_restrict_background">Restrict background data</string>
   <string name="data_usage_app_restrict_background_summary">Disable background data on mobile data network only. Wi-Fi will be used if available.</string>
   <string name="data_usage_app_restrict_background_summary_disabled">To restrict background data for this app, first set a mobile data limit.</string>
-  <string name="data_usage_app_restrict_dialog">"This feature may cause an app that depends on background data to stop working when Wi-Fi isn't available.
-
-You can find more appropriate data usage controls in the settings available within the app."</string>
+  <string name="data_usage_app_restrict_dialog">"This feature may cause an app that depends on background data to stop working when Wi-Fi isn't available. You can find more appropriate data usage controls in the settings available within the app."</string>
   <string name="data_usage_app_restrict_dialog_title">Restrict background data?</string>
   <string name="data_usage_app_settings">View app settings</string>
   <string name="data_usage_change_cycle">Change cycle…</string>
@@ -623,6 +615,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="getConfiguredNetworks">getConfiguredNetworks</string>
   <string name="getConnectionInfo">getConnectionInfo</string>
   <string name="haptic_feedback_enable_title">Vibrate on touch</string>
+  <string name="haptic_feedback_level">Vibration level</string>
   <string name="hardkeyboard_category">Physical keyboard settings</string>
   <string name="hdcp_checking_dialog_title">Set HDCP checking behaviour</string>
   <string name="hdcp_checking_title">HDCP checking</string>
@@ -698,9 +691,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="location_title">My Location</string>
   <string name="lock_after_timeout">Automatically lock</string>
   <string name="lock_after_timeout_summary">%1$s after sleep</string>
-  <string name="lock_intro_message">"Protect your phone from un-authorized use by creating a personal screen unlock pattern. Slide your finger to connect at least four dots in any order on the next screen. 
-
-Ready to start? Touch Next."</string>
+  <string name="lock_intro_message">"Protect your phone from un-authorized use by creating a personal screen unlock pattern. Slide your finger to connect at least four dots in any order on the next screen. Ready to start? Touch Next."</string>
   <string name="lock_settings_picker_title">Select screen lock</string>
   <string name="lock_settings_title">Screen security</string>
   <string name="lock_setup">Setup complete</string>
@@ -771,17 +762,12 @@ Ready to start? Touch Next."</string>
   <string name="manage_space_text">Manage space</string>
   <string name="manageapplications_settings_summary">Manage and remove installed apps</string>
   <string name="manageapplications_settings_title">Manage apps</string>
-  <string name="master_clear_accounts">"
-
-You are currently signed into the following accounts:
-"</string>
+  <string name="master_clear_accounts">"You are currently signed into the following accounts:"</string>
   <string name="master_clear_button_text">Reset phone</string>
   <string name="master_clear_confirm_title">Reset?</string>
   <string name="master_clear_desc">"This will erase all data from your phone's "</string>
   <string name="master_clear_desc_also_erases_external" />
-  <string name="master_clear_desc_erase_external_storage">"
-
-To clear music, pictures, and other user data, the "</string>
+  <string name="master_clear_desc_erase_external_storage">"To clear music, pictures, and other user data, the "</string>
   <string name="master_clear_failed">"No reset was performed because the System Clear service isn't available."</string>
   <string name="master_clear_final_button_text">Erase everything</string>
   <string name="master_clear_final_desc">"Erase all your personal information and downloaded apps? You can't reverse this action!"</string>
@@ -1098,8 +1084,7 @@ To clear music, pictures, and other user data, the "</string>
   <string name="show_touches_summary">Show visual feedback for touches</string>
   <string name="silent_mode_title">Silent mode</string>
   <string name="sim_bad_pin">Incorrect PIN</string>
-  <string name="sim_change_failed">"Can't change PIN.
-Possibly incorrect PIN."</string>
+  <string name="sim_change_failed">"Can't change PIN. Possibly incorrect PIN."</string>
   <string name="sim_change_pin">SIM PIN</string>
   <string name="sim_change_succeeded">SIM PIN changed successfully</string>
   <string name="sim_disable_sim_lock">Unlock SIM card</string>
@@ -1109,8 +1094,7 @@ Possibly incorrect PIN."</string>
   <string name="sim_enter_ok">OK</string>
   <string name="sim_enter_old">Old SIM PIN</string>
   <string name="sim_enter_pin">SIM PIN</string>
-  <string name="sim_lock_failed">"Can't change SIM card lock state.
-Possibly incorrect PIN."</string>
+  <string name="sim_lock_failed">"Can't change SIM card lock state. Possibly incorrect PIN."</string>
   <string name="sim_lock_off">Require PIN to use phone</string>
   <string name="sim_lock_on">Require PIN to use phone</string>
   <string name="sim_lock_settings">SIM card lock settings</string>
@@ -1340,6 +1324,7 @@ Possibly incorrect PIN."</string>
   <string name="verifier_device_identifier_not_available">Device information not available</string>
   <string name="version_text">version %1$s</string>
   <string name="vibrate_in_silent_title">Vibrate when silent</string>
+  <string name="vibrate_on_ring_title">Vibrate and ring</string>
   <string name="voice_category">Speech</string>
   <string name="voice_input_output_settings">Voice input &amp; output</string>
   <string name="voice_input_output_settings_title">Voice input &amp; output settings</string>

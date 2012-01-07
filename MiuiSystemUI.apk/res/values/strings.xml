@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="APKTOOL_DUMMY_00b4">false</string>
-  <string name="APKTOOL_DUMMY_00b5">false</string>
+  <string name="APKTOOL_DUMMY_00b6">false</string>
+  <string name="APKTOOL_DUMMY_00b7">false</string>
   <string name="accessibility_airplane_mode">Airplane mode.</string>
   <string name="accessibility_back">Back</string>
   <string name="accessibility_battery_full">Battery full.</string>
@@ -73,15 +73,15 @@
   <string name="compat_mode_on">Zoom to fill screen</string>
   <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
   <string name="config_systemBarComponent">com.android.systemui.statusbar.tablet.TabletStatusBar</string>
-  <string name="data_usage_disabled_dialog">"You've reached the specified data usage limit.
-
-If you re-enable data, you may be charged by the operator."</string>
+  <string name="data_usage_disabled_dialog">"You've reached the specified data usage limit. If you re-enable data, you may be charged by the operator."</string>
   <string name="data_usage_disabled_dialog_3g_title">2G-3G data disabled</string>
   <string name="data_usage_disabled_dialog_4g_title">4G data disabled</string>
   <string name="data_usage_disabled_dialog_enable">Re-enable data</string>
   <string name="data_usage_disabled_dialog_mobile_title">Mobile data disabled</string>
   <string name="data_usage_disabled_dialog_title">Data disabled</string>
+  <string name="default_usb_mode">Default USB connection type</string>
   <string name="dismount_storage">No</string>
+  <string name="enable_back_long_press">Long-press Back to kill App</string>
   <string name="expandable_under_fullscreen">expandable under fullscreen</string>
   <string name="expandable_under_fullscreen_summary">by sliding down from the top of screen</string>
   <string name="expandable_under_keyguard">expandable under keyguard</string>
@@ -90,8 +90,7 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="gps_notification_searching_text">Searching for GPS</string>
   <string name="incoming_call_vibrate_hint">Incoming call</string>
   <string name="installer_cd_button_title">Install Android File Transfer app for Mac</string>
-  <string name="invalid_charger">"USB charging not supported.
-Use only the supplied charger."</string>
+  <string name="invalid_charger">"USB charging not supported. Use only the supplied charger."</string>
   <string name="label_view">View</string>
   <string name="menu_reset_toggle_settings">Reset toggles</string>
   <string name="mms_vibrate_hint">Message</string>

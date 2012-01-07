@@ -246,4 +246,9 @@
         <item>超时</item>
         <item>失败</item>
     </string-array>
+    <string-array name="haptic_feedback_level_entries">
+        <item>较弱</item>
+        <item>适中</item>
+        <item>较强</item>
+    </string-array>
 </resources>

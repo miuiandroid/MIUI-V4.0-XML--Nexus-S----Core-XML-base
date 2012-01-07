@@ -607,6 +607,7 @@
   <string name="gadget_toggle_bluetooth">正在更新蓝牙设置</string>
   <string name="gadget_toggle_wifi">正在更新 Wi-Fi 设置</string>
   <string name="haptic_feedback_enable_title">触摸时振动</string>
+  <string name="haptic_feedback_level">振动强度</string>
   <string name="hardkeyboard_category">物理键盘设置</string>
   <string name="hdcp_checking_dialog_title">设置 HDCP 检查行为</string>
   <string name="hdcp_checking_title">HDCP 检查</string>
@@ -674,9 +675,7 @@
   <string name="location_title">我的位置</string>
   <string name="lock_after_timeout">自动锁定</string>
   <string name="lock_after_timeout_summary">休眠 %1$s后</string>
-  <string name="lock_intro_message">"创建个人屏幕解锁图案可防止他人未经许可使用您的手机。在下一屏幕上滑动手指以任意顺序连接至少四个点。
-
-准备好开始了吗？请触摸“下一步”。"</string>
+  <string name="lock_intro_message">"创建个人屏幕解锁图案可防止他人未经许可使用您的手机。在下一屏幕上滑动手指以任意顺序连接至少四个点。 准备好开始了吗？请触摸“下一步”。"</string>
   <string name="lock_settings_picker_title">选择屏幕锁定</string>
   <string name="lock_settings_title">屏幕安全保护</string>
   <string name="lock_setup">设置已完成</string>
@@ -744,17 +743,12 @@
   <string name="manage_space_text">管理空间</string>
   <string name="manageapplications_settings_summary">管理和删除已安装的应用程序</string>
   <string name="manageapplications_settings_title">管理应用程序</string>
-  <string name="master_clear_accounts">"
-
-目前，您已登录以下帐户：
-"</string>
+  <string name="master_clear_accounts">"目前，您已登录以下帐户："</string>
   <string name="master_clear_button_text">重置手机</string>
   <string name="master_clear_confirm_title">要重置吗？</string>
   <string name="master_clear_desc">此操作会清除您手机</string>
   <string name="master_clear_desc_also_erases_external" />
-  <string name="master_clear_desc_erase_external_storage">"
-
-要清除音乐、照片和其他用户数据，请清空该 "</string>
+  <string name="master_clear_desc_erase_external_storage">"要清除音乐、照片和其他用户数据，请清空该 "</string>
   <string name="master_clear_failed">“系统清除”服务不可用，因此未执行重置操作。</string>
   <string name="master_clear_final_button_text">清除全部内容</string>
   <string name="master_clear_final_desc">要清除所有个人信息和下载的应用程序吗？请注意，此操作无法撤消！</string>
@@ -1064,8 +1058,7 @@
   <string name="show_touches_summary">为触摸操作提供视觉提示</string>
   <string name="silent_mode_title">静音模式</string>
   <string name="sim_bad_pin">PIN 不正确</string>
-  <string name="sim_change_failed">"无法更改 PIN。
-PIN 可能不正确。"</string>
+  <string name="sim_change_failed">"无法更改 PIN。PIN 可能不正确。"</string>
   <string name="sim_change_pin">SIM 卡 PIN</string>
   <string name="sim_change_succeeded">已成功更改 SIM 卡 PIN</string>
   <string name="sim_disable_sim_lock">解锁 SIM 卡</string>
@@ -1075,8 +1068,7 @@ PIN 可能不正确。"</string>
   <string name="sim_enter_ok">确定</string>
   <string name="sim_enter_old">旧 SIM 卡 PIN</string>
   <string name="sim_enter_pin">SIM 卡 PIN</string>
-  <string name="sim_lock_failed">"无法更改 SIM 卡锁定状态。
-PIN 可能不正确。"</string>
+  <string name="sim_lock_failed">"无法更改 SIM 卡锁定状态。PIN 可能不正确。"</string>
   <string name="sim_lock_off">需要输入 PIN 才能使用手机</string>
   <string name="sim_lock_on">需要输入 PIN 才能使用手机</string>
   <string name="sim_lock_settings">SIM 卡锁定设置</string>
@@ -1102,7 +1094,7 @@ PIN 可能不正确。"</string>
   <string name="sound_category_notification_title">通知</string>
   <string name="sound_category_sound_title">常规</string>
   <string name="sound_effects_enable_title">触摸提示音</string>
-  <string name="sound_settings">声音</string>
+  <string name="sound_settings">声音和振动</string>
   <string name="spellchecker_security_warning">此拼写检查工具可能会收集您键入的所有文字，包括密码和信用卡号等个人数据。它源自应用程序“%1$s”。要使用此拼写检查工具吗？</string>
   <string name="spellcheckers_settings_title">拼写更正</string>
   <string name="status_awake_time">唤醒时间</string>
@@ -1146,8 +1138,7 @@ PIN 可能不正确。"</string>
   <string name="sync_item_title">同步%s</string>
   <string name="sync_menu_sync_cancel">取消同步</string>
   <string name="sync_menu_sync_now">立即同步</string>
-  <string name="sync_one_time_sync">"触摸可立即同步（
-%1$s）"</string>
+  <string name="sync_one_time_sync">"触摸可立即同步（%1$s）"</string>
   <string name="sync_plug" />
   <string name="sync_settings">帐户与同步</string>
   <string name="system_package">无法在外部介质上安装系统更新。</string>

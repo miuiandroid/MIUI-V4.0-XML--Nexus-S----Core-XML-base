@@ -14,6 +14,7 @@
   <string name="add_slide_hint">Touch to create new slide.</string>
   <string name="add_smiley">Smiley</string>
   <string name="add_subject">Add subject</string>
+  <string name="add_timing">Timing</string>
   <string name="add_video">Add video</string>
   <string name="adding_attachments">Please wait while the items are added to the slideshow.</string>
   <string name="adding_attachments_title">Adding attachments</string>
@@ -84,6 +85,7 @@
   <string name="copy_to_sdcard_fail">Unable to save attachment</string>
   <string name="copy_to_sdcard_success">Attachment saved</string>
   <string name="database_corruption">Database corrupted, recreating database</string>
+  <string name="date_timed_message_dialog">Date:</string>
   <string name="delete">Delete</string>
   <string name="delete_bookmark">Remove from Favorites</string>
   <string name="delete_message">Delete</string>
@@ -99,7 +101,7 @@
   <string name="discard_message">Discard</string>
   <string name="discard_message_reason">Your message will be discarded because it has no valid recipients.</string>
   <string name="discard_slideshow">Discard slideshow</string>
-  <string name="dl_failure_notification">Download of message %1$s from %2$s was unsuccessful.</string>
+  <string name="dl_failure_notification" formatted="false">Download of message %1$s from %2$s was unsuccessful.</string>
   <string name="done">Done</string>
   <string name="download">Download</string>
   <string name="download_later">Currently unable to download. Please try again later.</string>
@@ -120,9 +122,10 @@
   <string name="error_code_label">"Error code: "</string>
   <string name="error_state">Inconsistent state</string>
   <string name="error_state_text">The state of threads and recipients is inconsistent. Please capture a bug report and report it via http://go/droidanizer</string>
+  <string name="error_timed_msg">Cannot schedule a time before now</string>
   <string name="exceed_message_size_limitation">Message size limit reached.</string>
   <string name="exit_edit_mode">Cancel</string>
-  <string name="expire_on">Expires: %s</string>
+  <string name="expire_on" formatted="false">Expires: %s</string>
   <string name="failed_to_add_media">Sorry, you cannot add this %1$s to your message.</string>
   <string name="failed_to_resize_image">Picture not resized.</string>
   <string name="fdn_check_failure">You can only send messages to your fixed dialling numbers.</string>
@@ -132,18 +135,18 @@
   <string name="festival_sms_push">Recommended</string>
   <string name="festival_sms_sdcard_unready">SD card not ready</string>
   <string name="fetion_prefix">[Fetion]</string>
-  <string name="flatshow_page_no">%1$d</string>
+  <string name="flatshow_page_no" formatted="false">%1$d</string>
   <string name="forward_prefix">"Fwd: "</string>
   <string name="from_label">"From: "</string>
   <string name="full_phrase">The number of phrases you have entered has exceeded 50.</string>
   <string name="group_message_failed_title">Failed sending to %d contacts, retry?</string>
-  <string name="group_resend_message">Resend(%d)</string>
+  <string name="group_resend_message" formatted="false">Resend (%d)</string>
   <string name="guild_add_attachments">Click here to add attachments or smily for the message</string>
   <string name="guild_add_recipients">Click here to add recipients in address book</string>
   <string name="has_draft">Draft</string>
-  <string name="has_invalid_recipient">Invalid recipient(s): %1$s</string>
+  <string name="has_invalid_recipient" formatted="false">Invalid recipient(s): %1$s</string>
   <string name="hidden_sender_address">Hidden sender address</string>
-  <string name="inline_subject">Subject: %s</string>
+  <string name="inline_subject" formatted="false">Subject: %s</string>
   <string name="insufficient_drm_rights">Insufficient DRM rights detected.</string>
   <string name="invalid_destination">Invalid destination address.</string>
   <string name="invalid_recipient_message">Please correct the recipient(s) or they will not receive the message.</string>
@@ -153,10 +156,10 @@
   <string name="layout_top">Layout (top)</string>
   <string name="loading_contacts">Loading contacts...</string>
   <string name="me">Me</string>
-  <string name="menu_add_address_to_contacts">Add %s to Contacts</string>
+  <string name="menu_add_address_to_contacts" formatted="false">Add %s to Contacts</string>
   <string name="menu_add_to_contacts">Add to Contacts</string>
   <string name="menu_call">Call</string>
-  <string name="menu_call_back">Call %s</string>
+  <string name="menu_call_back" formatted="false">Call %s</string>
   <string name="menu_compose_new">Compose</string>
   <string name="menu_debug_dump">DEBUG DUMP</string>
   <string name="menu_delete">Delete thread</string>
@@ -169,6 +172,7 @@
   <string name="menu_preferences">Settings</string>
   <string name="menu_search">Search</string>
   <string name="menu_send_email">Send email to %s</string>
+  <string name="menu_timed_message">Timed Message</string>
   <string name="menu_unlock">Unlock</string>
   <string name="menu_view">View thread</string>
   <string name="menu_view_contact">View contact</string>
@@ -188,7 +192,6 @@
   <string name="message_send_failed_title">Message not sent</string>
   <string name="message_send_read_report">A read report will be sent.</string>
   <string name="message_size_label">"Message size: "</string>
-  <string name="message_title">%1$s %2$s</string>
   <string name="message_too_big_for_audio">The message is too big to attach a audio.</string>
   <string name="message_too_big_for_video">The message is too big to attach a video.</string>
   <string name="message_type_label">"Type: "</string>
@@ -198,7 +201,9 @@
   <string name="move_down">Move down</string>
   <string name="move_up">Move up</string>
   <string name="multi_select_title_conversation">Selected %1$s thread(s)</string>
+  <string name="multi_select_title_conversation_init">Please select thread(s)</string>
   <string name="multi_select_title_message">Selected %1$s message(s)</string>
+  <string name="multi_select_title_message_init">Please select message(s)</string>
   <string name="multimedia_message">Multimedia message</string>
   <string name="multimedia_notification">Multimedia message notification</string>
   <string name="new_message">New message</string>
@@ -214,7 +219,7 @@
   <string name="nosend_message">"Don't send"</string>
   <string name="notification_failed_multiple">%s messages could not be sent.</string>
   <string name="notification_failed_multiple_title">Messages not sent</string>
-  <string name="notification_multiple">%s unread messages.</string>
+  <string name="notification_multiple" formatted="false">%s unread messages.</string>
   <string name="notification_multiple_title">New messages</string>
   <string name="open_keyboard_to_compose_message">Open keyboard to type message</string>
   <string name="phrase_confirm_delete_message">The selected phrase will be deleted</string>
@@ -307,6 +312,8 @@
   <string name="recent_contact_list_title">Recent</string>
   <string name="recipient_editor_count_format">%d</string>
   <string name="recipient_label">"Recipient: "</string>
+  <string name="refresh">Refresh</string>
+  <string name="refresh_failed">Update failed</string>
   <string name="refreshing">Refreshing…</string>
   <string name="remove">Remove</string>
   <string name="remove_music">Remove music</string>
@@ -381,6 +388,8 @@
   <string name="subject_label">"Subject: "</string>
   <string name="text_in_popup_saved_to_clipboard">The text edited in the popup was saved to clipboard</string>
   <string name="text_message">Text message</string>
+  <string name="time_timed_message_dialog">Time:</string>
+  <string name="title_timed_message_dialog">Please configure the time of this message</string>
   <string name="to_address_label">"To: "</string>
   <string name="to_count">%d in all</string>
   <string name="to_hint">To</string>
@@ -405,5 +414,6 @@
   <string name="view_message_details">View details</string>
   <string name="view_slideshow">View slideshow</string>
   <string name="wap_push_title">"[WAP Push] "</string>
+  <string name="will_send_at">Sending at: %s</string>
   <string name="yes">OK</string>
 </resources>

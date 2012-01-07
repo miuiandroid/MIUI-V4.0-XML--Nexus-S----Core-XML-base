@@ -10,4 +10,14 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+    <string-array name="usb_connection_mode_entries">
+        <item>Ask on connection</item>
+        <item>Charge only</item>
+        <item>Mount SD card</item>
+    </string-array>
+    <string-array name="usb_connection_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

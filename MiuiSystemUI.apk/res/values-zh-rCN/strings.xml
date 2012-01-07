@@ -76,7 +76,9 @@
   <string name="data_usage_disabled_dialog_enable">重新启用数据连接</string>
   <string name="data_usage_disabled_dialog_mobile_title">移动数据已停用</string>
   <string name="data_usage_disabled_dialog_title">数据已停用</string>
+  <string name="default_usb_mode">默认USB连接类型</string>
   <string name="dismount_storage">不打开</string>
+  <string name="enable_back_long_press">长按返回键停止当前程序</string>
   <string name="expandable_under_fullscreen">允许全屏时下拉</string>
   <string name="expandable_under_fullscreen_summary">从屏幕顶部缓慢向下滑屏触发</string>
   <string name="expandable_under_keyguard">允许锁屏时下拉</string>

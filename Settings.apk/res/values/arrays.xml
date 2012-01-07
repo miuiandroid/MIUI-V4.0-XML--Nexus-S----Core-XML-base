@@ -425,6 +425,16 @@
         <item>Timeout</item>
         <item>Unsuccessful</item>
     </string-array>
+    <string-array name="haptic_feedback_level_entries">
+        <item>Weak</item>
+        <item>Medium</item>
+        <item>Strong</item>
+    </string-array>
+    <string-array name="haptic_feedback_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
     <array name="input_method_selector_titles">
         <item>@string/input_method_selector_show_automatically_title</item>
         <item>@string/input_method_selector_always_show_title</item>

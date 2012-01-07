@@ -192,7 +192,6 @@
   <string name="message_send_failed_title">Message not sent</string>
   <string name="message_send_read_report">A read report will be sent.</string>
   <string name="message_size_label">"Message size: "</string>
-  <string name="message_title">%1$s %2$s</string>
   <string name="message_too_big_for_audio">The message is too big to attach a audio.</string>
   <string name="message_too_big_for_video">The message is too big to attach a video.</string>
   <string name="message_type_label">"Type: "</string>
@@ -404,8 +403,7 @@
   <string name="type_to_compose_text_enter_to_send">Type message</string>
   <string name="type_to_compose_text_or_leave_blank">Type message, or leave blank</string>
   <string name="type_video">video</string>
-  <string name="undelivered_msg_dialog_body">"Couldn't send this message.
-Attempt made: %s."</string>
+  <string name="undelivered_msg_dialog_body">"Couldn't send this message. Attempt made: %s."</string>
   <string name="undelivered_msg_dialog_title">Undelivered message</string>
   <string name="undelivered_sms_dialog_body">"Couldn't send this message."</string>
   <string name="unknown_sender">Unknown sender</string>

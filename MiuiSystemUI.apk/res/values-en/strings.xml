@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="APKTOOL_DUMMY_00b6">false</string>
+  <string name="APKTOOL_DUMMY_00b7">false</string>
   <string name="accessibility_airplane_mode">Airplane mode.</string>
   <string name="accessibility_back">Back</string>
   <string name="accessibility_battery_full">Battery full.</string>
@@ -19,7 +21,7 @@
   <string name="accessibility_data_connection_cdma">CDMA</string>
   <string name="accessibility_data_connection_edge">Edge</string>
   <string name="accessibility_data_connection_gprs">GPRS</string>
-  <string name="accessibility_data_connection_wifi">WiFi</string>
+  <string name="accessibility_data_connection_wifi">Wi-Fi</string>
   <string name="accessibility_data_one_bar">Data one bar.</string>
   <string name="accessibility_data_signal_full">Data signal full.</string>
   <string name="accessibility_data_three_bars">Data three bars.</string>
@@ -34,7 +36,7 @@
   <string name="accessibility_no_phone">No phone.</string>
   <string name="accessibility_no_sim">No SIM.</string>
   <string name="accessibility_no_wifi">No Wi-Fi.</string>
-  <string name="accessibility_no_wimax">No Wi-MAX.</string>
+  <string name="accessibility_no_wimax">No WiMAX.</string>
   <string name="accessibility_notifications_button">Notifications.</string>
   <string name="accessibility_phone_one_bar">Phone one bar.</string>
   <string name="accessibility_phone_signal_full">Phone signal full.</string>
@@ -47,24 +49,24 @@
   <string name="accessibility_ringer_vibrate">Ringer vibrate.</string>
   <string name="accessibility_settings_button">System settings.</string>
   <string name="accessibility_tty_enabled">TeleTypewriter enabled.</string>
-  <string name="accessibility_wifi_one_bar">WiFi one bar.</string>
+  <string name="accessibility_wifi_one_bar">Wi-Fi one bar.</string>
   <string name="accessibility_wifi_signal_full">WiFi signal full.</string>
   <string name="accessibility_wifi_three_bars">Wi-Fi three bars.</string>
   <string name="accessibility_wifi_two_bars">Wi-Fi two bars.</string>
-  <string name="accessibility_wimax_one_bar">Wi-MAX one bar.</string>
-  <string name="accessibility_wimax_signal_full">Wi-MAX signal full.</string>
-  <string name="accessibility_wimax_three_bars">Wi-MAX three bars.</string>
-  <string name="accessibility_wimax_two_bars">Wi-MAX two bars.</string>
+  <string name="accessibility_wimax_one_bar">WiMAX one bar.</string>
+  <string name="accessibility_wimax_signal_full">WiMAX signal full.</string>
+  <string name="accessibility_wimax_three_bars">WiMAX three bars.</string>
+  <string name="accessibility_wimax_two_bars">WiMAX two bars.</string>
   <string name="always_use_accessory">Use by default for this USB accessory</string>
   <string name="always_use_device">Use by default for this USB device</string>
   <string name="app_label">System UI</string>
   <string name="battery_indicator_style">Battery indicator style</string>
   <string name="battery_low_percent_format">%d%% remaining</string>
   <string name="battery_low_subtitle">The battery is getting low.</string>
-  <string name="battery_low_title">Please connect charger</string>
+  <string name="battery_low_title">Connect charger</string>
   <string name="battery_low_why">Battery use</string>
   <string name="bluetooth_tethered">Bluetooth tethered</string>
-  <string name="call_status_dialing">Dialling</string>
+  <string name="call_status_dialing">Dialing</string>
   <string name="compat_mode_help_body">When an app was designed for a smaller screen, a zoom control will appear by the clock.</string>
   <string name="compat_mode_help_header">Compatibility Zoom</string>
   <string name="compat_mode_off">Stretch to fill screen</string>
@@ -77,7 +79,13 @@
   <string name="data_usage_disabled_dialog_enable">Re-enable data</string>
   <string name="data_usage_disabled_dialog_mobile_title">Mobile data disabled</string>
   <string name="data_usage_disabled_dialog_title">Data disabled</string>
+  <string name="default_usb_mode">Default USB connection type</string>
   <string name="dismount_storage">No</string>
+  <string name="enable_back_long_press">Long-press Back to kill App</string>
+  <string name="expandable_under_fullscreen">expandable under fullscreen</string>
+  <string name="expandable_under_fullscreen_summary">by sliding down from the top of screen</string>
+  <string name="expandable_under_keyguard">expandable under keyguard</string>
+  <string name="expandable_under_keyguard_summary">only work for insecure keyguard</string>
   <string name="gps_notification_found_text">Location set by GPS</string>
   <string name="gps_notification_searching_text">Searching for GPS</string>
   <string name="incoming_call_vibrate_hint">Incoming call</string>
@@ -161,10 +169,10 @@
   <string name="title_usb_accessory">USB accessory</string>
   <string name="to_vibrate_settings">Vibration Settings</string>
   <string name="usb_accessory_confirm_prompt">Open %1$s when this USB accessory is connected?</string>
-  <string name="usb_accessory_permission_prompt">Allow the application %1$s to access the USB accessory?</string>
-  <string name="usb_accessory_uri_prompt">No installed applications work with this USB accessory. Learn more about this accessory at %1$s</string>
+  <string name="usb_accessory_permission_prompt">Allow the app %1$s to access the USB accessory?</string>
+  <string name="usb_accessory_uri_prompt">No installed apps work with this USB accessory. Learn more about this accessory at %1$s</string>
   <string name="usb_device_confirm_prompt">Open %1$s when this USB device is connected?</string>
-  <string name="usb_device_permission_prompt">Allow the application %1$s to access the USB device?</string>
+  <string name="usb_device_permission_prompt">Allow the app %1$s to access the USB device?</string>
   <string name="usb_mode_dont_ask">"Don't ask next time"</string>
   <string name="usb_mode_mount_storage_title">Open USB storage now？</string>
   <string name="usb_mode_notification">USB Storage</string>

@@ -5,4 +5,9 @@
         <item>数字方式</item>
         <item>顶部方式</item>
     </string-array>
+    <string-array name="usb_connection_mode_entries">
+        <item>连接时询问</item>
+        <item>仅充电</item>
+        <item>自动打开存储卡</item>
+    </string-array>
 </resources>

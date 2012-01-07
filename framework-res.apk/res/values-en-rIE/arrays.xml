@@ -359,8 +359,6 @@
         <item>@drawable/list_divider_holo_dark</item>
         <item>@drawable/list_divider_holo_light</item>
         <item>@drawable/list_divider_holo_light</item>
-        <item>@drawable/ic_lockscreen_handle</item>
-        <item>@drawable/ic_lockscreen_outerring</item>
         <item>@drawable/ic_lockscreen_chevron_left</item>
         <item>@drawable/ic_lockscreen_chevron_right</item>
         <item>@drawable/ab_transparent_dark_holo</item>
@@ -570,6 +568,7 @@
     <string-array name="config_tether_wifi_regexs">
         <item>wl0.1</item>
     </string-array>
+    <array name="config_tether_wimax_regexs" />
     <string-array name="config_tether_bluetooth_regexs">
         <item>bnep\\d</item>
     </string-array>
@@ -615,11 +614,11 @@
         <item>10</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">
-        <item>100</item>
-        <item>200</item>
-        <item>400</item>
-        <item>1000</item>
-        <item>3000</item>
+        <item>7</item>
+        <item>94</item>
+        <item>208</item>
+        <item>458</item>
+        <item>2223</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>10</item>

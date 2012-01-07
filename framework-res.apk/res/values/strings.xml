@@ -28,15 +28,17 @@
   <string name="RestrictedOnVoiceData">Voice/Data services are blocked.</string>
   <string name="RestrictedOnVoiceSms">Voice/SMS services are blocked.</string>
   <string name="RuacMmi">Rejection of undesired annoying calls</string>
+  <string name="SetupCallDefault">Accept Call?</string>
   <string name="ThreeWCMmi">Three way calling</string>
   <string name="VideoView_error_button">OK</string>
   <string name="VideoView_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to this device.</string>
   <string name="VideoView_error_text_unknown">Sorry, this video cannot be played.</string>
   <string name="VideoView_error_title">Cannot play video</string>
-  <string name="abbrev_month">%-b</string>
-  <string name="abbrev_month_day">%b %-e</string>
-  <string name="abbrev_month_day_year">%b %-e, %Y</string>
-  <string name="abbrev_month_year">%b %Y</string>
+  <string name="abbrev_month" formatted="false">%-b</string>
+  <string name="abbrev_month_day" formatted="false">%b %-e</string>
+  <string name="abbrev_month_day_year" formatted="false">%b %-e, %Y</string>
+  <string name="abbrev_month_year" formatted="false">%b %Y</string>
+  <string name="abbrev_wday_month_day_no_year">EEE, MMMM d</string>
   <string name="abbrev_wday_month_day_year">EEE, MMM d, yyyy</string>
   <string name="accessibility_binding_label">Accessibility</string>
   <string name="action_bar_home_description">Navigate home</string>
@@ -52,36 +54,30 @@
   <string name="addToDictionary">add to dictionary</string>
   <string name="add_account_button_label">Add account</string>
   <string name="add_account_label">Add an account</string>
-  <string name="aerr_application">Unfortunately, %1$s has stopped.</string>
-  <string name="aerr_process">Unfortunately, the process %1$s has stopped.</string>
+  <string name="aerr_application" formatted="false">Unfortunately, %1$s has stopped.</string>
+  <string name="aerr_process" formatted="false">Unfortunately, the process %1$s has stopped.</string>
   <string name="aerr_title" />
   <string name="allow">Allow</string>
   <string name="alternate_eri_file">/data/eri.xml</string>
   <string name="alwaysUse">Use by default for this action.</string>
   <string name="am">am</string>
   <string name="android_system_label">Android System</string>
-  <string name="android_upgrading_apk">Optimizing application %1$d of %2$d.</string>
+  <string name="android_upgrading_apk" formatted="false">Optimizing application %1$d of %2$d.</string>
   <string name="android_upgrading_complete">Finishing boot.</string>
   <string name="android_upgrading_starting_apps">Starting applications.</string>
   <string name="android_upgrading_title">Android is upgrading...</string>
-  <string name="anr_activity_application">"%2$s is not responding.
-
-Would you like to close it?"</string>
-  <string name="anr_activity_process">"Activity %1$s is not responding.
-
-Would you like to close it?"</string>
-  <string name="anr_application_process">%1$s is not responding. Would you like to close it?</string>
-  <string name="anr_process">"Process %1$s is not responding.
-
-Would you like to close it?"</string>
+  <string name="anr_activity_application" formatted="false">"%2$s is not responding. Would you like to close it?"</string>
+  <string name="anr_activity_process">"Activity %1$s is not responding. Would you like to close it?"</string>
+  <string name="anr_application_process" formatted="false">%1$s is not responding. Would you like to close it?</string>
+  <string name="anr_process" formatted="false">"Process %1$s is not responding. Would you like to close it?"</string>
   <string name="anr_title" />
   <string name="autofill_address_line_1_label_re">address|adresse|indirizzo|住所|地址</string>
   <string name="autofill_address_line_1_re">address.?line|address1|addr1|street|strasse|straße|hausnummer|housenumber|house.?name|direccion|dirección|adresse|indirizzo|住所1|morada|endereço|Адрес|地址</string>
   <string name="autofill_address_line_2_re">address.?line2|address2|addr2|street|suite|unit|adresszusatz|ergänzende.?angaben|direccion2|colonia|adicional|addresssuppl|complementnom|appartement|indirizzo2|住所2</string>
   <string name="autofill_address_line_3_re">address.?line3|address3|addr3|street|line3|municipio|batiment|residence|indirizzo3</string>
   <string name="autofill_address_name_separator">" "</string>
-  <string name="autofill_address_summary_format">$1$2$3</string>
-  <string name="autofill_address_summary_name_format">$1$2$3</string>
+  <string name="autofill_address_summary_format" formatted="false">$1$2$3</string>
+  <string name="autofill_address_summary_name_format" formatted="false">$1$2$3</string>
   <string name="autofill_address_summary_separator">", "</string>
   <string name="autofill_address_type_same_as_re">same as</string>
   <string name="autofill_address_type_use_my_re">use my</string>
@@ -172,22 +168,26 @@ Would you like to close it?"</string>
   <string name="config_tether_apndata" />
   <string name="config_useragentprofile_url" />
   <string name="config_wifi_p2p_device_type">10-0050F204-5</string>
+  <string name="config_wimaxManagerClassname" />
+  <string name="config_wimaxNativeLibLocation" />
+  <string name="config_wimaxServiceClassname" />
+  <string name="config_wimaxServiceJarLocation" />
+  <string name="config_wimaxStateTrackerClassname" />
   <string name="configure_input_methods">Configure input methods</string>
   <string name="contentServiceSync">Sync</string>
   <string name="contentServiceSyncNotificationTitle">Sync</string>
-  <string name="contentServiceTooManyDeletesNotificationDesc">Too many %s deletes.</string>
+  <string name="contentServiceTooManyDeletesNotificationDesc" formatted="false">Too many %s deletes.</string>
   <string name="content_description_sliding_handle">Sliding handle. Tap and hold.</string>
   <string name="copy">Copy</string>
   <string name="copyUrl">Copy URL</string>
-  <string name="create_contact_using">"Create contact
-using %s"</string>
+  <string name="create_contact_using" formatted="false">"Create contact using %s"</string>
   <string name="cut">Cut</string>
   <string name="data_usage_3g_limit_snoozed_title">2G-3G data limit exceeded</string>
   <string name="data_usage_3g_limit_title">2G-3G data disabled</string>
   <string name="data_usage_4g_limit_snoozed_title">4G data limit exceeded</string>
   <string name="data_usage_4g_limit_title">4G data disabled</string>
   <string name="data_usage_limit_body">Touch to enable</string>
-  <string name="data_usage_limit_snoozed_body">%s over specified limit</string>
+  <string name="data_usage_limit_snoozed_body" formatted="false">%s over specified limit</string>
   <string name="data_usage_mobile_limit_snoozed_title">Mobile data limit exceeded</string>
   <string name="data_usage_mobile_limit_title">Mobile data disabled</string>
   <string name="data_usage_restricted_body">Touch to remove restriction</string>
@@ -196,9 +196,9 @@ using %s"</string>
   <string name="data_usage_warning_title">Data usage warning</string>
   <string name="data_usage_wifi_limit_snoozed_title">Wi-Fi data limit exceeded</string>
   <string name="data_usage_wifi_limit_title">Wi-Fi data disabled</string>
-  <string name="date1_date2">%2$s – %5$s</string>
-  <string name="date1_time1_date2_time2">%2$s, %3$s – %5$s, %6$s</string>
-  <string name="date_and_time">%b %-e, %Y, %-l:%M:%S %p</string>
+  <string name="date1_date2" formatted="false">%2$s – %5$s</string>
+  <string name="date1_time1_date2_time2" formatted="false">%2$s, %3$s – %5$s, %6$s</string>
+  <string name="date_and_time" formatted="false">%b %-e, %Y, %-l:%M:%S %p</string>
   <string name="date_picker_decrement_day_button">Decrement day</string>
   <string name="date_picker_decrement_month_button">Decrement month</string>
   <string name="date_picker_decrement_year_button">Decrement year</string>
@@ -206,7 +206,7 @@ using %s"</string>
   <string name="date_picker_increment_day_button">Increment day</string>
   <string name="date_picker_increment_month_button">Increment month</string>
   <string name="date_picker_increment_year_button">Increment year</string>
-  <string name="date_time">%1$s, %2$s</string>
+  <string name="date_time" formatted="false">%1$s, %2$s</string>
   <string name="date_time_set">Set</string>
   <string name="day">day</string>
   <string name="day_of_week_long_friday">Friday</string>
@@ -242,20 +242,20 @@ using %s"</string>
   <string name="defaultVoiceMailAlphaTag">Voicemail</string>
   <string name="default_permission_group">Default</string>
   <string name="default_text_encoding">Latin-1</string>
-  <string name="default_wallpaper_component">com.android.phasebeam/.PhaseBeamWallpaper</string>
+  <string name="default_wallpaper_component">com.android.wallpaper/.nexus.NexusWallpaper</string>
   <string name="delete">Delete</string>
   <string name="deleteText">delete</string>
   <string name="deny">Deny</string>
-  <string name="description_direction_down">Down for %s.</string>
-  <string name="description_direction_left">Left for %s.</string>
-  <string name="description_direction_right">Right for %s.</string>
-  <string name="description_direction_up">Up for %s.</string>
+  <string name="description_direction_down" formatted="false">Down for %s.</string>
+  <string name="description_direction_left" formatted="false">Left for %s.</string>
+  <string name="description_direction_right" formatted="false">Right for %s.</string>
+  <string name="description_direction_up" formatted="false">Up for %s.</string>
   <string name="description_target_camera">Camera</string>
   <string name="description_target_silent">Silent</string>
   <string name="description_target_soundon">Sound on</string>
   <string name="description_target_unlock">Unlock</string>
-  <string name="dial_number_using">"Dial number
-using %s"</string>
+  <string name="description_target_unlock_tablet">Swipe to unlock.</string>
+  <string name="dial_number_using" formatted="false">"Dial number using %s"</string>
   <string name="dialog_alert_title">Attention</string>
   <string name="dlg_confirm_kill_storage_users_text">If you turn on USB storage, some applications you are using will stop and may be unavailable until you turn off USB storage.</string>
   <string name="dlg_confirm_kill_storage_users_title">Turn on USB storage</string>
@@ -263,8 +263,8 @@ using %s"</string>
   <string name="dlg_ok">OK</string>
   <string name="double_tap_toast">Tip: double-tap to zoom in and out.</string>
   <string name="editTextMenuTitle">Text actions</string>
-  <string name="elapsed_time_short_format_h_mm_ss">%1$d:%2$02d:%3$02d</string>
-  <string name="elapsed_time_short_format_mm_ss">%1$02d:%2$02d</string>
+  <string name="elapsed_time_short_format_h_mm_ss" formatted="false">%1$d:%2$02d:%3$02d</string>
+  <string name="elapsed_time_short_format_mm_ss" formatted="false">%1$02d:%2$02d</string>
   <string name="ellipsis">…</string>
   <string name="ellipsis_two_dots">‥</string>
   <string name="emailTypeCustom">Custom</string>
@@ -304,7 +304,7 @@ using %s"</string>
   <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
   <string name="fcComplete">Feature code complete.</string>
   <string name="fcError">Connection problem or invalid feature code.</string>
-  <string name="fileSizeSuffix">%1$s%2$s</string>
+  <string name="fileSizeSuffix" formatted="false">%1$s%2$s</string>
   <string name="find">Find</string>
   <string name="find_on_page">Find on page</string>
   <string name="fingerprints">Fingerprints:</string>
@@ -322,8 +322,8 @@ using %s"</string>
   <string name="global_actions_airplane_mode_off_status">Airplane mode is OFF</string>
   <string name="global_actions_airplane_mode_on_status">Airplane mode is ON</string>
   <string name="global_actions_toggle_airplane_mode">Airplane mode</string>
-  <string name="gpsNotifMessage">Requested by %1$s (%2$s)</string>
-  <string name="gpsNotifTicker">Location request from %s</string>
+  <string name="gpsNotifMessage" formatted="false">Requested by %1$s (%2$s)</string>
+  <string name="gpsNotifTicker" formatted="false">Location request from %s</string>
   <string name="gpsNotifTitle">Location request</string>
   <string name="gpsVerifNo">No</string>
   <string name="gpsVerifYes">Yes</string>
@@ -331,16 +331,16 @@ using %s"</string>
   <string name="grant_credentials_permission_message_header">The following one or more applications request permission to access your account, now and in the future.</string>
   <string name="grant_permissions_header_text">Access Request</string>
   <string name="gsm_alphabet_default_charset" />
-  <string name="heavy_weight_notification">%1$s running</string>
+  <string name="heavy_weight_notification" formatted="false">%1$s running</string>
   <string name="heavy_weight_notification_detail">Select to switch to application</string>
   <string name="heavy_weight_switcher_text">Another application is already running that must be stopped before you can start a new one.</string>
   <string name="heavy_weight_switcher_title">Switch applications?</string>
   <string name="hour">hour</string>
-  <string name="hour_ampm">%-l%P</string>
-  <string name="hour_cap_ampm">%-l%p</string>
-  <string name="hour_minute_24">%H:%M</string>
-  <string name="hour_minute_ampm">%-l:%M%p</string>
-  <string name="hour_minute_cap_ampm">%-l:%M%^p</string>
+  <string name="hour_ampm" formatted="false">%-l%P</string>
+  <string name="hour_cap_ampm" formatted="false">%-l%p</string>
+  <string name="hour_minute_24" formatted="false">%H:%M</string>
+  <string name="hour_minute_ampm" formatted="false">%-l:%M%p</string>
+  <string name="hour_minute_cap_ampm" formatted="false">%-l:%M%^p</string>
   <string name="hours">hours</string>
   <string name="httpError">A network error occurred.</string>
   <string name="httpErrorAuth">Authentication was unsuccessful.</string>
@@ -386,12 +386,8 @@ using %s"</string>
   <string name="issued_by">Issued by:</string>
   <string name="issued_on">Issued on:</string>
   <string name="issued_to">Issued to:</string>
-  <string name="js_dialog_before_unload">"Navigate away from this page?
-
-%s
-
-Select OK to continue, or Cancel to stay on the current page."</string>
-  <string name="js_dialog_title">"The page at '%s' says:"</string>
+  <string name="js_dialog_before_unload">"Navigate away from this page? %s Select OK to continue, or Cancel to stay on the current page."</string>
+  <string name="js_dialog_title" formatted="false">"The page at '%s' says:"</string>
   <string name="js_dialog_title_default">JavaScript</string>
   <string name="keyboard_headset_required_to_hear_password">Plug in a headset to hear password keys spoken aloud.</string>
   <string name="keyboard_password_character_no_headset">Dot.</string>
@@ -413,8 +409,9 @@ Select OK to continue, or Cancel to stay on the current page."</string>
   <string name="keyguard_password_wrong_pin_code">Incorrect PIN code!</string>
   <string name="kilobyteShort">KB</string>
   <string name="last_month">Last month</string>
-  <string name="launch_warning_original">%1$s was originally launched.</string>
-  <string name="launch_warning_replace">%1$s is now running.</string>
+  <string name="launchBrowserDefault">Launch Browser?</string>
+  <string name="launch_warning_original" formatted="false">%1$s was originally launched.</string>
+  <string name="launch_warning_replace" formatted="false">%1$s is now running.</string>
   <string name="launch_warning_title">Application redirected</string>
   <string name="list_delimeter">", "</string>
   <string name="loading">Loading...</string>
@@ -424,18 +421,15 @@ Select OK to continue, or Cancel to stay on the current page."</string>
   <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
   <string name="lockscreen_access_pattern_detected">Pattern completed</string>
   <string name="lockscreen_access_pattern_start">Pattern started</string>
-  <string name="lockscreen_battery_short">%d%%</string>
+  <string name="lockscreen_battery_short" formatted="false">%d%%</string>
   <string name="lockscreen_carrier_default">No service.</string>
   <string name="lockscreen_charged">Charged.</string>
   <string name="lockscreen_emergency_call">Emergency call</string>
-  <string name="lockscreen_failed_attempts_almost_at_wipe">You have incorrectly attempted to unlock the phone %d times. After %d more unsuccessful attempts, the phone will be reset to factory default and all user data will be lost.</string>
-  <string name="lockscreen_failed_attempts_almost_glogin">"You have incorrectly drawn your unlock pattern %d times. After %d more unsuccessful attempts, you will be asked to unlock your phone using your Google sign-in.
-
- Please try again in %d seconds."</string>
-  <string name="lockscreen_failed_attempts_now_wiping">You have incorrectly attempted to unlock the phone %d times. The phone will now be reset to factory default.</string>
+  <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">You have incorrectly attempted to unlock the phone %d times. After %d more unsuccessful attempts, the phone will be reset to factory default and all user data will be lost.</string>
+  <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"You have incorrectly drawn your unlock pattern %d times. After %d more unsuccessful attempts, you will be asked to unlock your phone using your Google sign-in. Please try again in %d seconds."</string>
+  <string name="lockscreen_failed_attempts_now_wiping" formatted="false">You have incorrectly attempted to unlock the phone %d times. The phone will now be reset to factory default.</string>
   <string name="lockscreen_forgot_pattern_button_text">Forgot pattern?</string>
-  <string name="lockscreen_glogin_account_recovery_hint">"Forgot your username or password?
-Visit "</string>
+  <string name="lockscreen_glogin_account_recovery_hint">"Forgot your username or password? Visit "</string>
   <string name="lockscreen_glogin_checking_password">Checking...</string>
   <string name="lockscreen_glogin_forgot_pattern">Account unlock</string>
   <string name="lockscreen_glogin_instructions">To unlock, sign in with your Google account</string>
@@ -456,9 +450,8 @@ Visit "</string>
   <string name="lockscreen_pattern_correct">Correct!</string>
   <string name="lockscreen_pattern_instructions">Draw pattern to unlock</string>
   <string name="lockscreen_pattern_wrong">Sorry, try again</string>
-  <string name="lockscreen_permanent_disabled_sim_instructions">"Your SIM card is permanently disabled.
- Please contact your wireless service provider to obtain another SIM card."</string>
-  <string name="lockscreen_plugged_in">Charging, %d%%</string>
+  <string name="lockscreen_permanent_disabled_sim_instructions">"Your SIM card is permanently disabled. Please contact your wireless service provider to obtain another SIM card."</string>
+  <string name="lockscreen_plugged_in" formatted="false">Charging, %d%%</string>
   <string name="lockscreen_return_to_call">Return to call</string>
   <string name="lockscreen_screen_locked">Screen locked.</string>
   <string name="lockscreen_sim_locked_message">SIM card is locked.</string>
@@ -467,16 +460,10 @@ Visit "</string>
   <string name="lockscreen_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
   <string name="lockscreen_sound_off_label">Sound off</string>
   <string name="lockscreen_sound_on_label">Sound on</string>
-  <string name="lockscreen_too_many_failed_attempts_countdown">Try again in %d seconds.</string>
-  <string name="lockscreen_too_many_failed_attempts_dialog_message">"You have incorrectly drawn your unlock pattern %d times. 
-
-Please try again in %d seconds."</string>
-  <string name="lockscreen_too_many_failed_password_attempts_dialog_message">"You have incorrectly entered your password %d times. 
-
-Please try again in %d seconds."</string>
-  <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">"You have incorrectly entered your PIN %d times. 
-
-Please try again in %d seconds."</string>
+  <string name="lockscreen_too_many_failed_attempts_countdown" formatted="false">Try again in %d seconds.</string>
+  <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"You have incorrectly drawn your unlock pattern %d times. Please try again in %d seconds."</string>
+  <string name="lockscreen_too_many_failed_password_attempts_dialog_message" formatted="false">"You have incorrectly entered your password %d times. Please try again in %d seconds."</string>
+  <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" formatted="false">"You have incorrectly entered your PIN %d times. Please try again in %d seconds."</string>
   <string name="lockscreen_transport_next_description">Next track button</string>
   <string name="lockscreen_transport_pause_description">Pause button</string>
   <string name="lockscreen_transport_play_description">Play button</string>
@@ -503,9 +490,9 @@ Please try again in %d seconds."</string>
   <string name="mmiComplete">MMI complete.</string>
   <string name="mmiError">Connection problem or invalid MMI code.</string>
   <string name="mmiFdnError">Operation is restricted to fixed dialing numbers only.</string>
-  <string name="month">%-B</string>
-  <string name="month_day">%B %-e</string>
-  <string name="month_day_year">%B %-e, %Y</string>
+  <string name="month" formatted="false">%-B</string>
+  <string name="month_day" formatted="false">%B %-e</string>
+  <string name="month_day_year" formatted="false">%B %-e, %Y</string>
   <string name="month_long_april">April</string>
   <string name="month_long_august">August</string>
   <string name="month_long_december">December</string>
@@ -554,11 +541,11 @@ Please try again in %d seconds."</string>
   <string name="month_shortest_november">N</string>
   <string name="month_shortest_october">O</string>
   <string name="month_shortest_september">S</string>
-  <string name="month_year">%B %Y</string>
+  <string name="month_year" formatted="false">%B %Y</string>
   <string name="more_item_label">More</string>
   <string name="needPuk">Your SIM card is PUK-locked. Type the PUK code to unlock it.</string>
   <string name="needPuk2">Type PUK2 to unblock SIM card.</string>
-  <string name="new_app_action">Start %1$s</string>
+  <string name="new_app_action" formatted="false">Start %1$s</string>
   <string name="new_app_description">Stop the old application without saving.</string>
   <string name="next_button_label">Next</string>
   <string name="no">Cancel</string>
@@ -568,24 +555,24 @@ Please try again in %d seconds."</string>
   <string name="no_permissions">No permissions required</string>
   <string name="no_recent_tasks">No recent applications.</string>
   <string name="noon">noon</string>
-  <string name="notification_title">Sign-in error for %1$s</string>
+  <string name="notification_title" formatted="false">Sign-in error for %1$s</string>
   <string name="number_picker_decrement_button">Decrement</string>
   <string name="number_picker_increment_button">Increment</string>
   <string name="number_picker_increment_scroll_action">Slide up to increment and down to decrement.</string>
-  <string name="number_picker_increment_scroll_mode">%s tap and hold.</string>
-  <string name="numeric_date">%-m/%-e/%Y</string>
-  <string name="numeric_date_format">M/d/yyyy</string>
-  <string name="numeric_date_template">%s/%s/%s</string>
-  <string name="numeric_md1_md2">%2$s/%3$s – %7$s/%8$s</string>
-  <string name="numeric_md1_time1_md2_time2">%2$s/%3$s, %5$s – %7$s/%8$s, %10$s</string>
-  <string name="numeric_mdy1_mdy2">%2$s/%3$s/%4$s – %7$s/%8$s/%9$s</string>
-  <string name="numeric_mdy1_time1_mdy2_time2">%2$s/%3$s/%4$s, %5$s – %7$s/%8$s/%9$s, %10$s</string>
-  <string name="numeric_wday1_md1_time1_wday2_md2_time2">%1$s, %2$s/%3$s, %5$s – %6$s, %7$s/%8$s, %10$s</string>
-  <string name="numeric_wday1_md1_wday2_md2">%1$s, %2$s/%3$s – %6$s, %7$s/%8$s</string>
-  <string name="numeric_wday1_mdy1_time1_wday2_mdy2_time2">%1$s, %2$s/%3$s/%4$s, %5$s – %6$s, %7$s/%8$s/%9$s, %10$s</string>
-  <string name="numeric_wday1_mdy1_wday2_mdy2">%1$s, %2$s/%3$s/%4$s – %6$s, %7$s/%8$s/%9$s</string>
+  <string name="number_picker_increment_scroll_mode" formatted="false">%s tap and hold.</string>
+  <string name="numeric_date" formatted="false">%-m/%-e/%Y</string>
+  <string name="numeric_date_format" formatted="false">M/d/yyyy</string>
+  <string name="numeric_date_template" formatted="false">%s/%s/%s</string>
+  <string name="numeric_md1_md2" formatted="false">%2$s/%3$s – %7$s/%8$s</string>
+  <string name="numeric_md1_time1_md2_time2" formatted="false">%2$s/%3$s, %5$s – %7$s/%8$s, %10$s</string>
+  <string name="numeric_mdy1_mdy2" formatted="false">%2$s/%3$s/%4$s – %7$s/%8$s/%9$s</string>
+  <string name="numeric_mdy1_time1_mdy2_time2" formatted="false">%2$s/%3$s/%4$s, %5$s – %7$s/%8$s/%9$s, %10$s</string>
+  <string name="numeric_wday1_md1_time1_wday2_md2_time2" formatted="false">%1$s, %2$s/%3$s, %5$s – %6$s, %7$s/%8$s, %10$s</string>
+  <string name="numeric_wday1_md1_wday2_md2" formatted="false">%1$s, %2$s/%3$s – %6$s, %7$s/%8$s</string>
+  <string name="numeric_wday1_mdy1_time1_wday2_mdy2_time2" formatted="false">%1$s, %2$s/%3$s/%4$s, %5$s – %6$s, %7$s/%8$s/%9$s, %10$s</string>
+  <string name="numeric_wday1_mdy1_wday2_mdy2" formatted="false">%1$s, %2$s/%3$s/%4$s – %6$s, %7$s/%8$s/%9$s</string>
   <string name="ok">OK</string>
-  <string name="old_app_action">Return to %1$s</string>
+  <string name="old_app_action" formatted="false">Return to %1$s</string>
   <string name="old_app_description">"Don't start the new application."</string>
   <string name="older">Older</string>
   <string name="oneMonthDurationPast">1 month ago</string>
@@ -608,8 +595,10 @@ Please try again in %d seconds."</string>
   <string name="permdesc_accessNetworkState">Allows an application to view the state of all networks.</string>
   <string name="permdesc_accessSurfaceFlinger">Allows application to use SurfaceFlinger low-level features.</string>
   <string name="permdesc_accessWifiState">Allows an application to view the information about the state of Wi-Fi.</string>
+  <string name="permdesc_accessWimaxState">Allows an application to view the information about the state of WiMAX.</string>
   <string name="permdesc_accountManagerService">Allows an application to make calls to AccountAuthenticators</string>
   <string name="permdesc_addVoicemail">Allows the application to add messages to your voicemail inbox.</string>
+  <string name="permdesc_anyCodecForPlayback">Allows an application to use any installed media decoder to decode for playback.</string>
   <string name="permdesc_asec_access">Allows the application to get information on internal storage.</string>
   <string name="permdesc_asec_create">Allows the application to create internal storage.</string>
   <string name="permdesc_asec_destroy">Allows the application to destroy internal storage.</string>
@@ -644,6 +633,7 @@ Please try again in %d seconds."</string>
   <string name="permdesc_changeTetherState">Allows an application to change the state of tethered network connectivity.</string>
   <string name="permdesc_changeWifiMulticastState">Allows an application to receive packets not directly addressed to your device. This can be useful when discovering services offered near by. It uses more power than the non-multicast mode.</string>
   <string name="permdesc_changeWifiState">Allows an application to connect to and disconnect from Wi-Fi access points, and to make changes to configured Wi-Fi networks.</string>
+  <string name="permdesc_changeWimaxState">Allows an application to connect to and disconnect from WiMAX network.</string>
   <string name="permdesc_checkinProperties">Allows read/write access to properties uploaded by the checkin service. Not for use by normal applications.</string>
   <string name="permdesc_clearAppCache">Allows an application to free phone storage by deleting files in application cache directory. Access is very restricted usually to system process.</string>
   <string name="permdesc_clearAppUserData">Allows an application to clear user data.</string>
@@ -778,9 +768,8 @@ Please try again in %d seconds."</string>
   <string name="permgrouplab_storage">Storage</string>
   <string name="permgrouplab_systemTools">System tools</string>
   <string name="permission_request_notification_title">Permission Requested</string>
-  <string name="permission_request_notification_with_subtitle">"Permission Requested
-for account %s"</string>
-  <string name="permissions_format">%1$s, %2$s</string>
+  <string name="permission_request_notification_with_subtitle" formatted="false">"Permission Requested for account %s"</string>
+  <string name="permissions_format" formatted="false">%1$s, %2$s</string>
   <string name="permlab_accessCoarseLocation">coarse (network-based) location</string>
   <string name="permlab_accessFineLocation">fine (GPS) location</string>
   <string name="permlab_accessLocationExtraCommands">access extra location provider commands</string>
@@ -789,8 +778,10 @@ for account %s"</string>
   <string name="permlab_accessNetworkState">view network state</string>
   <string name="permlab_accessSurfaceFlinger">access SurfaceFlinger</string>
   <string name="permlab_accessWifiState">view Wi-Fi state</string>
+  <string name="permlab_accessWimaxState">view WiMAX state</string>
   <string name="permlab_accountManagerService">act as the AccountManagerService</string>
   <string name="permlab_addVoicemail">add voicemail</string>
+  <string name="permlab_anyCodecForPlayback">use any media decoder for playback</string>
   <string name="permlab_asec_access">get information on internal storage</string>
   <string name="permlab_asec_create">create internal storage</string>
   <string name="permlab_asec_destroy">destroy internal storage</string>
@@ -825,6 +816,7 @@ for account %s"</string>
   <string name="permlab_changeTetherState">Change tethered connectivity</string>
   <string name="permlab_changeWifiMulticastState">allow Wi-Fi Multicast reception</string>
   <string name="permlab_changeWifiState">change Wi-Fi state</string>
+  <string name="permlab_changeWimaxState">change WiMAX state</string>
   <string name="permlab_checkinProperties">access checkin properties</string>
   <string name="permlab_clearAppCache">delete all application cache data</string>
   <string name="permlab_clearAppUserData">"delete other applications' data"</string>
@@ -986,9 +978,9 @@ for account %s"</string>
   <string name="power_dialog">Phone options</string>
   <string name="power_off">Power off</string>
   <string name="prepend_shortcut_label">Menu+</string>
-  <string name="preposition_for_date">on %s</string>
-  <string name="preposition_for_time">at %s</string>
-  <string name="preposition_for_year">in %s</string>
+  <string name="preposition_for_date" formatted="false">on %s</string>
+  <string name="preposition_for_time" formatted="false">at %s</string>
+  <string name="preposition_for_year" formatted="false">in %s</string>
   <string name="progress_erasing">Erasing USB storage...</string>
   <string name="progress_unmounting">Unmounting USB storage...</string>
   <string name="radiobutton_not_selected">not selected</string>
@@ -1009,12 +1001,12 @@ for account %s"</string>
   <string name="relationTypeRelative">Relative</string>
   <string name="relationTypeSister">Sister</string>
   <string name="relationTypeSpouse">Spouse</string>
-  <string name="relative_time">%1$s, %2$s</string>
+  <string name="relative_time" formatted="false">%1$s, %2$s</string>
   <string name="replace">Replace…</string>
   <string name="report">Report</string>
   <string name="reset">Reset</string>
   <string name="ringtone_default">Default ringtone</string>
-  <string name="ringtone_default_with_actual">Default ringtone (%1$s)</string>
+  <string name="ringtone_default_with_actual" formatted="false">Default ringtone (%1$s)</string>
   <string name="ringtone_picker_title">Ringtones</string>
   <string name="ringtone_silent">Silent</string>
   <string name="ringtone_unknown">Unknown ringtone</string>
@@ -1033,22 +1025,22 @@ for account %s"</string>
   <string name="roamingText9">Roaming - Full Service Functionality</string>
   <string name="roamingTextSearching">Searching for Service</string>
   <string name="safeMode">Safe mode</string>
-  <string name="same_month_md1_md2">%2$s %3$s – %8$s</string>
-  <string name="same_month_md1_time1_md2_time2">%2$s %3$s, %5$s – %7$s %8$s, %10$s</string>
-  <string name="same_month_mdy1_mdy2">%2$s %3$s – %8$s, %9$s</string>
-  <string name="same_month_mdy1_time1_mdy2_time2">%2$s %3$s, %4$s, %5$s – %7$s %8$s, %9$s, %10$s</string>
-  <string name="same_month_wday1_md1_time1_wday2_md2_time2">%1$s, %2$s %3$s, %5$s – %6$s, %7$s %8$s, %10$s</string>
-  <string name="same_month_wday1_md1_wday2_md2">%1$s, %2$s %3$s – %6$s, %7$s %8$s</string>
-  <string name="same_month_wday1_mdy1_time1_wday2_mdy2_time2">%1$s, %2$s %3$s, %4$s, %5$s – %6$s, %7$s %8$s, %9$s, %10$s</string>
-  <string name="same_month_wday1_mdy1_wday2_mdy2">%1$s, %2$s %3$s, %4$s – %6$s, %7$s %8$s, %9$s</string>
-  <string name="same_year_md1_md2">%2$s %3$s – %7$s %8$s</string>
-  <string name="same_year_md1_time1_md2_time2">%2$s %3$s, %5$s – %7$s %8$s, %10$s</string>
-  <string name="same_year_mdy1_mdy2">%2$s %3$s – %7$s %8$s, %9$s</string>
-  <string name="same_year_mdy1_time1_mdy2_time2">%2$s %3$s, %4$s, %5$s – %7$s %8$s, %9$s, %10$s</string>
-  <string name="same_year_wday1_md1_time1_wday2_md2_time2">%1$s, %2$s %3$s, %5$s – %6$s, %7$s %8$s, %10$s</string>
-  <string name="same_year_wday1_md1_wday2_md2">%1$s, %2$s %3$s – %6$s, %7$s %8$s</string>
-  <string name="same_year_wday1_mdy1_time1_wday2_mdy2_time2">%1$s, %2$s %3$s, %4$s, %5$s – %6$s, %7$s %8$s, %9$s, %10$s</string>
-  <string name="same_year_wday1_mdy1_wday2_mdy2">%1$s, %2$s %3$s – %6$s, %7$s %8$s, %9$s</string>
+  <string name="same_month_md1_md2" formatted="false">%2$s %3$s – %8$s</string>
+  <string name="same_month_md1_time1_md2_time2" formatted="false">%2$s %3$s, %5$s – %7$s %8$s, %10$s</string>
+  <string name="same_month_mdy1_mdy2" formatted="false">%2$s %3$s – %8$s, %9$s</string>
+  <string name="same_month_mdy1_time1_mdy2_time2" formatted="false">%2$s %3$s, %4$s, %5$s – %7$s %8$s, %9$s, %10$s</string>
+  <string name="same_month_wday1_md1_time1_wday2_md2_time2" formatted="false">%1$s, %2$s %3$s, %5$s – %6$s, %7$s %8$s, %10$s</string>
+  <string name="same_month_wday1_md1_wday2_md2" formatted="false">%1$s, %2$s %3$s – %6$s, %7$s %8$s</string>
+  <string name="same_month_wday1_mdy1_time1_wday2_mdy2_time2" formatted="false">%1$s, %2$s %3$s, %4$s, %5$s – %6$s, %7$s %8$s, %9$s, %10$s</string>
+  <string name="same_month_wday1_mdy1_wday2_mdy2" formatted="false">%1$s, %2$s %3$s, %4$s – %6$s, %7$s %8$s, %9$s</string>
+  <string name="same_year_md1_md2" formatted="false">%2$s %3$s – %7$s %8$s</string>
+  <string name="same_year_md1_time1_md2_time2" formatted="false">%2$s %3$s, %5$s – %7$s %8$s, %10$s</string>
+  <string name="same_year_mdy1_mdy2" formatted="false">%2$s %3$s – %7$s %8$s, %9$s</string>
+  <string name="same_year_mdy1_time1_mdy2_time2" formatted="false">%2$s %3$s, %4$s, %5$s – %7$s %8$s, %9$s, %10$s</string>
+  <string name="same_year_wday1_md1_time1_wday2_md2_time2" formatted="false">%1$s, %2$s %3$s, %5$s – %6$s, %7$s %8$s, %10$s</string>
+  <string name="same_year_wday1_md1_wday2_md2" formatted="false">%1$s, %2$s %3$s – %6$s, %7$s %8$s</string>
+  <string name="same_year_wday1_mdy1_time1_wday2_mdy2_time2" formatted="false">%1$s, %2$s %3$s, %4$s, %5$s – %6$s, %7$s %8$s, %9$s, %10$s</string>
+  <string name="same_year_wday1_mdy1_wday2_mdy2" formatted="false">%1$s, %2$s %3$s – %6$s, %7$s %8$s, %9$s</string>
   <string name="save_password_label">Confirm</string>
   <string name="save_password_message">Do you want the browser to remember this password?</string>
   <string name="save_password_never">Never</string>
@@ -1071,6 +1063,7 @@ for account %s"</string>
   <string name="select_character">Insert character</string>
   <string name="select_input_method">Select input method</string>
   <string name="sendText">Select an action for text</string>
+  <string name="sending">Sending...</string>
   <string name="serial_number">Serial number:</string>
   <string name="serviceClassData">Data</string>
   <string name="serviceClassDataAsync">Async</string>
@@ -1092,12 +1085,15 @@ for account %s"</string>
   <string name="share">Share</string>
   <string name="share_action_provider_share_with">Share with...</string>
   <string name="shareactionprovider_share_with">Share with</string>
-  <string name="shareactionprovider_share_with_application">Share with %s</string>
+  <string name="shareactionprovider_share_with_application" formatted="false">Share with %s</string>
   <string name="short_format_month">%b</string>
   <string name="shutdown_confirm">Your phone will shut down.</string>
   <string name="shutdown_confirm_question">Would you like to shut down?</string>
   <string name="shutdown_progress">Shutting down…</string>
   <string name="silent_mode">Silent mode</string>
+  <string name="silent_mode_ring">Ringer on</string>
+  <string name="silent_mode_silent">Ringer off</string>
+  <string name="silent_mode_vibrate">Ringer vibrate</string>
   <string name="sim_added_message">You must restart your device to access the mobile network.</string>
   <string name="sim_added_title">SIM card added</string>
   <string name="sim_done_button">Done</string>
@@ -1114,8 +1110,8 @@ for account %s"</string>
   <string name="sms_control_no">Cancel</string>
   <string name="sms_control_title">Sending SMS messages</string>
   <string name="sms_control_yes">OK</string>
-  <string name="smv_application">The application %1$s (process %2$s) has violated its self-enforced StrictMode policy.</string>
-  <string name="smv_process">The process %1$s has has violated its self-enforced StrictMode policy.</string>
+  <string name="smv_application" formatted="false">The application %1$s (process %2$s) has violated its self-enforced StrictMode policy.</string>
+  <string name="smv_process" formatted="false">The process %1$s has has violated its self-enforced StrictMode policy.</string>
   <string name="ssl_certificate">Security certificate</string>
   <string name="ssl_certificate_is_valid">This certificate is valid.</string>
   <string name="status_bar_device_locked">Device locked.</string>
@@ -1130,7 +1126,7 @@ for account %s"</string>
   <string name="sync_do_nothing">Do nothing for now.</string>
   <string name="sync_really_delete">Delete the items.</string>
   <string name="sync_too_many_deletes">Delete limit exceeded</string>
-  <string name="sync_too_many_deletes_desc">There are %1$d deleted items for %2$s, account %3$s. What would you like to do?</string>
+  <string name="sync_too_many_deletes_desc" formatted="false">There are %1$d deleted items for %2$s, account %3$s. What would you like to do?</string>
   <string name="sync_undo_deletes">Undo the deletes.</string>
   <string name="terabyteShort">TB</string>
   <string name="tethered_notification_message">Touch to configure</string>
@@ -1141,9 +1137,9 @@ for account %s"</string>
   <string name="throttle_warning_notification_title">High mobile data use</string>
   <string name="throttled_notification_message">Touch to learn more about mobile data use</string>
   <string name="throttled_notification_title">Mobile data limit exceeded</string>
-  <string name="time1_time2">%1$s – %2$s</string>
-  <string name="time_date">%1$s, %3$s</string>
-  <string name="time_of_day">%-l:%M:%S %p</string>
+  <string name="time1_time2" formatted="false">%1$s – %2$s</string>
+  <string name="time_date" formatted="false">%1$s, %3$s</string>
+  <string name="time_of_day" formatted="false">%-l:%M:%S %p</string>
   <string name="time_picker_decrement_hour_button">Decrement hour</string>
   <string name="time_picker_decrement_minute_button">Decrement minute</string>
   <string name="time_picker_decrement_set_am_button">Set AM</string>
@@ -1152,8 +1148,8 @@ for account %s"</string>
   <string name="time_picker_increment_minute_button">Increment minute</string>
   <string name="time_picker_increment_set_pm_button">Set PM</string>
   <string name="time_picker_separator">:</string>
-  <string name="time_wday">%1$s, %2$s</string>
-  <string name="time_wday_date">%1$s, %2$s, %3$s</string>
+  <string name="time_wday" formatted="false">%1$s, %2$s</string>
+  <string name="time_wday_date" formatted="false">%1$s, %2$s, %3$s</string>
   <string name="today">Today</string>
   <string name="togglebutton_not_pressed">not pressed</string>
   <string name="togglebutton_pressed">pressed</string>
@@ -1200,27 +1196,29 @@ for account %s"</string>
   <string name="volume_ringtone">Ringer volume</string>
   <string name="volume_unknown">Volume</string>
   <string name="vpn_text">Tap to manage the network.</string>
-  <string name="vpn_text_long">Connected to %s. Tap to manage the network.</string>
+  <string name="vpn_text_long" formatted="false">Connected to %s. Tap to manage the network.</string>
   <string name="vpn_title">VPN is activated.</string>
-  <string name="vpn_title_long">VPN is activated by %s</string>
+  <string name="vpn_title_long" formatted="false">VPN is activated by %s</string>
   <string name="wait">Wait</string>
   <string name="wallpaper_binding_label">Wallpaper</string>
-  <string name="wday1_date1_time1_wday2_date2_time2">%1$s, %2$s, %3$s – %4$s, %5$s, %6$s</string>
-  <string name="wday1_date1_wday2_date2">%1$s, %2$s – %4$s, %5$s</string>
-  <string name="wday_date">%2$s, %3$s</string>
-  <string name="web_user_agent">Mozilla/5.0 (Linux; U; Android %s) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 %sSafari/534.30</string>
+  <string name="wday1_date1_time1_wday2_date2_time2" formatted="false">%1$s, %2$s, %3$s – %4$s, %5$s, %6$s</string>
+  <string name="wday1_date1_wday2_date2" formatted="false">%1$s, %2$s – %4$s, %5$s</string>
+  <string name="wday_date" formatted="false">%2$s, %3$s</string>
+  <string name="web_user_agent" formatted="false">Mozilla/5.0 (Linux; U; Android %s) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 %sSafari/534.30</string>
   <string name="web_user_agent_target_content">"Mobile "</string>
   <string name="websearch">Web Search</string>
   <string name="week">week</string>
   <string name="weeks">weeks</string>
   <string name="whichApplication">Complete action using</string>
+  <string name="wifi_available_sign_in">Sign in to Wi-Fi network</string>
+  <string name="wifi_available_sign_in_detailed" formatted="false">%1$s</string>
   <string name="wifi_p2p_dialog_title">Wi-Fi Direct</string>
   <string name="wifi_p2p_enabled_notification_message">Touch for settings</string>
   <string name="wifi_p2p_enabled_notification_title">Wi-Fi Direct is on</string>
   <string name="wifi_p2p_failed_message">"Couldn't start Wi-Fi Direct"</string>
-  <string name="wifi_p2p_pbc_go_negotiation_request_message">Wi-Fi Direct connection setup request from %1$s. Click OK to accept.</string>
-  <string name="wifi_p2p_pin_display_message">WPS pin %1$s needs to be entered on the peer device %2$s for connection setup to proceed</string>
-  <string name="wifi_p2p_pin_go_negotiation_request_message">Wi-Fi Direct connection setup request from %1$s. Enter pin to proceed.</string>
+  <string name="wifi_p2p_pbc_go_negotiation_request_message" formatted="false">Wi-Fi Direct connection setup request from %1$s. Click OK to accept.</string>
+  <string name="wifi_p2p_pin_display_message" formatted="false">WPS pin %1$s needs to be entered on the peer device %2$s for connection setup to proceed</string>
+  <string name="wifi_p2p_pin_go_negotiation_request_message" formatted="false">Wi-Fi Direct connection setup request from %1$s. Enter pin to proceed.</string>
   <string name="wifi_p2p_turnon_message">Start Wi-Fi Direct operation. This will turn off Wi-Fi client/hotspot operation.</string>
   <string name="wifi_tether_configure_ssid_default">AndroidAP</string>
   <string name="wifi_watchdog_network_disabled">"Couldn't connect to Wi-Fi"</string>

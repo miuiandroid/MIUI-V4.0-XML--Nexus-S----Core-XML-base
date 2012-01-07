@@ -190,7 +190,6 @@
   <string name="message_send_failed_title">信息未发送</string>
   <string name="message_send_read_report">将会发送已读报告。</string>
   <string name="message_size_label">彩信大小：</string>
-  <string name="message_title">%1$s %2$s</string>
   <string name="message_too_big_for_audio">该信息太大，无法附加音频。</string>
   <string name="message_too_big_for_video">该信息太大，无法附加视频。</string>
   <string name="message_type_label">"类型: "</string>
@@ -398,8 +397,7 @@
   <string name="type_to_compose_text_enter_to_send">输入内容</string>
   <string name="type_to_compose_text_or_leave_blank">输入文字或保留空白</string>
   <string name="type_video">视频</string>
-  <string name="undelivered_msg_dialog_body">"无法发送此信息。
-尝试发送的时间：%s。"</string>
+  <string name="undelivered_msg_dialog_body">"无法发送此信息。尝试发送的时间：%s。"</string>
   <string name="undelivered_msg_dialog_title">信息未传送出去</string>
   <string name="undelivered_sms_dialog_body">无法发送此信息。</string>
   <string name="unknown_sender">未知发送者</string>

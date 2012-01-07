@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="APKTOOL_DUMMY_05f4">false</string>
   <string name="APKTOOL_DUMMY_05f5">false</string>
   <string name="APKTOOL_DUMMY_05f6">false</string>
+  <string name="APKTOOL_DUMMY_05f7">false</string>
   <string name="about_settings">About phone</string>
   <string name="about_settings_summary">View legal info, status, software version</string>
   <string name="accelerometer_summary_off">Switch orientation automatically when rotating phone</string>
@@ -623,6 +623,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="getConfiguredNetworks">getConfiguredNetworks</string>
   <string name="getConnectionInfo">getConnectionInfo</string>
   <string name="haptic_feedback_enable_title">Vibrate on touch</string>
+  <string name="haptic_feedback_level">Vibration level</string>
   <string name="hardkeyboard_category">Physical keyboard settings</string>
   <string name="hdcp_checking_dialog_title">Set HDCP checking behavior</string>
   <string name="hdcp_checking_title">HDCP checking</string>
