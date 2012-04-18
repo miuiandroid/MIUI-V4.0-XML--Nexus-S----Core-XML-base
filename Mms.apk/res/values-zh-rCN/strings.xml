@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="loading_conversations">正在载入会话...</string>
   <string name="activity_not_found">找不到打开附件的程序</string>
   <string name="activity_not_found_uri">找不到程序</string>
   <string name="add_attachment">附件</string>
@@ -26,6 +27,7 @@
   <string name="attach_record_video">拍摄</string>
   <string name="attach_slideshow">幻灯片</string>
   <string name="attach_sound">音频</string>
+  <string name="attach_subject">主题</string>
   <string name="attach_take_photo">拍照</string>
   <string name="attach_video">视频</string>
   <string name="batch_delete_confirm_dialog_message">将删除所选的%1$s条信息</string>
@@ -50,11 +52,14 @@
   <string name="check_nothing">取消全选</string>
   <string name="chenghu_disable_mms">编辑彩信时称呼无效</string>
   <string name="class_0_message_activity">0 类信息</string>
+  <string name="close">关闭</string>
   <string name="compressing">图片过大。正在压缩…</string>
   <string name="confirm">确认</string>
   <string name="confirm_clear_search_text">搜索历史记录将被清除。</string>
   <string name="confirm_clear_search_title">清除</string>
+  <string name="confirm_delete_RUIM_message">RUIM 卡上的这条信息会被删除。</string>
   <string name="confirm_delete_SIM_message">SIM 卡上的这条信息会被删除。</string>
+  <string name="confirm_delete_all_RUIM_messages">RUIM 卡上的所有信息都会删除。</string>
   <string name="confirm_delete_all_SIM_messages">SIM 卡上的所有信息都会删除。</string>
   <string name="confirm_delete_all_conversations">将会删除所有会话。</string>
   <string name="confirm_delete_conversation">将会删除选中的会话。</string>
@@ -84,7 +89,6 @@
   <string name="copy_to_sdcard_fail">无法保存附件</string>
   <string name="copy_to_sdcard_success">附件已保存至%1$s目录</string>
   <string name="database_corruption">数据库损坏，正在重建数据库……</string>
-  <string name="date_timed_message_dialog">"日期: "</string>
   <string name="delete">删除</string>
   <string name="delete_bookmark">取消收藏</string>
   <string name="delete_message">删除</string>
@@ -137,6 +141,7 @@
   <string name="forward_prefix">"Fwd: "</string>
   <string name="from_label">"发送者： "</string>
   <string name="full_phrase">您的常用语已经到达50条上限</string>
+  <string name="group_message">群发短信</string>
   <string name="group_message_failed_title">给%d人发送失败,选择并重发?</string>
   <string name="group_resend_message">重发(%d)</string>
   <string name="guild_add_attachments">点此可以给短信插入附件和更多内容</string>
@@ -251,6 +256,7 @@
   <string name="pref_summary_delete_limit">每个会话限 %1$s 条</string>
   <string name="pref_summary_delivery_reports">对方收到短信、彩信后返回报告</string>
   <string name="pref_summary_filter_phone">添加收件人时仅显示手机号码</string>
+  <string name="pref_summary_manage_ruim_messages">管理 RUIM 卡中存储的信息</string>
   <string name="pref_summary_manage_sim_messages">管理 SIM 卡中存储的信息</string>
   <string name="pref_summary_mms_auto_retrieval">自动下载彩信</string>
   <string name="pref_summary_mms_delivery_reports">要求每次发送信息后都返回发送报告</string>
@@ -263,6 +269,7 @@
   <string name="pref_summary_notification_enabled">在状态栏中显示信息通知</string>
   <string name="pref_summary_notification_vibrateWhen">收到通知时还振动提醒</string>
   <string name="pref_summary_ringtone_repeat">收到新信息后响铃/振动的次数，每次间隔5分钟</string>
+  <string name="pref_summary_show_recent_contacts">在写信短信时显示最近联系人列表</string>
   <string name="pref_summary_sms_delivery_reports">要求每次发送信息后都返回发送报告</string>
   <string name="pref_summary_wake_up_screen">收到新信息时点亮屏幕</string>
   <string name="pref_theme_modify">设置主题</string>
@@ -276,6 +283,7 @@
   <string name="pref_title_delivery_reports">送达报告</string>
   <string name="pref_title_delivery_ringtone">送达报告铃声</string>
   <string name="pref_title_filter_phone">过滤固话号码</string>
+  <string name="pref_title_manage_ruim_messages">管理 RUIM 卡中的信息</string>
   <string name="pref_title_manage_sim_messages">管理 SIM 卡中的信息</string>
   <string name="pref_title_mms_auto_retrieval">自动下载</string>
   <string name="pref_title_mms_delete">彩信条数限制</string>
@@ -288,6 +296,7 @@
   <string name="pref_title_notification_ringtone">铃声</string>
   <string name="pref_title_notification_vibrateWhen">振动</string>
   <string name="pref_title_ringtone_repeat">新短信提醒次数</string>
+  <string name="pref_title_show_recent_contacts">显示最近联系人</string>
   <string name="pref_title_sms_delete">短信条数限制</string>
   <string name="pref_title_sms_delivery_reports">发送报告</string>
   <string name="pref_title_wake_up_screen">点亮屏幕</string>
@@ -320,14 +329,18 @@
   <string name="resent_message">重发</string>
   <string name="resize_image_error_information">抱歉，此图片缩小后仍太大，无法发送。</string>
   <string name="restore_default">还原默认设置</string>
+  <string name="ruim_empty">RUIM 卡中无信息。</string>
+  <string name="ruim_full_title">RUIM 卡已满</string>
+  <string name="ruim_manage_messages_title">RUIM 卡上的短信</string>
   <string name="save">保存</string>
   <string name="save_ringtone">另存为铃声</string>
+  <string name="save_to_ruim">保存到ruim卡</string>
   <string name="save_to_sim">保存到sim卡</string>
   <string name="saved_label">"保存时间： "</string>
   <string name="saved_ringtone">铃声已保存</string>
   <string name="saved_ringtone_fail">无法保存铃声</string>
   <string name="search">短信</string>
-  <string name="search_empty">没有匹配项</string>
+  <string name="search_empty">没有搜索结果</string>
   <string name="search_hint">搜索短信</string>
   <string name="search_history">%1$s 项符合“%2$s”的搜索结果</string>
   <string name="search_label">正在传递短信</string>
@@ -382,12 +395,16 @@
   <string name="subject_label">"主题： "</string>
   <string name="text_in_popup_saved_to_clipboard">弹窗中输入的文字已存入剪贴板</string>
   <string name="text_message">短信</string>
-  <string name="time_timed_message_dialog">"时间: "</string>
+  <string name="timed_message_expired_title">您有%d条定时短信没有按时发出。</string>
+  <string name="timed_message_expired_title_2">是否还发送?</string>
+  <string name="timed_message_in_total">等%d人</string>
+  <string name="timed_message_to">给</string>
   <string name="title_timed_message_dialog">请设定短信发送的时间</string>
   <string name="to_address_label">"收信人： "</string>
   <string name="to_count">%d人</string>
   <string name="to_hint">收信人</string>
   <string name="to_label">"收信人 "</string>
+  <string name="to_send_wrapper">将于 %s 发出</string>
   <string name="too_many_attachments">附件数量上限为 %1$s 个。只会添加前 %2$s 个。</string>
   <string name="too_many_recipients">此短信的收件人太多 (%1$s)。收件人数上限为 %2$s 个。</string>
   <string name="too_many_unsent_mms">目前不能发送消息。未发送的彩信过多。</string>
@@ -397,7 +414,8 @@
   <string name="type_to_compose_text_enter_to_send">输入内容</string>
   <string name="type_to_compose_text_or_leave_blank">输入文字或保留空白</string>
   <string name="type_video">视频</string>
-  <string name="undelivered_msg_dialog_body">"无法发送此信息。尝试发送的时间：%s。"</string>
+  <string name="undelivered_msg_dialog_body">"无法发送此信息。
+尝试发送的时间：%s。"</string>
   <string name="undelivered_msg_dialog_title">信息未传送出去</string>
   <string name="undelivered_sms_dialog_body">无法发送此信息。</string>
   <string name="unknown_sender">未知发送者</string>

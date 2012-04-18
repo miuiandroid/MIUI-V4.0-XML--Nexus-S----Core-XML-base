@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="all_apps">All Applications</string>
+  <string name="app_detail">Application Details</string>
+  <string name="app_detail_control">Data control</string>
+  <string name="app_name">Monitor</string>
+  <string name="apply_rules_failed">Failed to apply firewall rules, please try again</string>
+  <string name="apply_rules_failed_known">Unknown</string>
+  <string name="auto_turn_off_mobile">Turn off automatically</string>
+  <string name="data_usage_app_restrict_dialog">Incase there is no Wi-Fi connectivity, this feature may lead to application background data being unable to run.</string>
+  <string name="data_usage_cycle_editor_positive">OK</string>
+  <string name="data_usage_cycle_editor_subtitle">Date:\u0020</string>
+  <string name="data_usage_label_background">Background: %s</string>
+  <string name="data_usage_label_foreground">Foreground: %s</string>
+  <string name="data_usage_restrict_background">Limit background data</string>
+  <string name="data_usage_restrict_background_help">To limit this applications background data usage, please set the mobile data threshold limit.</string>
+  <string name="data_usage_restrict_background_summary">If you limit the background data, services will not run unless you are connected to a Wi-Fi network.</string>
+  <string name="data_usage_restrict_background_title">Limit background usage?</string>
+  <string name="data_usage_uninstalled_apps">Application uninstalled</string>
+  <string name="date_format" formatted="false">%s</string>
+  <string name="display_system_app">Show system applications</string>
+  <string name="duration" formatted="false">Log duration: %d/%d/%d - %d/%d/%d</string>
+  <string name="duration_days" formatted="false">%d days %d hours %d minutes</string>
+  <string name="duration_hours" formatted="false">%d hours %d minutes</string>
+  <string name="duration_minutes" formatted="false">%d minutes</string>
+  <string name="exceed">\u0020Exceeded\u0020</string>
+  <string name="force_stop">Force Stop</string>
+  <string name="input_max_traffic">Data limit</string>
+  <string name="input_warning_traffic">Data warning</string>
+  <string name="loading_apps_list">Loading applications...</string>
+  <string name="max_traffic_monthly">Monthly data allowance</string>
+  <string name="menu_display_system_app">Show system applications</string>
+  <string name="menu_not_display_system_app">Hide system applications</string>
+  <string name="menu_refresh">Refresh</string>
+  <string name="menu_sort_by_name">Sort by Name</string>
+  <string name="menu_sort_by_traffic">Sort by Traffic</string>
+  <string name="mobile">2G/3G</string>
+  <string name="mobile_format" formatted="false">2G/3G: %s</string>
+  <string name="mobile_traffic">Mobile Data used</string>
+  <string name="monitor_settings">Preferences</string>
+  <string name="monitor_starting_day">Set monitoring start date</string>
+  <string name="network_control">Enable Firewall monitoring</string>
+  <string name="network_monitor">Firewall</string>
+  <string name="process_kernel_label">Android OS</string>
+  <string name="refresh">Refresh</string>
+  <string name="remain">\u0020Left\u0020</string>
+  <string name="settings">Configure</string>
+  <string name="tether_settings_title_all">Tethering and portable hotspot</string>
+  <string name="tether_settings_title_bluetooth">Bluetooth tethering</string>
+  <string name="tether_settings_title_usb">USB tethering</string>
+  <string name="tether_settings_title_usb_bluetooth">USB Bluetooth tethering</string>
+  <string name="tether_settings_title_wifi">Portable Wi-Fi tethering</string>
+  <string name="threshold">\u0020Alert\u0020</string>
+  <string name="traffic_data">Traffic</string>
+  <string name="traffic_none">0MB</string>
+  <string name="used">Used\u0020</string>
+  <string name="version_text" formatted="false">Version: %1$s</string>
+  <string name="wifi">Wi-Fi</string>
+  <string name="wifi_format" formatted="false">Wi-Fi: %s</string>
+</resources>

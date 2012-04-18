@@ -6,6 +6,7 @@
   <string name="cancel_action">Cancel</string>
   <string name="cancel_btn_label">Cancel</string>
   <string name="cant_remove_folder">Unable to remove non-empty folder</string>
+  <string name="cant_remove_retained_app">Unable to uninstall application customized by the operator</string>
   <string name="cant_remove_system_app">Unable to remove system application</string>
   <string name="chooser_wallpaper">Select wallpaper from</string>
   <string name="confirm_btn_label">OK</string>
@@ -37,6 +38,8 @@
   <string name="group_shortcuts">Shortcuts</string>
   <string name="guide_tips_editing_mode">Hold the widget below to drag it onto the screen</string>
   <string name="home_indicator">bottom_point</string>
+  <string name="install">Install</string>
+  <string name="install_body_format">Install application \"%s\"?</string>
   <string name="invalid_contact_shortcut">Invalid contact shortcut</string>
   <string name="menu_add">Add</string>
   <string name="menu_back_desktop">Back to home</string>
@@ -69,6 +72,7 @@
   <string name="pref_render_in_truecolor_summary">Turning off this option will improve drawing performance.</string>
   <string name="pref_render_in_truecolor_title">High quality graphics</string>
   <string name="pref_screen_transformation_type_title">Transition effects</string>
+  <string name="pref_wallpaper_scroll_type_title">Wallpaper scroll types</string>
   <string name="preferences_general_title">General settings</string>
   <string name="preferences_title">Launcher Settings</string>
   <string name="process" />

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">Sound Recorder</string>
+  <string name="app_name">Recorder</string>
   <string name="audio_db_album_name">Audio recordings</string>
   <string name="audio_db_artist_name">Your recordings</string>
   <string name="audio_db_playlist_name">My recordings</string>

@@ -802,22 +802,6 @@
         <item>MEDIUM</item>
         <item>CLOSE</item>
     </string-array>
-    <string-array name="pref_development_ua_choices">
-        <item>Android</item>
-        <item>Desktop</item>
-        <item>iPhone</item>
-        <item>iPad</item>
-        <item>Froyo-N1</item>
-        <item>Honeycomb-Xoom</item>
-    </string-array>
-    <string-array name="pref_development_ua_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
     <string-array name="pref_default_text_encoding_choices">
         <item>Latin-1 (ISO-8859-1)</item>
         <item>Unicode (UTF-8)</item>
@@ -889,5 +873,21 @@
         <item>http://3g.qq.com/</item>
         <item>网易</item>
         <item>http://3g.163.com/</item>
+    </string-array>
+    <string-array name="pref_ua_choices">
+        <item>Android</item>
+        <item>Desktop</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Froyo-N1</item>
+        <item>Honeycomb-Xoom</item>
+    </string-array>
+    <string-array name="pref_ua_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
     </string-array>
 </resources>

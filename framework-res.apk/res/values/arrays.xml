@@ -463,8 +463,8 @@
         <item>zh_TW</item>
     </string-array>
     <string-array name="special_locale_names">
-        <item>Chinese (Simplified)</item>
-        <item>Chinese (Traditional)</item>
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
     </string-array>
     <array name="lockscreen_targets_when_silent">
         <item>@drawable/ic_lockscreen_unlock</item>
@@ -580,6 +580,7 @@
         <item>5</item>
         <item>7</item>
     </integer-array>
+    <array name="config_cdma_dun_supported_types" />
     <array name="config_usbHostBlacklist" />
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
@@ -647,6 +648,7 @@
     <array name="config_twoDigitNumberPattern" />
     <array name="config_sms_enabled_single_shift_tables" />
     <array name="config_sms_enabled_locking_shift_tables" />
+    <array name="config_oemUsbModeOverride" />
     <array name="common_nicknames" />
     <string-array name="imAddressTypes">
         <item>Home</item>

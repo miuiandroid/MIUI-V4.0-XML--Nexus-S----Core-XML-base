@@ -24,6 +24,8 @@
   <string name="add_blacklist">添加号码到黑名单</string>
   <string name="add_button">添加</string>
   <string name="add_whitelist">添加号码到白名单</string>
+  <string name="anti_private_summary">拦截私人号码等空号码来电</string>
+  <string name="anti_private_title">拦截空号码来电</string>
   <string name="anti_stranger_summary">陌生人来电第一声响铃静音</string>
   <string name="anti_stranger_title">拦截骚扰电话</string>
   <string name="app_name">防打扰</string>
@@ -51,7 +53,7 @@
   <string name="firewall_settings_tab_title">拦截规则</string>
   <string name="fw_action_settings">拦截后操作</string>
   <string name="fw_add_keyword">添加拦截关键词</string>
-  <string name="fw_add_keyword_existing">关键词: %s 已经存在</string>
+  <string name="fw_add_keyword_existing" formatted="false">关键词: %s 已经存在</string>
   <string name="fw_add_list_title">输入电话号码</string>
   <string name="fw_advanced_settings">高级拦截</string>
   <string name="fw_all_day">全天拦截</string>
@@ -70,8 +72,8 @@
   <string name="fw_import_blacklist">正在添加黑名单</string>
   <string name="fw_import_ms">导入该联系人的所有短信</string>
   <string name="fw_import_whitelist">正在添加白名单</string>
-  <string name="fw_in_blacklist">号码: %s 已经存在黑名单中</string>
-  <string name="fw_in_whitelist">号码: %s 已经存在白名单中</string>
+  <string name="fw_in_blacklist" formatted="false">号码: %s 已经存在黑名单中</string>
+  <string name="fw_in_whitelist" formatted="false">号码: %s 已经存在白名单中</string>
   <string name="fw_keyword_filter">过滤垃圾短信</string>
   <string name="fw_keyword_filter_summary">根据关键词过滤陌生人短信</string>
   <string name="fw_keyword_list">智能拦截关键词</string>

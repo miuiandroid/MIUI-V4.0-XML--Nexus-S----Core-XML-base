@@ -46,4 +46,7 @@
         <item>SoundRecorderRewind</item>
         <item>LowBattery</item>
     </string-array>
+    <string-array name="disable_package_replacement">
+        <item>disable package name</item>
+    </string-array>
 </resources>

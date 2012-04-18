@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/view_compass" android:background="@drawable/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <FrameLayout android:background="@drawable/prompt" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="70.0dip">
+                        <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/layout_direction" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_width="20.0dip" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/layout_angle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    </LinearLayout>
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/background_compass" />
+                        <com.miui.compass.CompassView android:layout_gravity="center" android:id="@id/compass_pointer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/compass" />
+                        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/miui_cover" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@id/location_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:background="@drawable/background_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#7fffffff" android:layout_gravity="center" android:id="@id/textview_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/getting_location" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <include android:layout_gravity="bottom|center" android:id="@id/low_accuracy_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip" layout="@android:layout/transient_notification" />
+</FrameLayout>

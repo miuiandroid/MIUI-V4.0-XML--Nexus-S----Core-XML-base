@@ -5,7 +5,4 @@
         <item>已下载</item>
         <item>下载中</item>
     </string-array>
-    <string-array name="edit_operations">
-        <item>全选</item>
-    </string-array>
 </resources>

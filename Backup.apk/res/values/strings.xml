@@ -159,6 +159,7 @@ Click OK to cancel this task"</string>
 cancelling restore may cause data corruption to occur"</string>
   <string name="task_restore_cancel_progress">Cancelling...</string>
   <string name="task_restore_finished_local">Restore completed</string>
+  <string name="task_restore_none">No need restore</string>
   <string name="task_running_dialog">Background backup and recovery is in progress, press OK to view it</string>
   <string name="task_running_hint">Service is running in the background, please try again to restore this backup!</string>
   <string name="task_service_not_launched">Service is not started, please wait!</string>

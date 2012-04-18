@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="loading_conversations">Loading conversations...</string>
   <string name="activity_not_found">Cannot find a program to open the attachment</string>
   <string name="activity_not_found_uri">Cannot find a program for this</string>
   <string name="add_attachment">Attach</string>
   <string name="add_contact">Contact</string>
-  <string name="add_festival">Recommended</string>
+  <string name="add_festival">Recommend</string>
   <string name="add_music">Add music</string>
   <string name="add_nickname">Nickname</string>
   <string name="add_nickname_title">Editing nicknames</string>
@@ -26,6 +27,7 @@
   <string name="attach_record_video">Capture video</string>
   <string name="attach_slideshow">Slideshow</string>
   <string name="attach_sound">Audio</string>
+  <string name="attach_subject">Subject</string>
   <string name="attach_take_photo">Capture picture</string>
   <string name="attach_video">Videos</string>
   <string name="batch_delete_confirm_dialog_message">Are you sure you wish to delete the selected %1$s message(s)?</string>
@@ -49,13 +51,16 @@
   <string name="check_all">Select all</string>
   <string name="check_nothing">Select none</string>
   <string name="chenghu_disable_mms">Cannot use nicknames in Mms</string>
-  <string name="class_0_message_activity">Class 0 Message</string>
+  <string name="class_0_message_activity">Class 0 message</string>
+  <string name="close">Close</string>
   <string name="compressing">Picture too large. Compressing…</string>
   <string name="confirm">Confirm</string>
   <string name="confirm_clear_search_text">Search history will be cleared.</string>
   <string name="confirm_clear_search_title">Clear</string>
-  <string name="confirm_delete_SIM_message">This message on the SIM will be deleted.</string>
-  <string name="confirm_delete_all_SIM_messages">All messages on the SIM will be deleted.</string>
+  <string name="confirm_delete_RUIM_message">This message on the RUIM will be deleted.</string>
+  <string name="confirm_delete_SIM_message">This message on the SIM card will be deleted.</string>
+  <string name="confirm_delete_all_RUIM_messages">All messages on the RUIM will be deleted.</string>
+  <string name="confirm_delete_all_SIM_messages">All messages on the SIM card will be deleted.</string>
   <string name="confirm_delete_all_conversations">All threads will be deleted.</string>
   <string name="confirm_delete_conversation">The entire thread will be deleted.</string>
   <string name="confirm_delete_group_message">Group messages will be deleted.</string>
@@ -85,7 +90,6 @@
   <string name="copy_to_sdcard_fail">Unable to save attachment</string>
   <string name="copy_to_sdcard_success">Attachment saved</string>
   <string name="database_corruption">Database corrupted, recreating database</string>
-  <string name="date_timed_message_dialog">Date:</string>
   <string name="delete">Delete</string>
   <string name="delete_bookmark">Remove from Favorites</string>
   <string name="delete_message">Delete</string>
@@ -101,7 +105,7 @@
   <string name="discard_message">Discard</string>
   <string name="discard_message_reason">Your message will be discarded because it has no valid recipients.</string>
   <string name="discard_slideshow">Discard slideshow</string>
-  <string name="dl_failure_notification" formatted="false">Download of message %1$s from %2$s was unsuccessful.</string>
+  <string name="dl_failure_notification">Download of message %1$s from %2$s was unsuccessful.</string>
   <string name="done">Done</string>
   <string name="download">Download</string>
   <string name="download_later">Currently unable to download. Please try again later.</string>
@@ -125,7 +129,7 @@
   <string name="error_timed_msg">Cannot schedule a time before now</string>
   <string name="exceed_message_size_limitation">Message size limit reached.</string>
   <string name="exit_edit_mode">Cancel</string>
-  <string name="expire_on" formatted="false">Expires: %s</string>
+  <string name="expire_on">Expires: %s</string>
   <string name="failed_to_add_media">Sorry, you cannot add this %1$s to your message.</string>
   <string name="failed_to_resize_image">Picture not resized.</string>
   <string name="fdn_check_failure">You can only send messages to your fixed dialling numbers.</string>
@@ -135,18 +139,19 @@
   <string name="festival_sms_push">Recommended</string>
   <string name="festival_sms_sdcard_unready">SD card not ready</string>
   <string name="fetion_prefix">[Fetion]</string>
-  <string name="flatshow_page_no" formatted="false">%1$d</string>
+  <string name="flatshow_page_no">%1$d</string>
   <string name="forward_prefix">"Fwd: "</string>
   <string name="from_label">"From: "</string>
   <string name="full_phrase">The number of phrases you have entered has exceeded 50.</string>
+  <string name="group_message">Group message</string>
   <string name="group_message_failed_title">Failed sending to %d contacts, retry?</string>
-  <string name="group_resend_message" formatted="false">Resend (%d)</string>
+  <string name="group_resend_message">Resend (%d)</string>
   <string name="guild_add_attachments">Click here to add attachments or smily for the message</string>
   <string name="guild_add_recipients">Click here to add recipients in address book</string>
   <string name="has_draft">Draft</string>
-  <string name="has_invalid_recipient" formatted="false">Invalid recipient(s): %1$s</string>
+  <string name="has_invalid_recipient">Invalid recipient(s): %1$s</string>
   <string name="hidden_sender_address">Hidden sender address</string>
-  <string name="inline_subject" formatted="false">Subject: %s</string>
+  <string name="inline_subject">Subject: %s</string>
   <string name="insufficient_drm_rights">Insufficient DRM rights detected.</string>
   <string name="invalid_destination">Invalid destination address.</string>
   <string name="invalid_recipient_message">Please correct the recipient(s) or they will not receive the message.</string>
@@ -156,10 +161,10 @@
   <string name="layout_top">Layout (top)</string>
   <string name="loading_contacts">Loading contacts...</string>
   <string name="me">Me</string>
-  <string name="menu_add_address_to_contacts" formatted="false">Add %s to Contacts</string>
+  <string name="menu_add_address_to_contacts">Add %s to Contacts</string>
   <string name="menu_add_to_contacts">Add to Contacts</string>
   <string name="menu_call">Call</string>
-  <string name="menu_call_back" formatted="false">Call %s</string>
+  <string name="menu_call_back">Call %s</string>
   <string name="menu_compose_new">Compose</string>
   <string name="menu_debug_dump">DEBUG DUMP</string>
   <string name="menu_delete">Delete thread</string>
@@ -219,7 +224,7 @@
   <string name="nosend_message">"Don't send"</string>
   <string name="notification_failed_multiple">%s messages could not be sent.</string>
   <string name="notification_failed_multiple_title">Messages not sent</string>
-  <string name="notification_multiple" formatted="false">%s unread messages.</string>
+  <string name="notification_multiple">%s unread messages.</string>
   <string name="notification_multiple_title">New messages</string>
   <string name="open_keyboard_to_compose_message">Open keyboard to type message</string>
   <string name="phrase_confirm_delete_message">The selected phrase will be deleted</string>
@@ -257,6 +262,7 @@
   <string name="pref_summary_delete_limit">%1$s messages per conversation</string>
   <string name="pref_summary_delivery_reports">Request a delivery report for each message you send</string>
   <string name="pref_summary_filter_phone">Do not show numbers for landline phones, which cannot receive SMS</string>
+  <string name="pref_summary_manage_ruim_messages">Manage messages stored on your RUIM card</string>
   <string name="pref_summary_manage_sim_messages">Manage messages stored on your SIM card</string>
   <string name="pref_summary_mms_auto_retrieval">Automatically retrieve messages</string>
   <string name="pref_summary_mms_delivery_reports">Request a delivery report for each message you send</string>
@@ -264,11 +270,12 @@
   <string name="pref_summary_mms_retrieval_during_roaming">Automatically retrieve messages while roaming</string>
   <string name="pref_summary_new_message_popup">Show pop-ups when new message is received</string>
   <string name="pref_summary_new_message_popup_when_secure">No popup notifications when access controlled</string>
-  <string name="pref_summary_notification_body_enabled">Preview messages on lock screen and status bar</string>
+  <string name="pref_summary_notification_body_enabled">Preview messages on lockscreen and status bar</string>
   <string name="pref_summary_notification_body_enabled_when_secure">Preview messages disabled when access controlled</string>
   <string name="pref_summary_notification_enabled">Display message notifications in status bar</string>
   <string name="pref_summary_notification_vibrateWhen">Also vibrate when notified</string>
   <string name="pref_summary_ringtone_repeat">Repeats every 5 minutes when new message is received</string>
+  <string name="pref_summary_show_recent_contacts">Show a list of recent contacts while composing a new message</string>
   <string name="pref_summary_sms_delivery_reports">Request a delivery report for each message you send</string>
   <string name="pref_summary_wake_up_screen">Wake up screen when new message is received</string>
   <string name="pref_theme_modify">Edit theme</string>
@@ -282,6 +289,7 @@
   <string name="pref_title_delivery_reports">Delivery reports</string>
   <string name="pref_title_delivery_ringtone">Ringtone for delivery reports</string>
   <string name="pref_title_filter_phone">Filter out landline numbers</string>
+  <string name="pref_title_manage_ruim_messages">Manage RUIM card messages</string>
   <string name="pref_title_manage_sim_messages">Manage SIM card messages</string>
   <string name="pref_title_mms_auto_retrieval">Auto-retrieve</string>
   <string name="pref_title_mms_delete">Multimedia message limit</string>
@@ -291,9 +299,10 @@
   <string name="pref_title_new_message_popup">New message pop-ups</string>
   <string name="pref_title_notification_body_enabled">Show previews</string>
   <string name="pref_title_notification_enabled">Notifications</string>
-  <string name="pref_title_notification_ringtone">Select ringtone</string>
+  <string name="pref_title_notification_ringtone">Choose ringtone</string>
   <string name="pref_title_notification_vibrateWhen">Vibrate</string>
   <string name="pref_title_ringtone_repeat">Repeat notification ringtone</string>
+  <string name="pref_title_show_recent_contacts">Show recent contacts</string>
   <string name="pref_title_sms_delete">Text message limit</string>
   <string name="pref_title_sms_delivery_reports">Delivery reports</string>
   <string name="pref_title_wake_up_screen">Screen-wake</string>
@@ -324,10 +333,14 @@
   <string name="replace">Replace</string>
   <string name="replace_image">Replace picture</string>
   <string name="resent_message">Resend</string>
-  <string name="resize_image_error_information">Sorry, even when resized this picture is too large to send.</string>
+  <string name="resize_image_error_information">This picture is too large to send, even when resized.</string>
   <string name="restore_default">Restore default settings</string>
+  <string name="ruim_empty">No messages on the RUIM card.</string>
+  <string name="ruim_full_title">RUIM card full</string>
+  <string name="ruim_manage_messages_title">Text messages on RUIM card</string>
   <string name="save">Save</string>
   <string name="save_ringtone">Save as ringtone</string>
+  <string name="save_to_ruim">Save to RUIM card</string>
   <string name="save_to_sim">Save to SIM card</string>
   <string name="saved_label">"Saved: "</string>
   <string name="saved_ringtone">Ringtone saved</string>
@@ -388,12 +401,16 @@
   <string name="subject_label">"Subject: "</string>
   <string name="text_in_popup_saved_to_clipboard">The text edited in the popup was saved to clipboard</string>
   <string name="text_message">Text message</string>
-  <string name="time_timed_message_dialog">Time:</string>
+  <string name="timed_message_expired_title">%d timed message(s) not sent</string>
+  <string name="timed_message_expired_title_2">Send now?</string>
+  <string name="timed_message_in_total">... (%d in total)</string>
+  <string name="timed_message_to">to</string>
   <string name="title_timed_message_dialog">Please configure the time of this message</string>
   <string name="to_address_label">"To: "</string>
   <string name="to_count">%d in all</string>
   <string name="to_hint">To</string>
   <string name="to_label">"To "</string>
+  <string name="to_send_wrapper">Will send at %s</string>
   <string name="too_many_attachments">There is a limit of %1$s attachments. Only the first %2$s will be added.</string>
   <string name="too_many_recipients">This message has too many recipients (%1$s). There is a limit of %2$s recipients.</string>
   <string name="too_many_unsent_mms">"Can't send message right now. There are too many unsent multimedia messages."</string>

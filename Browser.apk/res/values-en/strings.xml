@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="menu_exit">Exit</string>
+  <string name="exit_browser_warning">Exit browser?</string>
+  <string name="pref_content_night_read_mode">Enable Night Mode</string>
   <string name="accessibility_button_addbookmark">Bookmark page</string>
   <string name="accessibility_button_back">Go back</string>
   <string name="accessibility_button_bookmarks">Bookmarks</string>
@@ -103,17 +106,20 @@
   <string name="create_shortcut_bookmark">Add shortcut to home</string>
   <string name="current_page">"from "</string>
   <string name="defaultBookmarksUpButton">Bookmarks</string>
-  <string name="delete_bookmark_warning">Delete bookmark \"%s\"?</string>
+  <string name="delete_bookmark_warning" formatted="false">Delete bookmark \"%s\"?</string>
   <string name="delete_folder">Delete folder</string>
   <string name="disable_autofill">Disable auto-fill</string>
   <string name="do_not_save">Cancel</string>
-  <string name="download_no_sdcard_dlg_msg">USB storage is required to download %s.</string>
+  <string name="download_no_sdcard_dlg_msg" formatted="false">USB storage is required to download %s.</string>
   <string name="download_no_sdcard_dlg_title">USB storage unavailable</string>
-  <string name="download_pending">Starting download…</string>
+  <string name="download_pending">Starting download...</string>
   <string name="download_sdcard_busy_dlg_msg">The USB storage is busy. To allow downloads, touch Turn Off USB Storage in the notification.</string>
   <string name="download_sdcard_busy_dlg_title">USB storage unavailable</string>
   <string name="dump_counters">Dump V8 counters</string>
+  <string name="dump_display_tree">Dump display tree to file</string>
+  <string name="dump_dom_tree">Dump DOM tree to file</string>
   <string name="dump_nav">Dump navigation cache</string>
+  <string name="dump_render_tree">Dump render tree to file</string>
   <string name="edit_bookmark">Edit bookmark</string>
   <string name="edit_folder">Edit folder</string>
   <string name="empty_bookmarks_folder">No bookmarks.</string>
@@ -131,7 +137,7 @@
   <string name="file_picker_sdcard_not_found">SD card not detected, please check if the device is currently mounted or in use</string>
   <string name="forward">Forward</string>
   <string name="geolocation_permissions_prompt_dont_share">Decline</string>
-  <string name="geolocation_permissions_prompt_message">%s wants to know your location</string>
+  <string name="geolocation_permissions_prompt_message" formatted="false">%s wants to know your location</string>
   <string name="geolocation_permissions_prompt_remember">Remember preference</string>
   <string name="geolocation_permissions_prompt_share">Share location</string>
   <string name="geolocation_permissions_prompt_toast_allowed">This site can access your location. Change this on the Settings &gt; Advanced &gt; Website screen.</string>
@@ -153,11 +159,11 @@
   <string name="import_bookmark_failure">Bookmarks FAILED To Import!</string>
   <string name="import_bookmark_sucess">Bookmarks imported successfully</string>
   <string name="import_bookmarks_dialog_add">Add bookmarks to Google account</string>
-  <string name="import_bookmarks_dialog_confirm_add">Add bookmarks currently on this device and begin syncing bookmarks with %s?</string>
-  <string name="import_bookmarks_dialog_confirm_delete">Delete bookmarks currently on this device and begin syncing bookmarks with %s?</string>
+  <string name="import_bookmarks_dialog_confirm_add" formatted="false">Add bookmarks currently on this device and begin syncing bookmarks with %s?</string>
+  <string name="import_bookmarks_dialog_confirm_delete" formatted="false">Delete bookmarks currently on this device and begin syncing bookmarks with %s?</string>
   <string name="import_bookmarks_dialog_delete_select_account">Delete bookmarks currently on this device and begin syncing with Google account</string>
   <string name="import_bookmarks_dialog_description">"Bookmarks on this device are not yet associated with a Google account. Save these bookmarks by adding them to an account. Delete these bookmarks if you don't want to sync them."</string>
-  <string name="import_bookmarks_dialog_import">Add your Android bookmarks to bookmarks for %s</string>
+  <string name="import_bookmarks_dialog_import" formatted="false">Add your Android bookmarks to bookmarks for %s</string>
   <string name="import_bookmarks_dialog_remove">Delete bookmarks</string>
   <string name="import_bookmarks_dialog_select_add_account">Add bookmarks currently on this device and begin syncing with Google account</string>
   <string name="import_bookmarks_dialog_title">Sync with Google account</string>
@@ -202,7 +208,7 @@
   <string name="pref_autofill_enabled_summary">Fill out web forms with a single touch</string>
   <string name="pref_autofill_profile_editor">Auto-fill text</string>
   <string name="pref_autofill_profile_editor_summary">Set up text to auto-fill in web forms</string>
-  <string name="pref_autologin_progress">Signing into Google sites using %s</string>
+  <string name="pref_autologin_progress" formatted="false">Signing into Google sites using %s</string>
   <string name="pref_autologin_title">Automatic Google signin</string>
   <string name="pref_content_autofit">Auto-fit pages</string>
   <string name="pref_content_autofit_summary">Format webpages to fit the screen</string>
@@ -242,7 +248,6 @@
   <string name="pref_development_single_column_rendering">Single column rendering</string>
   <string name="pref_development_title">Debug</string>
   <string name="pref_development_trace">Enable tracing</string>
-  <string name="pref_development_uastring">UAString</string>
   <string name="pref_development_viewport">Use wide viewport</string>
   <string name="pref_development_visual_indicator">Enable Visual Indicator</string>
   <string name="pref_exit_on_closing_last_tab_enabled_summary">Check this to exit browser on closing last tab in navigation screen. Uncheck to show homepage</string>
@@ -295,6 +300,7 @@
   <string name="pref_privacy_formdata_title">Form data</string>
   <string name="pref_privacy_location_title">Location</string>
   <string name="pref_privacy_security_title">Privacy &amp; security</string>
+  <string name="pref_reading_mode_enabled_title">Reading mode</string>
   <string name="pref_security_accept_cookies">Accept cookies</string>
   <string name="pref_security_accept_cookies_summary">Allow sites to save and read cookie data</string>
   <string name="pref_security_passwords_title">Passwords</string>
@@ -306,6 +312,10 @@
   <string name="pref_security_show_security_warning_summary">"Show warning if there's a problem with a site's security"</string>
   <string name="pref_set_homepage_to">Set to</string>
   <string name="pref_text_zoom">Text scaling</string>
+  <string name="pref_ua_mione_entry">Mi-one</string>
+  <string name="pref_ua_mione_value">6</string>
+  <string name="pref_ua_string">User agent string</string>
+  <string name="pref_ua_title">User agent management</string>
   <string name="pref_use_instant_search">Google Instant</string>
   <string name="pref_use_instant_search_summary">Use Google Instant when you use Google Search, to show results as you type (this can increase data use).</string>
   <string name="pref_zoom_on_double_tap">Zoom on double-tap</string>
@@ -374,4 +384,5 @@
   <string name="webstorage_origin_summary_mb_stored">MB stored on your phone</string>
   <string name="webstorage_outofspace_notification_text">Touch to free up space.</string>
   <string name="webstorage_outofspace_notification_title">Browser storage full</string>
+  <string name="url_hint">Search or type URL</string>
 </resources>

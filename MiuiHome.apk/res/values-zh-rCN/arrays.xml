@@ -10,4 +10,10 @@
         <item>旋转</item>
         <item>方块</item>
     </string-array>
+    <string-array name="wallpaper_scroll_entries">
+        <item>主题指定</item>
+        <item>居中</item>
+        <item>左</item>
+        <item>右</item>
+    </string-array>
 </resources>

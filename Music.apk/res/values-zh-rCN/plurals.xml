@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Ntracks_format">
+        <item quantity="other">%d 首歌曲</item>
+    </plurals>
+    <plurals name="Nalbums_format">
+        <item quantity="other">%d 张专辑</item>
+    </plurals>
+    <plurals name="Ntracks">
+        <item quantity="other">" 首歌曲"</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">" 张专辑"</item>
+    </plurals>
+    <plurals name="Nartists">
+        <item quantity="other">" 位歌手"</item>
+    </plurals>
+    <plurals name="Nplaylists">
+        <item quantity="other">" 个播放列表"</item>
+    </plurals>
+    <plurals name="Nfolders">
+        <item quantity="other">" 个文件夹"</item>
+    </plurals>
+    <plurals name="Ntracks_batch_selection">
+        <item quantity="other">已选择%d首歌曲</item>
+    </plurals>
+    <plurals name="Nalbums_batch_selection">
+        <item quantity="other">已选择%d张专辑</item>
+    </plurals>
+    <plurals name="Nartists_batch_selection">
+        <item quantity="other">已选择%d位歌手</item>
+    </plurals>
+    <plurals name="Nfolders_batch_selection">
+        <item quantity="other">已选择%d个文件夹</item>
+    </plurals>
+    <plurals name="Nplaylists_batch_selection">
+        <item quantity="other">已选择%d个播放列表</item>
+    </plurals>
+    <plurals name="Ntrack_in_sdcard_format">
+        <item quantity="other">SD卡上有%d首歌曲</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d 首歌曲已添加到播放列表。</item>
+        <item quantity="one">已将 1 首歌曲添加到播放列表。</item>
+    </plurals>
+    <plurals name="NNNtrackstofavoriteplaylist">
+        <item quantity="other">%d 歌曲添加到喜欢列表。</item>
+    </plurals>
+    <plurals name="album_details_format">
+        <item quantity="other">%1$s，%2$d 首歌曲</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">已删除 %d 首歌曲。</item>
+        <item quantity="one">已删除 1 首歌曲。</item>
+    </plurals>
+    <plurals name="Nnowplaying">
+        <item quantity="other">首歌曲正在播放</item>
+    </plurals>
+</resources>

@@ -11,7 +11,6 @@
   <string name="category_other">Misc</string>
   <string name="category_picture">Pics</string>
   <string name="category_theme">Themes</string>
-  <string name="category_title">File Management</string>
   <string name="category_video">Videos</string>
   <string name="category_zip">Zips</string>
   <string name="confirm">OK</string>
@@ -46,6 +45,7 @@
   <string name="menu_item_sort_name">Name</string>
   <string name="menu_item_sort_size">Size</string>
   <string name="menu_item_sort_type">Type</string>
+  <string name="multi_select_title">Selected %1$s item(s)</string>
   <string name="new_folder_name">New folder</string>
   <string name="no">No</string>
   <string name="no_file">No files</string>
@@ -55,6 +55,7 @@
   <string name="operation_cancel">Cancel</string>
   <string name="operation_cancel_selectall">Deselect All</string>
   <string name="operation_copy">Copy</string>
+  <string name="operation_copy_path">Copy file path</string>
   <string name="operation_create_folder">New folder</string>
   <string name="operation_create_folder_message">Enter folder name</string>
   <string name="operation_delete">Delete</string>
@@ -63,13 +64,11 @@
   <string name="operation_favorite">Add to Favorites</string>
   <string name="operation_hide_sys">Hide hidden files</string>
   <string name="operation_info">Details</string>
-  <string name="operation_install">Install</string>
   <string name="operation_move">Move</string>
   <string name="operation_moving">Moving...</string>
   <string name="operation_paste">Paste</string>
   <string name="operation_pasting">Pasting...</string>
   <string name="operation_refresh">Refresh</string>
-  <string name="operation_remove">Remove</string>
   <string name="operation_rename">Rename</string>
   <string name="operation_rename_message">Enter a new name</string>
   <string name="operation_selectall">Select All</string>
@@ -77,18 +76,17 @@
   <string name="operation_show_sys">Show hidden files</string>
   <string name="operation_unfavorite">Remove from Favorites</string>
   <string name="removed_favorite">Removed from Favorites</string>
-  <string name="sd_card_available">"Space available: "</string>
-  <string name="sd_card_name">"SD card: "</string>
+  <string name="sd_card_available">Space available:%1$s</string>
+  <string name="sd_card_size">SD card:%1$s</string>
   <string name="sd_folder">SD card</string>
   <string name="search_hint">Search Files</string>
   <string name="search_title">Search Files</string>
   <string name="start_server">Start Service</string>
   <string name="stop_server">Stop Service</string>
   <string name="storage_warning">External storage is not available or cannot be read</string>
-  <string name="tab_bluetooth">Bluetooth</string>
   <string name="tab_category">Browse</string>
   <string name="tab_remote">FTP</string>
   <string name="tab_sd">SD card</string>
-  <string name="wifi_state">WLAN Status</string>
+  <string name="wifi_state">Wi-Fi Status</string>
   <string name="yes">Yes</string>
 </resources>

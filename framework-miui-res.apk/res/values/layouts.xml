@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="android_status_bar_latest_event_content">@android:layout/status_bar_latest_event_content</item>
+    <item type="layout" name="android_transient_notification">@android:layout/transient_notification</item>
+    <item type="layout" name="android_always_use_checkbox">@android:layout/always_use_checkbox</item>
+    <item type="layout" name="android_usb_storage_activity">@android:layout/usb_storage_activity</item>
+    <item type="layout" name="android_preference_list_fragment">@android:layout/preference_list_fragment</item>
+    <item type="layout" name="android_preference_header_item">@android:layout/preference_header_item</item>
+    <item type="layout" name="android_list_menu_item_layout">@android:layout/list_menu_item_layout</item>
+</resources>

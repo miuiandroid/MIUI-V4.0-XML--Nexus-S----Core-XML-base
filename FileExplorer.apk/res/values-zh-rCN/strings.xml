@@ -11,7 +11,6 @@
   <string name="category_other">其它</string>
   <string name="category_picture">图片</string>
   <string name="category_theme">主题</string>
-  <string name="category_title">文件管理</string>
   <string name="category_video">视频</string>
   <string name="category_zip">压缩包</string>
   <string name="confirm">确定</string>
@@ -46,6 +45,7 @@
   <string name="menu_item_sort_name">名称</string>
   <string name="menu_item_sort_size">大小</string>
   <string name="menu_item_sort_type">类型</string>
+  <string name="multi_select_title">已选择 %1$s 个</string>
   <string name="new_folder_name">新建文件夹</string>
   <string name="no">否</string>
   <string name="no_file">没有文件</string>
@@ -55,6 +55,7 @@
   <string name="operation_cancel">取消</string>
   <string name="operation_cancel_selectall">取消全选</string>
   <string name="operation_copy">复制</string>
+  <string name="operation_copy_path">复制路径</string>
   <string name="operation_create_folder">新建文件夹</string>
   <string name="operation_create_folder_message">请输入文件夹名称</string>
   <string name="operation_delete">删除</string>
@@ -63,13 +64,11 @@
   <string name="operation_favorite">收藏</string>
   <string name="operation_hide_sys">隐藏点文件和隐藏文件</string>
   <string name="operation_info">详情</string>
-  <string name="operation_install">安装</string>
   <string name="operation_move">剪切</string>
   <string name="operation_moving">正在移动...</string>
   <string name="operation_paste">粘贴</string>
   <string name="operation_pasting">正在复制...</string>
   <string name="operation_refresh">刷新</string>
-  <string name="operation_remove">移除</string>
   <string name="operation_rename">重命名</string>
   <string name="operation_rename_message">请输入新名称</string>
   <string name="operation_selectall">全选</string>
@@ -77,15 +76,14 @@
   <string name="operation_show_sys">显示点文件和隐藏文件</string>
   <string name="operation_unfavorite">取消收藏</string>
   <string name="removed_favorite">已从收藏夹移除</string>
-  <string name="sd_card_available">可用:</string>
-  <string name="sd_card_name">SD卡:</string>
+  <string name="sd_card_available">可用:%1$s</string>
+  <string name="sd_card_size">SD卡:%1$s</string>
   <string name="sd_folder">SD卡</string>
   <string name="search_hint">输入部分或全部文件名</string>
   <string name="search_title">搜索文件</string>
   <string name="start_server">启动服务</string>
   <string name="stop_server">停止服务</string>
   <string name="storage_warning">外部存储不可用.</string>
-  <string name="tab_bluetooth">蓝牙</string>
   <string name="tab_category">分类浏览</string>
   <string name="tab_remote">远程管理</string>
   <string name="tab_sd">SD卡</string>

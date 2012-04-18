@@ -743,6 +743,8 @@
         <item>@raw/thumb_bbc</item>
     </array>
     <array name="bookmark_preloads_zh">
+        <item>@raw/zh_favicon_xiaomi_bbs</item>
+        <item>@raw/zh_thumb_xiaomi_bbs</item>
         <item>@raw/zh_favicon_baidu</item>
         <item>@raw/zh_thumb_baidu</item>
         <item>@raw/zh_favicon_google</item>
@@ -801,22 +803,6 @@
         <item>FAR</item>
         <item>MEDIUM</item>
         <item>CLOSE</item>
-    </string-array>
-    <string-array name="pref_development_ua_choices">
-        <item>Android</item>
-        <item>Desktop</item>
-        <item>iPhone</item>
-        <item>iPad</item>
-        <item>Froyo-N1</item>
-        <item>Honeycomb-Xoom</item>
-    </string-array>
-    <string-array name="pref_development_ua_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
     </string-array>
     <string-array name="pref_default_text_encoding_choices">
         <item>Latin-1 (ISO-8859-1)</item>
@@ -879,6 +865,8 @@
         <item>http://www.bbc.co.uk/</item>
     </string-array>
     <string-array name="bookmarks_zh">
+        <item>小米论坛</item>
+        <item>http://bbs.xiaomi.com/</item>
         <item>百度</item>
         <item>http://m.baidu.com/?from=1269a/</item>
         <item>谷歌</item>
@@ -889,5 +877,21 @@
         <item>http://3g.qq.com/</item>
         <item>网易</item>
         <item>http://3g.163.com/</item>
+    </string-array>
+    <string-array name="pref_ua_choices">
+        <item>Android</item>
+        <item>Desktop</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Froyo-N1</item>
+        <item>Honeycomb-Xoom</item>
+    </string-array>
+    <string-array name="pref_ua_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
     </string-array>
 </resources>

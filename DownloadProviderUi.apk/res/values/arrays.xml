@@ -5,9 +5,6 @@
         <item>Downloaded</item>
         <item>Downloading</item>
     </string-array>
-    <string-array name="edit_operations">
-        <item>Select all</item>
-    </string-array>
     <string-array name="prefEntries_max_bytes_limit">
         <item>10M</item>
         <item>5M</item>

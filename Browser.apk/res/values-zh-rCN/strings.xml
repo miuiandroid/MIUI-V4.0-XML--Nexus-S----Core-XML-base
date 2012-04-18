@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="menu_exit">退出收音机</string>
+  <string name="exit_browser_warning">退出浏览器？</string>
+  <string name="pref_content_night_read_mode">夜间模式</string>
   <string name="accessibility_button_addbookmark">书签页</string>
   <string name="accessibility_button_back">后退</string>
   <string name="accessibility_button_bookmarks">书签</string>
@@ -102,11 +105,11 @@
   <string name="create_shortcut_bookmark">向主屏幕添加快捷方式</string>
   <string name="current_page">"来源 "</string>
   <string name="defaultBookmarksUpButton">书签</string>
-  <string name="delete_bookmark_warning">要删除书签“%s”吗？</string>
+  <string name="delete_bookmark_warning" formatted="false">要删除书签“%s”吗？</string>
   <string name="delete_folder">删除文件夹</string>
   <string name="disable_autofill">停用自动填充</string>
   <string name="do_not_save">取消</string>
-  <string name="download_no_sdcard_dlg_msg">必须装载 USB 存储设备才能下载“%s”。</string>
+  <string name="download_no_sdcard_dlg_msg" formatted="false">必须装载 USB 存储设备才能下载“%s”。</string>
   <string name="download_no_sdcard_dlg_title">不存在 USB 存储设备</string>
   <string name="download_pending">正在开始下载...</string>
   <string name="download_sdcard_busy_dlg_msg">USB 存储设备正忙。要允许下载，请在通知中触摸“关闭 USB 存储设备”。</string>
@@ -124,7 +127,7 @@
   <string name="file_picker_sdcard_not_found">没找到sd卡，请检查手机是否正在和pc连接</string>
   <string name="forward">前进</string>
   <string name="geolocation_permissions_prompt_dont_share">拒绝</string>
-  <string name="geolocation_permissions_prompt_message">%s需要了解您的位置信息</string>
+  <string name="geolocation_permissions_prompt_message" formatted="false">%s需要了解您的位置信息</string>
   <string name="geolocation_permissions_prompt_remember">记住偏好设置</string>
   <string name="geolocation_permissions_prompt_share">共享位置信息</string>
   <string name="geolocation_permissions_prompt_toast_allowed">此网站可以获取您的位置信息。您可以在“设置”&gt;“高级”&gt;“网站设置”屏幕中更改此设置。</string>
@@ -145,11 +148,11 @@
   <string name="import_bookmark_failure">导入收藏失败！</string>
   <string name="import_bookmark_sucess">导入收藏成功！</string>
   <string name="import_bookmarks_dialog_add">将书签添加到 Google 帐户中</string>
-  <string name="import_bookmarks_dialog_confirm_add">要添加此设备上的当前书签，并开始与 %s 同步书签吗？</string>
-  <string name="import_bookmarks_dialog_confirm_delete">要删除此设备上的当前书签，并开始与 %s 同步书签吗？</string>
+  <string name="import_bookmarks_dialog_confirm_add" formatted="false">要添加此设备上的当前书签，并开始与 %s 同步书签吗？</string>
+  <string name="import_bookmarks_dialog_confirm_delete" formatted="false">要删除此设备上的当前书签，并开始与 %s 同步书签吗？</string>
   <string name="import_bookmarks_dialog_delete_select_account">删除此设备上的当前书签，并开始与 Google 帐户同步</string>
   <string name="import_bookmarks_dialog_description">此设备上的书签尚未与 Google 帐户关联。您只需将这些书签添加到帐户中即可保存它们。如果您不想同步这些书签，请将它们删除。</string>
-  <string name="import_bookmarks_dialog_import">将 Android 书签添加到 %s 的书签中</string>
+  <string name="import_bookmarks_dialog_import" formatted="false">将 Android 书签添加到 %s 的书签中</string>
   <string name="import_bookmarks_dialog_remove">删除书签</string>
   <string name="import_bookmarks_dialog_select_add_account">添加此设备上的当前书签，并开始与 Google 帐户同步</string>
   <string name="import_bookmarks_dialog_title">与 Google 帐户同步</string>
@@ -189,7 +192,7 @@
   <string name="pref_autofill_enabled_summary">只需触摸一下，即可填完网络表单</string>
   <string name="pref_autofill_profile_editor">自动填充文本</string>
   <string name="pref_autofill_profile_editor_summary">设置要用于自动填充网络表单的文本</string>
-  <string name="pref_autologin_progress">正使用 %s 登录 Google 网站</string>
+  <string name="pref_autologin_progress" formatted="false">正使用 %s 登录 Google 网站</string>
   <string name="pref_autologin_title">自动登录 Google</string>
   <string name="pref_content_autofit">自动调整页面</string>
   <string name="pref_content_autofit_summary">调整网页版面以适合屏幕大小</string>
@@ -265,6 +268,7 @@
   <string name="pref_privacy_formdata_title">表单数据</string>
   <string name="pref_privacy_location_title">位置</string>
   <string name="pref_privacy_security_title">隐私和安全</string>
+  <string name="pref_reading_mode_enabled_title">阅读模式</string>
   <string name="pref_security_accept_cookies">接受 Cookie</string>
   <string name="pref_security_accept_cookies_summary">允许网站保存和读取 Cookie 数据</string>
   <string name="pref_security_passwords_title">密码</string>
@@ -276,6 +280,8 @@
   <string name="pref_security_show_security_warning_summary">当网站安全性出现问题时显示警告</string>
   <string name="pref_set_homepage_to">设置为</string>
   <string name="pref_text_zoom">文字缩放</string>
+  <string name="pref_ua_string">浏览器标识</string>
+  <string name="pref_ua_title">浏览器标识(UA)管理</string>
   <string name="pref_use_instant_search">Google 即搜即得</string>
   <string name="pref_use_instant_search_summary">借助 Google 即搜即得，您可以在使用 Google 搜索时一边键入内容一边查看结果（此功能可能会增加数据使用量）。</string>
   <string name="pref_zoom_on_double_tap">点按两次进行缩放</string>
@@ -343,4 +349,5 @@
   <string name="webstorage_origin_summary_mb_stored">MB 数据存储在您手机中</string>
   <string name="webstorage_outofspace_notification_text">触摸可释放空间。</string>
   <string name="webstorage_outofspace_notification_title">浏览器存储空间已满</string>
+  <string name="url_hint">搜索或输入网址</string>
 </resources>

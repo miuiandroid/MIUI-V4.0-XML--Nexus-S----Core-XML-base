@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="stable_build">稳定版</string>
   <string name="about_device">查看系统信息</string>
   <string name="app_name">系统更新</string>
   <string name="apply_buddy_update_info_message">点击”立即更新“后，手机会将更新应用到备用系统</string>
@@ -41,7 +42,7 @@
   <string name="install_file_explorer">请安装文件管理器</string>
   <string name="install_rom_from_sd">选择安装包</string>
   <string name="install_whole_rom">建议您下载完整包进行系统升级</string>
-  <string name="loading">正在连接MIUI</string>
+  <string name="loading">正在请求</string>
   <string name="md5_check_cancelled">MD5校验已取消</string>
   <string name="mione_update_fail_description">请重新升级</string>
   <string name="mione_update_fail_title">系统升级失败</string>
@@ -51,6 +52,7 @@
   <string name="move_data_to_sdcard_title">数据迁移到SD卡</string>
   <string name="moving_data_to_sdcard_message">正在迁移数据到SD卡, 请不要打开U盘模式或移除SD卡</string>
   <string name="moving_data_to_sdcard_progress_format">已完成%1$dKB/总共%2$dKB</string>
+  <string name="my_rank">签到排名:</string>
   <string name="network_error">无法连接，可能为网络问题或服务器繁忙</string>
   <string name="new_update_content_title">发现新版本</string>
   <string name="new_update_download_complete_body">可更新到新版本:%s</string>
@@ -62,9 +64,6 @@
   <string name="no_updates_found">您当前已经是最新版,没有发现更新版本</string>
   <string name="no_updates_warning">哎呀,别点了,真的没有包,再等等吧</string>
   <string name="no_updates_warning2">求求你别点了，有更新会通知你啦</string>
-  <string name="page_error">无法访问MIUI，可能是手机网络有问题，也可能是服务器挂了</string>
-  <string name="page_error_title">无法访问</string>
-  <string name="page_reload">再来一次</string>
   <string name="reboot_to_new_system">重启进入新系统</string>
   <string name="sdcard_has_no_space_dialog_body">SD卡剩余空间不足，请清理后重新更新</string>
   <string name="sdcard_has_no_space_dialog_title">SD卡空间不足</string>
@@ -72,6 +71,11 @@
   <string name="sdcard_is_not_present_dialog_title">未找到SD卡</string>
   <string name="send_install_log">发送错误日志</string>
   <string name="send_install_log_error">发送失败</string>
+  <string name="share_qq">发布到腾讯微博</string>
+  <string name="share_sina">发布到新浪微博</string>
+  <string name="share_update">分享系统更新信息</string>
+  <string name="share_update_content_sign">我已经把MIUI更新到%1$s啦！我的升级签到排名是%2$s。详细更新日志可以查看%3$s</string>
+  <string name="share_update_content_unsign">我已经把MIUI更新到%1$s啦！详细更新日志可以查看%2$s</string>
   <string name="sign_in_add_account_helper">您的手机还未添加MIUI账户,添加后可签到获取积分</string>
   <string name="sign_in_info">"本次更新您的升级签到排名是%1$s
 已经有%2$s人签到%3$s版"</string>
@@ -88,6 +92,7 @@
   <string name="system_backup_ok_text">进入备份</string>
   <string name="sytemt_backup_helper">系统升级并不影响您的用户数据。不过，为了保障您的数据安全，建议您进行数据备份</string>
   <string name="test_version">开发版</string>
+  <string name="update_stable_version_only">仅升级稳定版</string>
   <string name="update_success">恭喜您，升级成功</string>
   <string name="update_success_body">您已经成功更新到 %s</string>
   <string name="update_success_title">恭喜您，刷机成功啦!</string>

@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="change_wallpaper">修改壁纸</string>
+  <string name="title_component">混搭</string>
+  <string name="title_local">本地</string>
+  <string name="title_online">在线</string>
   <string name="app_name">主题风格</string>
+  <string name="apply_font_btn_exclude">不应用字体</string>
+  <string name="apply_font_btn_reboot">应用并重启</string>
+  <string name="apply_font_tip">您即将使用的主题包将会使用新的或默认字体，如使用该字体，需要重启手机。</string>
   <string name="apply_lockscreen_paper_tips">当前正在使用百变锁屏，新锁屏壁纸可能无法看到</string>
   <string name="apply_theme_no_select_message">请选择应用模块</string>
   <string name="backup_preference_title">备份当前主题设置</string>
@@ -22,8 +29,8 @@
   <string name="lockscreen_wallpaper">锁屏壁纸</string>
   <string name="new_format_convert">正在转换《%1$s》到新格式</string>
   <string name="old_format_convert_tip1">该主题包不是最新格式，不能直接应用，转换需要较长时间，是否立刻转换?</string>
-  <string name="old_format_convert_tip2">也可删除该资源，然后重新下载最新格式的该资源包.</string>
-  <string name="old_format_fail">转换失败, 可再次点击应用重试或重新下载最新格式的该资源</string>
+  <string name="old_format_convert_tip2">也可删除该资源，然后重新下载最新格式的该资源包。</string>
+  <string name="old_format_fail">转换失败，可再次点击应用重试或重新下载最新格式的该资源</string>
   <string name="old_format_title">旧格式主题包</string>
   <string name="play_all_audio_effect">点击播放所有音效 (共%1$s个)</string>
   <string name="resource_fail_to_show">该主题包不包含合适的资源</string>
@@ -36,6 +43,7 @@
   <string name="theme_component_title_audio_effect">系统音效</string>
   <string name="theme_component_title_boot_animation">开机动画</string>
   <string name="theme_component_title_boot_audio">开机音乐</string>
+  <string name="theme_component_title_clock">桌面时钟</string>
   <string name="theme_component_title_contact">拨号与联系人</string>
   <string name="theme_component_title_font">字体</string>
   <string name="theme_component_title_framework">系统界面</string>
@@ -46,6 +54,7 @@
   <string name="theme_component_title_mms">短信主题</string>
   <string name="theme_component_title_notification">通知铃声</string>
   <string name="theme_component_title_others">其它</string>
+  <string name="theme_component_title_photo_frame">桌面相框</string>
   <string name="theme_component_title_ringtone">来电铃声</string>
   <string name="theme_component_title_statusbar">通知栏</string>
   <string name="theme_component_title_wallpaper">桌面壁纸</string>

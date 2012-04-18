@@ -157,6 +157,7 @@
 此时停止有能导致数据损坏！"</string>
   <string name="task_restore_cancel_progress">正在停止...</string>
   <string name="task_restore_finished_local">恢复完成</string>
+  <string name="task_restore_none">无需恢复</string>
   <string name="task_running_dialog">后台备份恢复正在进行中，查看请按确定！</string>
   <string name="task_running_hint">后台服务正在运行中，请稍后再进行本次备份恢复！</string>
   <string name="task_service_not_launched">备份服务尚未启动，请稍候！</string>
