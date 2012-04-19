@@ -50,7 +50,7 @@
   <string name="firewall_action">Blocking operation</string>
   <string name="firewall_log">DND Log</string>
   <string name="firewall_settings">DND Settings</string>
-  <string name="firewall_settings_tab_title">Firewall</string>
+  <string name="firewall_settings_tab_title">Filters</string>
   <string name="fw_action_settings">Firewall settings</string>
   <string name="fw_add_keyword">Add keywords to monitor</string>
   <string name="fw_add_keyword_existing" formatted="false">Keyword: %s already exists</string>
